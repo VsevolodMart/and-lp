@@ -1,0 +1,118 @@
+// Since .woff has almost perfect support all the way back to IE9 except for Opera Mini,
+// I removed the calls to .eot, .ttf and .svg. to streamline the mixin -- http://caniuse.com/#search=woff
+// Note: IE8, IE7, IE6, old Safari in Android and iOS will gracefuly degrade to system fonts.
+
+//GothamProRegular
+$GothamProRegular: 'GothamPro_Regular';
+$GothamProRegularPath: '../fonts/GothamPro/Regular/GothamPro';
+
+//GothamProMedium
+$GothamProMedium: 'GothamPro_Medium';
+$GothamProMediumPath: '../fonts/GothamPro/Medium/GothamPro-Medium';
+
+//GothamProBold
+$GothamProBold: 'GothamPro_Bold';
+$GothamProBoldPath: '../fonts/GothamPro/Bold/GothamPro-Bold';
+
+
+//GothamProBlack
+$GothamProBlack: 'GothamPro_Black';
+$GothamProBlackPath: '../fonts/GothamPro/Black/GothamPro-Black';
+
+
+//GothamProLight
+$GothamProLight: 'GothamPro_Light';
+$GothamProLightPath: '../fonts/GothamPro/Light/GothamPro-Light';
+
+
+
+
+
+
+@mixin GothamProRegular($GothamProRegular, $GothamProRegularPath) {
+  @font-face {
+    font: {
+      family: $GothamProRegular;
+      weight: normal;
+      style: normal;
+    }
+    //src: url('#{$GothamProRegularPath}.eot'); //IE9 Compat Modes
+    src: url('#{$GothamProRegularPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+         url('#{$GothamProRegularPath}.woff') format('woff'), //Modern Browsers
+         url('#{$GothamProRegularPath}.woff2') format('woff2'), //Modern Browsers
+         url('#{$GothamProRegularPath}.ttf') format('truetype'), //Safari, Android, iOS
+         url('#{$GothamProRegularPath}.svg##{$GothamProRegular}') format('svg'); //Old iOS devices
+  }
+}
+@mixin GothamProBold($GothamProMedium, $GothamProMediumPath) {
+  @font-face {
+    font: {
+      family: $GothamProBold;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$GothamProBoldPath}.eot'); //IE9 Compat Modes
+    src: url('#{$GothamProBoldPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+         url('#{$GothamProBoldPath}.woff') format('woff'), //Modern Browsers
+         url('#{$GothamProBoldPath}.woff2') format('woff2'), //Modern Browsers
+         url('#{$GothamProBoldPath}.ttf') format('truetype'), //Safari, Android, iOS
+         url('#{$GothamProBoldPath}.svg##{$GothamProBold}') format('svg'); //Old iOS devices
+  }
+}
+@mixin GothamProBlack($GothamProBlack, $GothamProBlackPath) {
+  @font-face {
+    font: {
+      family: $GothamProBlack;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$GothamProBlackPath}.eot'); //IE9 Compat Modes
+    src: url('#{$GothamProBlackPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+         url('#{$GothamProBlackPath}.woff') format('woff'), //Modern Browsers
+         url('#{$GothamProBlackPath}.woff') format('woff2'), //Modern Browsers
+         url('#{$GothamProBlackPath}.ttf') format('truetype'), //Safari, Android, iOS
+         url('#{$GothamProBlackPath}.svg##{$GothamProBlack}') format('svg'); //Old iOS devices
+  }
+}
+@mixin GothamProMedium($GothamMedium, $GothamProMediumPath) {
+  @font-face {
+    font: {
+      family: $GothamProMedium;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$GothamProMediumPath}.eot'); //IE9 Compat Modes
+    src: url('#{$GothamProMediumPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+         url('#{$GothamProMediumPath}.woff') format('woff'), //Modern Browsers
+         url('#{$GothamProMediumPath}.woff') format('woff2'), //Modern Browsers
+         url('#{$GothamProMediumPath}.ttf') format('truetype'), //Safari, Android, iOS
+         url('#{$GothamProMediumPath}.svg##{$GothamProMedium}') format('svg'); //Old iOS devices
+  }
+}
+@mixin GothamProLight($GothamProLight, $GothamProLightPath) {
+  @font-face {
+    font: {
+      family: $GothamProLight;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$GothamProLightPath}.eot'); //IE9 Compat Modes
+    src: url('#{$GothamProLightPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+         url('#{$GothamProLightPath}.woff') format('woff'), //Modern Browsers
+         url('#{$GothamProLightPath}.woff') format('woff2'), //Modern Browsers
+         url('#{$GothamProLightPath}.ttf') format('truetype'), //Safari, Android, iOS
+         url('#{$GothamProLightPath}.svg##{$GothamProLight}') format('svg'); //Old iOS devices
+  }
+}
+
+
+@include GothamProRegular($GothamProRegular, $GothamProRegularPath);
+@include GothamProBold($GothamProBold, $GothamProBoldPath);
+@include GothamProBlack($GothamProBlack, $GothamProBlackPath);
+@include GothamProMedium($GothamProMedium, $GothamProMediumPath);
+@include GothamProLight($GothamProLight, $GothamProLightPath);
+
+
+
+
+

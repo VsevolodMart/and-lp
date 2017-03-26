@@ -1,0 +1,1788 @@
+@import 'icons.sass';
+@import 'buttons.sass';
+@import '_variables.sass';
+$xs: 750px;
+$sm: 750px;
+$md: 960px;
+$lg: 1200px;
+
+/* extends*/
+
+@mixin before() {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@mixin after() {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+%before {
+  @include before;
+}
+
+%after {
+  @include after;
+}
+
+.before {
+  @extend %before;
+}
+
+.after {
+  @extend %after;
+}
+
+@mixin respond-to($media) {
+  @if $media==xs {
+    @media only screen and (max-width: $xs) {
+      @content;
+    }
+  }
+  @else if $media==sm {
+    @media only screen and (min-width: $sm + 1) and (max-width: $md - 1) {
+      @content;
+    }
+  }
+  @else if $media==md {
+    @media only screen and (min-width: $md) and (max-width: $lg - 1) {
+      @content;
+    }
+  }
+  @else if $media==lg {
+    @media only screen and (min-width: $lg) {
+      @content;
+    }
+  }
+}
+
+// body {
+  @include respond-to(xs) {
+    h1 {
+      font-size: 22px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h2 {
+      font-size: 20px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h3 {
+      font-size: 16px;
+      font-family: $GothamBold;
+      color: $greyTxt;
+    }
+    .p1 {
+      font-size: 14px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .p2 {
+      font-size: 16px;
+      font-family: $GothamMedium;
+      color: $greyTxt;
+    }
+    .p3 {
+      font-size: 15px;
+      font-family: $GothamLight;
+      color: $greyTxt;
+    }
+    .Lead-txt {
+      font-size: 15px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .small-txt {
+      font-family: $GothamRegular;
+    }
+    .holder-wrap {
+      max-width: 100%;
+      height: 588px !important;
+    }
+    .holder {
+      width: 320px !important;
+      margin: 0 auto;
+    }
+    .wrapper .header .holder-wrap::before {
+      background-image: url("../img/bg/first_page_bg_map_mob.png");
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+      padding-left: 120px !important;
+    }
+    .wrapper .header .holder-wrap::after {
+      background-image: url("../img/bg/first_page_bg_blueline-mob.png");
+      background-position: 50% 0;
+      padding-left: 190px;
+    }
+    .wrapper .header .holder .logo {
+      @include iconSprite($logo-mob);
+    }
+    .wrapper .header .holder .slogan {
+      position: absolute;
+      margin: 180px 0 0 20px;
+      width: 320px;
+      h1 {
+        color: $whiteTxt;
+      }
+      .description {
+        width: 255px;
+        color: $whiteTxt;
+      }
+    }
+    .info-block {
+      display: none;
+    }
+    .wrapper .header .holder .start-btn {
+      margin: 413px 20px;
+      @include btnSprite($btn-start-normal-mobile);
+      &:hover {
+        @include btnSprite($btn-start-activel-mobile);
+      }
+      &:active {
+        @include btnSprite($btn-start-activel-mobile);
+      }
+      a {
+        @include btnSprite($btn-start-normal-mobile);
+        &:hover {
+          @include btnSprite($btn-start-activel-mobile);
+        }
+        &:active {
+          @include btnSprite($btn-start-activel-mobile);
+        }
+        span {
+          margin: 20px 125px;
+          font-family: $GothamBlack;
+          font-size: 20px;
+        }
+      }
+    }
+    .header .header-footer {
+      background-color: #4c4c4c;
+      z-index: 100;
+      bottom: 0;
+      height: 112px;
+      left: 0;
+      opacity: 1;
+      /*position: absolute;*/
+      width: 100%;
+      .holder-footer {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: auto;
+        width: 300px;
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 112px;
+        .header-footer__org {
+          color: $whiteTxt;
+          font-size: 14px;
+          font-family: $GothamBold;
+          margin-bottom: 0;
+        }
+        .header-footer__logo {
+          @include iconSprite($logo-on-grey-retangle);
+        }
+        .header-footer__agency {
+          color: $whiteTxt;
+          margin-top: 0;
+        }
+      }
+    }
+    .main .advantage {
+      height: 500px !important;
+    }
+    .wrapper .main .advantage .holder .advantage_wrap {
+      -webkit-flex-flow: column nowrap !important;
+      -ms-flex-flow: column nowrap !important;
+      flex-flow: column nowrap !important;
+      padding: 0 0 0 50px !important;
+      margin: 30px 0 0 !important;
+      .advantage_block .advantage_icon {
+        float: left;
+      }
+      .advantage_block .advatage_text {
+        float: left;
+        width: 120px;
+        margin-left: 20px;
+      }
+    }
+    .video-block {
+      height: 700px !important;
+      .video-block_wrap::after {
+        margin-top: 250px;
+      }
+    }
+    .video-block .video-block_wrap .holder {
+      width: 740px !important;
+      -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      .advantage_block {
+        width: 320px !important;
+      }
+      .video {
+        margin-top: 50px !important;
+      }
+      .descript {
+        margin-top: 50px !important;
+        width: 740px !important;
+      }
+    }
+    .video-block {
+      height: 700px !important;
+      .video-block_wrap::after {
+        margin: 0 !important;
+      }
+    }
+    .video-block .video-block_wrap .holder {
+      width: 320px !important;
+      -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      .video {
+        margin-top: 50px !important;
+      }
+      .descript {
+        margin-top: 50px !important;
+        width: 320px !important;
+      }
+    }
+    .time-block {
+      height: 350px !important;
+      margin-top: 50px !important;
+    }
+    .time-block .time-block__wrap .holder {
+      width: 320px !important;
+      .time-block__row {
+        width: 320px !important;
+        .seconds__wrap {
+          display: none !important;
+        }
+      }
+      .global-timer {
+        width: 320px !important;
+        .month {
+          .month__value {
+            font-family: $GothamRegular;
+            font-size: 35px !important;
+          }
+          .month__descript {
+            font-size: 12px !important;
+          }
+        }
+        .line {
+          width: 2px;
+          height: 30px !important;
+          margin-top: 6px !important;
+        }
+        .days {
+          .days__value {
+            font-family: $GothamRegular;
+            font-size: 35px !important;
+          }
+          .days__descript {
+            font-size: 12px !important;
+          }
+        }
+        .hours {
+          .hours__value {
+            font-family: $GothamRegular;
+            font-size: 35px !important;
+          }
+          .hours__descript {
+            font-size: 12px !important;
+          }
+        }
+        .minutes {
+          .minutes__value {
+            font-family: $GothamRegular;
+            font-size: 35px !important;
+          }
+          .minutes__descript {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+    .wrapper .main .where-block {
+      height: 300px;
+      .btn-block {
+        a {
+          @include btnSprite($btn-start-normal-mobile);
+          &:hover {
+            @include btnSprite($btn-start-activel-mobile);
+          }
+          &:active {
+            @include btnSprite($btn-start-activel-mobile);
+          }
+          span {
+            margin: 20px 122px;
+          }
+        }
+      }
+      .holder {
+        width: 320px !important;
+        .where-title {
+          margin-left: 30px !important;
+          &::before {
+            margin-left: -16px !important;
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(sm) {
+    h1 {
+      font-size: 40px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h2 {
+      font-size: 25px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h3 {
+      font-size: 18px;
+      font-family: $GothamBold;
+      color: $greyTxt;
+    }
+    .p1 {
+      font-size: 16px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .p2 {
+      font-size: 18px;
+      font-family: $GothamMedium;
+      color: $greyTxt;
+    }
+    .p3 {
+      font-size: 18px;
+      font-family: $GothamLight;
+      color: $greyTxt;
+    }
+    .Lead-txt {
+      font-size: 18px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .small-txt {
+      font-size: 15px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .wrapper .header .holder {
+      width: 750px;
+    }
+    .wrapper .header .holder-wrap::before {
+      background-image: url("../img/bg/first_page_bg_map_tab.png");
+      padding-left: -300px !important;
+    }
+    .wrapper .header .holder-wrap::after {
+      background-image: url("../img/bg/first_page_bg_blueline-tablet.png");
+      /*background-size: 1600px 924px;*/
+      padding-left: 370px;
+    }
+    .header .holder-wrap .holder .header-nav {
+      margin: 80px 0 0 400px;
+      height: auto;
+      width: 300px;
+      #collapse {
+        display: block;
+        position: relative;
+        width: 100%;
+      }
+    }
+    .logo {
+      @include iconSprite($logo);
+      margin: 20px 0 0;
+    }
+    .wrapper .header .holder .info-block {
+      margin-top: 550px !important;
+      width: 200px;
+      .geotag {
+        @include iconSprite($mark-on-map2);
+        margin-left: 150px;
+      }
+      .title {
+        margin-top: -10px;
+        margin-left: 70px;
+        font-size: 26px;
+      }
+      .date {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 20px;
+        span {
+          font-size: 26px;
+        }
+      }
+    }
+    .slogan {
+      margin: 290px 0 0;
+      width: 780px;
+      h1 {
+        color: $whiteTxt;
+      }
+      .description {
+        width: 580px;
+        color: $whiteTxt;
+      }
+    }
+    .start-btn {
+      margin: 670px 280px !important;
+      a {
+        @include btnSprite($btn-start-normal-dt);
+        &:hover {
+          @include btnSprite($btn-start-hover-dt);
+        }
+        &:active {
+          @include btnSprite($btn-star-active-dt);
+        }
+        span {
+          margin: 20px 145px;
+          font-family: $GothamBlack;
+          font-size: 20px;
+        }
+      }
+    }
+    .video-block {
+      height: 700px !important;
+      .video-block_wrap::after {
+        margin-top: 250px;
+      }
+    }
+    .video-block .video-block_wrap .holder {
+      width: 740px !important;
+      -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      .video {
+        margin-top: 50px !important;
+      }
+      .descript {
+        margin-top: 50px !important;
+        width: 740px !important;
+      }
+    }
+    .time-block .time-block__wrap .holder {
+      width: 750px !important;
+      .time-block__row {
+        width: 750px !important;
+      }
+    }
+    .where-block {
+      .holder {
+        width: 750px !important;
+        .where-title::before {
+          margin-left: 190px !important;
+        }
+      }
+    }
+  }
+  @include respond-to(md) {
+    h1 {
+      font-size: 40px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h2 {
+      font-size: 25px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h3 {
+      font-size: 18px;
+      font-family: $GothamBold;
+      color: $greyTxt;
+    }
+    .p1 {
+      font-size: 16px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .p2 {
+      font-size: 18px;
+      font-family: $GothamMedium;
+      color: $greyTxt;
+    }
+    .p3 {
+      font-size: 18px;
+      font-family: $GothamLight;
+      color: $greyTxt;
+    }
+    .Lead-txt {
+      font-size: 18px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .small-txt {
+      font-size: 15px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .wrapper .header {}
+    .wrapper .header .holder-wrap::after {
+      background-position: 50% 100% !important;
+      /*background-size: 1600px 924px;*/
+      padding-left: 235px;
+    }
+    .wrapper .header .holder-wrap::before {
+      background-image: url("../img/bg/first_page_bg_map_tab.png");
+      background-position: 50% 100%;
+      max-width: 100%;
+      z-index: -1;
+      padding-right: 100px !important;
+    }
+    .wrapper .header .holder {
+      width: 900px;
+    }
+    .header .holder-wrap .holder .header-nav {
+      margin: 80px 0 0 400px;
+    }
+    .wrapper .header .holder .info-block {
+      float: right;
+      margin-top: 550px !important;
+      width: 200px;
+    }
+    .wrapper .header .holder .info-block .geotag {
+      margin-left: 160px;
+    }
+    .wrapper .header .holder .info-block .title {
+      margin-left: 50px;
+    }
+    .wrapper .header .holder .info-block .date {
+      margin-left: 50px;
+    }
+    .wrapper .header .holder .start-btn {
+      position: absolute;
+      margin: 640px 430px;
+      a {
+        @include btnSprite($btn-start-normal-tablet);
+        span {
+          position: absolute;
+          margin: 20px 145px;
+          font-family: $GothamBlack;
+          font-size: 20px;
+        }
+        &:hover {
+          @include btnSprite($btn-start-normal-tablet);
+        }
+        &:active {
+          @include btnSprite($btn-start-active-tablet);
+        }
+      }
+    }
+    .video-block {
+      height: 700px !important;
+      .video-block_wrap::after {
+        margin-top: 250px;
+      }
+    }
+    .video-block .video-block_wrap .holder {
+      width: 740px !important;
+      -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      .video {
+        margin-top: 50px !important;
+      }
+      .descript {
+        margin-top: 50px !important;
+        width: 740px !important;
+      }
+    }
+    .time-block .time-block__wrap .holder {
+      width: 750px !important;
+      .time-block__row {
+        width: 750px !important;
+      }
+    }
+    .where-block {
+      .holder {
+        width: 750px !important;
+        .where-title::before {
+          margin-left: 190px !important;
+        }
+      }
+    }
+    .main .tabs-block {
+      height: 100% !important;
+      .holder {
+        width: 900px !important;
+        .tabs-block__wrap {
+          display: -webkit-box !important;
+          display: -webkit-flex !important;
+          display: -ms-flexbox !important;
+          display: flex !important;
+          -webkit-flex-flow: column nowrap !important;
+          -ms-flex-flow: column nowrap !important;
+          flex-flow: column nowrap !important;
+          -webkit-box-pack: center !important;
+          -webkit-justify-content: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          .knowledge {
+            width: 770px !important;
+            height: 310px !important;
+            background: url('../img/bg/hover_bg_icons_tab_yellow.png') 100% 100% no-repeat;
+            margin: 0 auto 50px auto;
+            .knowledge_wrap {
+              width: 770px !important;
+              height: 310px !important;
+              position: relative;
+              margin: 0 auto;
+              .icon-wrap {
+                display: inline;
+                position: absolute;
+                top: 25%;
+                left: 15%;
+                &::before {
+                  @include before;
+                  @include iconSprite($hover-triangle-left);
+                  margin: 20px 0 0px -140px;
+                }
+                &::after {
+                  @include after;
+                  @include iconSprite($hover-triangle-top);
+                  margin: -116px 0px 0px 190px;
+                }
+                .icon1-normal {
+                  margin: 0;
+                  display: block;
+                  @include iconSprite($icon-brain-hover);
+                  &::after {
+                  @include after;
+                  @include iconSprite($hover-triangle-right);
+                  margin: 100px 0px 0px 200px;
+                }
+                }
+              }
+              .text-wrap {
+                position: absolute;
+                width: 360px;
+                height: 200px;
+                top: 20%;
+                left: 48%;
+                .h3 {
+                  margin-top: 0;
+                  font-size: 24px;
+                  color: $whiteTxt !important;
+                  &::before {
+                    @include before;
+                    @include iconSprite($white-brick-tab);
+                    margin-top: -16px;
+                  }
+                  &::after {
+                    @include after;
+                    @include iconSprite($white-brick-tab);
+                    margin-top: 40px;
+                  }
+                }
+                .p1 {
+                  color: $whiteTxt !important;
+                  margin-top: 30px;
+                }
+              }
+            }
+          }
+          .case {
+            width: 770px !important;
+            height: 310px !important;
+            background: url('../img/bg/hover_bg_icons_tab_blue.png') 100% 100% no-repeat;
+            margin: 0 auto 50px auto;
+            .case_wrap {
+              width: 770px !important;
+              height: 310px !important;
+              position: relative;
+              margin: 0 auto;
+              .icon-wrap {
+                display: inline;
+                position: absolute;
+                top: 25%;
+                left: 15%;
+                &::before {
+                  @include before;
+                  @include iconSprite($hover-triangle-left);
+                  margin: 20px 0px 0px -140px
+                }
+                &::after {
+                  @include after;
+                  @include iconSprite($hover-triangle-top);
+                  margin: -116px 0px 0px 190px
+                }
+                .icon2-normal {
+                  margin: 0;
+                  display: block;
+                  @include iconSprite($icon-case-hover);
+                  &::after {
+                  @include after;
+                  @include iconSprite($hover-triangle-right);
+                  margin: 100px 0px 0px 200px;
+                }
+                }
+              }
+              .text-wrap {
+                position: absolute;
+                width: 360px;
+                height: 200px;
+                top: 20%;
+                left: 48%;
+                .h3 {
+                  margin-top: 0;
+                  font-size: 24px;
+                  color: $whiteTxt !important;
+                  &::before {
+                    @include before;
+                    @include iconSprite($white-brick-tab);
+                    margin-top: -16px;
+                  }
+                  &::after {
+                    @include after;
+                    @include iconSprite($white-brick-tab);
+                    margin-top: 40px;
+                  }
+                }
+                .p1 {
+                  color: $whiteTxt !important;
+                  margin-top: 30px;
+                }
+              }
+            }
+          }
+          .networking {
+            width: 771px !important;
+            height: 310px !important;
+            background: url('../img/bg/hover_bg_icons_tab_yellow.png') 100% 100% no-repeat;
+            margin: 0px auto 50px auto;
+            .networking_wrap {
+              width: 770px !important;
+              height: 310px !important;
+              position: relative;
+              margin: 0 auto;
+              .icon-wrap {
+                display: inline;
+                position: absolute;
+                top: 25%;
+                left: 15%;
+                &::before {
+                  @include before;
+                  @include iconSprite($hover-triangle-left);
+                  margin: 20px 0px 0px -140px;
+                }
+                &::after {
+                  @include after;
+                  @include iconSprite($hover-triangle-top);
+                  margin: -116px 0px 0px 190px;
+                }
+                .icon3-normal {
+                  margin: 0;
+                  display:block;
+                  @include iconSprite($icon-networking-hover);
+                  &::after {
+                  @include after;
+                  @include iconSprite($hover-triangle-right);
+                  margin: 100px 0px 0px 200px;
+                }
+                }
+              }
+              .text-wrap {
+                position: absolute;
+                width: 360px;
+                height: 200px;
+                top: 20%;
+                left: 48%;
+                .h3 {
+                  margin-top: 0;
+                  font-size: 24px;
+                  color: $whiteTxt !important;
+                  &::before {
+                    @include before;
+                    @include iconSprite($white-brick-tab);
+                    margin-top: -16px
+                  }
+                  &::after {
+                    @include after;
+                    @include iconSprite($white-brick-tab);
+                    margin-top: 40px;
+                  }
+                }
+                .p1 {
+                  color: $whiteTxt !important;
+                  margin-top: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .speakers{
+      margin-top: 50px;
+      .holder{
+        width: 900px;
+        margin: 0 auto;
+        who{
+
+        }
+        .speakers__wrap {
+          width: 900px;
+          height: 1000px;
+          flex-flow: column wrap;
+          .speakers-block1{
+            .speakers-inner-block1{
+              width: 270px;
+              height: 460px;
+              margin: 30px auto 0 auto;
+              .icon{
+                width: 270px;
+                height: 282px;
+                display: block;
+              }
+            }
+          }
+        }
+        .others-wrap {
+          height: 600px;
+          width: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+      }
+    }
+    .cost {
+      height: 405px;
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 200px;
+      .holder {
+        width: 900px;
+        margin: 0 auto;
+        .cost-wrap {
+          margin: 0 auto;
+          width: 770px;
+          height: 301px;
+          background: url("../img/bg/cost_bg_days_tab.png") no-repeat 50% 50%;
+          box-shadow: 8px 4px 20px 0px rgb(103,103,103);
+          border-radius: 9px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          .current-block {
+            width: 585px;
+            height: 200px;
+            text-align: center;
+            .current-title {
+              font-size: 26px;
+              height: 40px;
+            }
+            .current-cost {
+              font-size: 80px;
+              margin: 0px auto 40px auto;
+            }
+            .bynow-btn {
+              @include btnSprite($btn-by-now-normal-tablet);
+              background-repeat: no-repeat;
+              display: block;
+              margin: 0 auto;
+              &:active {
+                @include btnSprite($btn-by-now-active-tablet);
+              }
+              a {
+                display: block;
+                text-decoration: none;
+                padding-top: 30px ;
+                span {
+                  color: $whiteTxt;
+                  font-family: $GothamBlack;
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+          .anotherday-block {
+            width: 585px;
+            height: 200px;
+            .another-title {
+              font-size: 26px;
+              height: 40px;
+              .span {
+                font-size: 35px;
+              }
+            }
+            .another-cost {
+              font-size: 80px;
+              margin: 0px auto 40px auto;
+            }
+            .byanotherday-btn {
+              @include btnSprite($btn-by-anothertime-normal-tablet);
+              background-repeat: no-repeat;
+              display: block;
+              margin: 0px auto;
+              &:active {
+                @include btnSprite($btn-by-anothertime-active-tablet);
+              }
+              a {
+                padding-top: 30px;
+                span {
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .ten-cases {
+      height: 560px;
+      &::before {
+        @include before;
+        background: url("../img/bg/city_bg.png") no-repeat 50% 50%;
+        z-index: -1;
+      }
+      &::after {
+        @include after;
+        background: url("../img/bg/blue_retangle_city_bg.png") no-repeat 50% 50%;
+        width: 100%;
+        height: 560px;
+        z-index: -1;
+
+
+      }
+      .holder {
+        width: 900px;
+        .text-wrapper {
+          width: 650px;
+          margin-top: 85px;
+        }
+        .main-text {
+          font-size: 28px;
+        }
+        .secondary-text {
+          font-size: 22px;
+        }
+        .btn-discover {
+          position: absolute;
+          margin: 450px 0px 0px 432px;
+          width: 342px;
+          height: 108px;
+          a {
+            @include btnSprite($btn-start-normal-dt);
+            &:hover {
+              @include btnSprite($btn-start-hover-dt);
+            }
+            &:active {
+              @include btnSprite($btn-star-active-dt);
+            }
+            span {
+              margin: 20px 145px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .schedule {
+      height: 800px;
+      .holder {
+        width: 1170px;
+        .stages-wrap {
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          .business-stage-wrap {
+            width: 500px;
+            .business-stage {
+              background: url("../img/bg/bussines_yellow_bg.png") no-repeat 50% 50%;
+              width: 500px;
+              height: 254px;
+              margin-top: 140px;
+              .title {
+                font-size: 30px;
+              }
+              .descript {
+                font-size: 18px;
+                width: 85%;
+              }
+            }
+          }
+          .schedule-item0 {
+            width: 450px;
+            margin: 0 auto;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item1 {
+            width: 450px;
+            .time {
+              font-size: 20px
+            }
+          }
+          .schedule-item2 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+            .descript {
+              width: 338px;
+            }
+          }
+          .schedule-item3 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @include after;
+                margin-left: 54px;
+              }
+            }
+          }
+          .schedule-item4 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item5 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @include after;
+                margin-left: 54px;
+              }
+            }
+            .speaker {
+              float: right;
+            }
+          }
+        }
+        .it-stage-wrap {
+          width: 500px;
+          .it-stage {
+            background: url("../img/bg/it_blue_bg.png") no-repeat 50% 50%;
+            width: 500px;
+            height: 253px;
+            margin-top: 140px;
+            .title {
+              font-size: 30px
+            }
+            .descript {
+              font-size: 18px;
+              width: 85%;
+            }
+          }
+          .schedule-item0 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item1 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @inlude after;
+                margin-left: 54px;
+              }
+            }
+            .speaker {
+              float: right
+            }
+          }
+          .schedule-item2 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+            .descript {
+              width: 338px;
+            }
+          }
+          .schedule-item3 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+            }
+            &::after {
+              @include after;
+              margin-left: 54px
+            }
+          }
+          .schedule-item4 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item5 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @include after;
+                margin-left: 54px;
+              }
+            }
+            .speaker {
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(lg) {
+    h1 {
+      font-size: 50px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h2 {
+      font-size: 30px;
+      font-family: $GothamBlack;
+      color: $greyTxt;
+    }
+    h3 {
+      font-size: 22px;
+      font-family: $GothamBold;
+      color: $greyTxt;
+    }
+    .p1 {
+      font-size: 16px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .p2 {
+      font-size: 18px;
+      font-family: $GothamMedium;
+      color: $greyTxt;
+    }
+    .p3 {
+      font-size: 20px;
+      font-family: $GothamLight;
+      color: $greyTxt;
+    }
+    .Lead-txt {
+      font-size: 18px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .small-txt {
+      font-size: 15px;
+      font-family: $GothamRegular;
+      color: $greyTxt;
+    }
+    .main .tabs-block {
+      .holder {
+        .tabs-block__wrap {
+          .knowledge {
+            height: 533px;
+            width: 400px;
+            .knowledge_wrap {
+              .icon-wrap {
+                .icon1-normal {
+                  display: block;
+                  @include iconSprite($icon-brain-normal);
+                  margin: 0 auto;
+                }
+                .icon1-hover {
+                  display: none;
+                  @include iconSprite($icon-brain-hover);
+                  margin: 0 auto;
+                }
+              }
+              .text-wrap {
+                height: 160px;
+                width: 363px;
+                .h3 {
+                  margin-top: 91px;
+                  text-align: center;
+                }
+                .p1 {}
+              }
+            }
+          }
+          .case {
+            height: 533px;
+            width: 400px;
+           
+            .case_wrap {
+              .icon-wrap {
+                .icon2-normal {
+                  display: block;
+                  @include iconSprite($icon-case-normal);
+                  margin: 0 auto;
+                }
+                .icon-hover {
+                  display: none;
+                  @include iconSprite($icon-case-normal);
+                  margin: 0 auto;
+                }
+              }
+              .text-wrap {
+                height: 160px;
+                width: 363px;
+                margin: 0 auto;
+                .h3 {
+                  margin-top: 91px;
+                  text-align: center;
+                }
+                .p1 {
+
+                }
+              }
+            }
+          }
+          .networking {
+            height: 533px;
+            width: 400px;
+            .networking_wrap {
+              .icon-wrap {
+                .icon3-normal {
+                  display: block;
+                  @include iconSprite($icon-networking-normal);
+                  margin: 0 auto;
+                }
+                .icon3-hover {
+                  display: none;
+                  @include iconSprite($icon-networking-normal);
+                  margin: 0 auto;
+                }
+              }
+              .text-wrap {
+                height: 160px;
+                width: 363px;
+                margin: 0 auto;
+                .h3 {
+                  margin-top: 91px;
+                  text-align: center;
+                }
+                .p1 {
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .speakers{
+      height: 1000px;
+      .holder{
+        width: 1170px;
+        margin: 0 auto;
+        .who{
+          margin: 0 auto 80px auto;
+        }
+        .speakers__wrap {
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          width: 1170px;
+          .speakers-block1 {
+            width: 300px;
+            height: 507px;
+            &:hover {
+              background: url("../img/bg/hover_bg_speakers.png") no-repeat 50% 50%;
+              .triangle-hover::before {
+                @include before;
+                background: url("../img/bg/hover_triangle_left.png") no-repeat;
+                position: absolute;
+                margin: 160px 0px 0px -30px;
+                height: 70px;
+                width: 70px;
+              }
+              .triangle-hover::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_top.png") no-repeat;
+                position: absolute;
+                margin: -15px 0px 0px 205px;
+                width: 100px;
+                height: 100px;
+              }
+              &::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_right.png") no-repeat;
+                position: absolute;
+                margin: 250px 0px 0px 205px;
+              }
+            }
+            .speakers-inner-block1 {
+              width: 270px;
+              height: 460px ;
+              margin: 30px auto 0 auto;
+            }
+            .icon {
+              width: 270px;
+              height: 282px;
+              display: block;
+            }
+            .text-wrap {
+              width: 270px;
+            }
+          }
+          .speakers-block2 {
+            width: 300px;
+            height: 507px;
+            &:hover {
+              background: url("../img/bg/hover_bg_speakers.png") no-repeat 50% 50%;
+              .triangle-hover::before {
+                @include before;
+                background: url("../img/bg/hover_triangle_left.png") no-repeat;
+                position: absolute;
+                margin: 160px 0px 0px -30px;
+                height: 70px;
+                width: 70px;
+              }
+              .triangle-hover::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_top.png") no-repeat;
+                position: absolute;
+                margin: -15px 0px 0px 205px;
+                width: 100px;
+                height: 100px;
+              }
+              &::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_right.png") no-repeat;
+                position: absolute;
+                margin: 250px 0px 0px 205px;
+              }
+            }
+            .speakers-inner-block2 {
+              width: 270px;
+              height: 460px ;
+              margin: 30px auto 0 auto;
+            }
+            .icon {
+              width: 270px;
+              height: 282px;
+              display: block;
+            }
+            .text-wrap {
+              width: 270px;
+            }
+          }
+          .speakers-block3 {
+            width: 300px;
+            height: 507px;
+            &:hover {
+              background: url("../img/bg/hover_bg_speakers.png") no-repeat 50% 50%;
+              .triangle-hover::before {
+                @include before;
+                background: url("../img/bg/hover_triangle_left.png") no-repeat;
+                position: absolute;
+                margin: 160px 0px 0px -30px;
+                height: 70px;
+                width: 70px;
+              }
+              .triangle-hover::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_top.png") no-repeat;
+                position: absolute;
+                margin: -15px 0px 0px 205px;
+                width: 100px;
+                height: 100px;
+              }
+              &::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_right.png") no-repeat;
+                position: absolute;
+                margin: 250px 0px 0px 205px;
+              }
+            }
+            .speakers-inner-block3 {
+              width: 270px;
+              height: 460px ;
+              margin: 30px auto 0 auto;
+            }
+            .icon {
+              width: 270px;
+              height: 282px;
+              display: block;
+            }
+            .text-wrap {
+              width: 270px;
+            }
+          }
+          .speakers-block4 {
+            width: 300px;
+            height: 507px;
+            &:hover {
+              background: url("../img/bg/hover_bg_speakers.png") no-repeat 50% 50%;
+              .triangle-hover::before {
+                @include before;
+                background: url("../img/bg/hover_triangle_left.png") no-repeat;
+                position: absolute;
+                margin: 160px 0px 0px -30px;
+                height: 70px;
+                width: 70px;
+              }
+              .triangle-hover::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_top.png") no-repeat;
+                position: absolute;
+                margin: -15px 0px 0px 205px;
+                width: 100px;
+                height: 100px;
+              }
+              &::after {
+                @include after;
+                background: url("../img/bg/hover_triangle_right.png") no-repeat;
+                position: absolute;
+                margin: 250px 0px 0px 205px;
+              }
+            }
+            .speakers-inner-block4 {
+              width: 270px;
+              height: 460px ;
+              margin: 30px auto 0 auto;
+            }
+            .icon {
+              width: 270px;
+              height: 282px;
+              display: block;
+            }
+            .text-wrap {
+              width: 270px;
+            }
+          }
+        }
+        .others-wrap {
+          height: 400px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+        }
+      }
+    }
+    .cost {
+      height: 405px;
+      position: relative;
+      margin-top: 150px;
+      margin-bottom: 200px;
+      .holder {
+        width: 1170px;
+        margin: 0 auto;
+        .cost-wrap {
+          width: 100%;
+          height: 301px;
+          background: url("../img/bg/cost_bg_days.png") no-repeat 50% 50%;
+          box-shadow: 8px 4px 20px 0px rgb(103,103,103);
+          border-radius: 9px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          .current-block {
+            width: 585px;
+            height: 200px;
+            text-align: center;
+            .current-title {
+              font-size: 26px;
+              height: 40px;
+            }
+            .current-cost {
+              font-size: 80px;
+              margin: 0px auto 40px auto;
+            }
+            .bynow-btn {
+              @include btnSprite($btn-by-now-normal-dt);
+              background-repeat: no-repeat;
+              display: block;
+              margin: 0 auto;
+              &:hover {
+                @include btnSprite($btn-by-now-hover-dt)
+              }
+              &:active {
+                @include btnSprite($btn-by-now-active_dt)
+              }
+              a {
+              display: block;
+              text-decoration: none;
+              padding-top: 30px ;
+              span {
+                color: $whiteTxt;
+                font-family: $GothamBlack;
+                font-size: 30px;
+                }
+              }
+            }
+          }
+          .anotherday-block {
+            width: 585px;
+            height: 200px;
+            .another-title {
+              font-size: 26px;
+              height: 40px;
+              .span {
+                font-size: 35px;
+              }
+            }
+            .another-cost {
+              font-size: 80px;
+              margin: 0px auto 40px auto;
+            }
+            .byanotherday-btn {
+              @include btnSprite($btn-by-anoter-time-normal-dt);
+              background-repeat: no-repeat;
+              display: block;
+              margin: 0px auto;
+              &:hover {
+                @include btnSprite($btn-by-anoter-time-hover-dt);
+              }
+              &:active {
+                @include btnSprite($btn-by-anoter-time-active_dt);
+              }
+              a {
+                padding-top: 30px;
+                span {
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .ten-cases {
+      height: 560px;
+      &::before {
+        @include before;
+        background: url("../img/bg/city_bg.png") no-repeat 50% 50%;
+        z-index: -1;
+      }
+      &::after {
+        @include after;
+        background: url("../img/bg/blue_retangle_city_bg.png") no-repeat 50% 50%;
+        //width: 100%;
+        height: 560px;
+        z-index: -1;
+
+      }
+      .holder {
+        width: 1170px;
+        .text-wrapper {
+          width: 665px;
+          margin-top: 220px;
+        }
+        .main-text {
+          font-size: 30px;
+        }
+        .secondary-text {
+          font-size: 22px;
+        }
+        .btn-discover {
+          position: absolute;
+          margin: 450px 0px 0px 460px;
+          width: 342px;
+          height: 108px;
+          a {
+            @include btnSprite($btn-start-normal-dt);
+            &:hover {
+              @include btnSprite($btn-start-hover-dt);
+            }
+            &:active {
+              @include btnSprite($btn-star-active-dt);
+            }
+            span {
+              margin: 20px 145px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .schedule {
+      height: 800px;
+      .holder {
+        width: 1170px;
+        .stages-wrap {
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          .business-stage-wrap {
+            width: 500px;
+            .business-stage {
+              background: url("../img/bg/bussines_yellow_bg.png") no-repeat 50% 50%;
+              width: 500px;
+              height: 254px;
+              margin-top: 140px;
+              .title {
+                font-size: 30px;
+              }
+              .descript {
+                font-size: 18px;
+                width: 85%;
+              }
+            }
+          }
+          .schedule-item0 {
+            width: 450px;
+            margin: 0 auto;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item1 {
+            width: 450px;
+            .time {
+              font-size: 20px
+            }
+          }
+          .schedule-item2 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+            .descript {
+              width: 338px;
+            }
+          }
+          .schedule-item3 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @include after;
+                margin-left: 54px;
+              }
+            }
+          }
+          .schedule-item4 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item5 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @include after;
+                margin-left: 54px;
+              }
+            }
+            .speaker {
+              float: right;
+            }
+          }
+        }
+        .it-stage-wrap {
+          width: 500px;
+          .it-stage {
+            background: url("../img/bg/it_blue_bg.png") no-repeat 50% 50%;
+            width: 500px;
+            height: 253px;
+            margin-top: 140px;
+            .title {
+              font-size: 30px
+            }
+            .descript {
+              font-size: 18px;
+              width: 85%;
+            }
+          }
+          .schedule-item0 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item1 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @inlude after;
+                margin-left: 54px;
+              }
+            }
+            .speaker {
+              float: right
+            }
+          }
+          .schedule-item2 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+            .descript {
+              width: 338px;
+            }
+          }
+          .schedule-item3 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+            }
+            &::after {
+              @include after;
+              margin-left: 54px
+            }
+          }
+          .schedule-item4 {
+            width: 450px;
+            height: 84px;
+            .pipe {
+              margin-left: 66px;
+            }
+          }
+          .schedule-item5 {
+            width: 450px;
+            .time {
+              font-size: 20px;
+              &::after {
+                @include after;
+                margin-left: 54px;
+              }
+            }
+            .speaker {
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+// }

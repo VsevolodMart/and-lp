@@ -1,0 +1,1132 @@
+@import 'fonts.scss'
+@import 'icons.sass'
+@import 'buttons.sass'
+@import '_variables.sass'
+@import 'media-query.scss'
+//variables
+
+
+.before
+  content: ''
+  width: 100%
+  height: 100%
+  position: absolute
+  left: 0
+  top: 0
+.after
+  content: ''
+  width: 100%
+  height: 100%
+  position: absolute
+  left: 0
+  top: 0
+body
+  margin: 0px 
+  line-height: 1.3
+.wrapper
+  margin-left: auto
+  margin-right: auto
+  max-width: 1920px
+  .header
+    max-height: 924px
+    position: relative
+    overflow: hidden
+    .holder-wrap
+      max-width: 100%
+      height: 924px
+      &::after
+        @extend .after
+        background-image: url("../img/bg/first_page_bg_blueline1.png")
+        background-repeat: no-repeat
+        background-position: 50% 100%
+        //position: relative
+      &::before
+        @extend .before
+        background-image: url("../img/bg/first_page_bg_map.png")
+        background-position: 50% 100%
+        //width: 1675px
+        z-index: -1
+    .holder
+      width: 1170px
+      margin: 0px auto
+      position: relative
+      z-index: 100
+      .logo
+        @include iconSprite($logo)
+        position: absolute
+        margin: 20px 0px 0px 0px
+      .header-nav 
+        position: absolute
+        padding: 0px 0px 0px 0px
+        margin: 80px 0 0 600px
+        text-decoration: none
+        list-style: none
+        width: 100%
+        #collapse
+          display: none
+
+        ul.clearfix
+          width: 500px
+          li
+            display: inline
+            position: relative
+            float: left
+            a
+              text-transform: uppercase
+              font-family: $GothamBlack
+              font-size: 16px
+              color: $whiteTxt
+              padding: 0px 20px
+              position: relative
+              height: 100px
+              display: inline-block
+              text-decoration: none
+              outline: none
+
+              &:hover::before
+                @extend .before
+                background-image: url("../img/icons/triangle_menu_hover.png")
+                background-repeat: no-repeat
+                background-position: center
+                display: block
+                margin: -40px 0 0 0
+                height: 100px
+              &:active::before
+                @extend .before
+                background-image: url("../img/icons/triangle_menu_active.png")
+                background-repeat: no-repeat
+                background-position: center
+                display: block
+                margin: -40px 0 0 0
+                height: 100px
+                z-index: -1
+      .clearfix:before, .clearfix:after
+        content: ""
+        display: table
+      .clearfix:after
+        clear: both
+      .info-block
+        float: right
+        margin-top: 400px
+        width: 200px
+        .geotag
+          @include iconSprite($mark-on-map2)
+          position: absolute
+          margin-left: 130px
+    
+        .title
+          position: absolute
+          margin-top: -30px
+          font-family: $GothamBlack
+          font-size: 36px
+          color: rgb(103, 103, 103)
+    
+        .date
+          position: absolute
+          margin-top: 10px
+          font-size: 30px
+          font-family: $GothamLight
+          span
+            color: rgb(38,158,216)
+            font-family: $GothamBlack
+            font-size: 36px
+      .slogan
+        position: absolute
+        margin: 290px 0px 0px 0px
+        width: 780px
+        h1
+          color: $whiteTxt
+        .description
+          width: 580px
+          color: $whiteTxt
+      .start-btn 
+        position: absolute
+        margin: 700px 380px
+        a
+          position: relative
+          color: $whiteTxt
+          display: block
+          font-family: $GothamBlack
+          height: 100%
+          outline: none
+          position: absolute          
+          text-decoration: none
+          width: 100%
+          @include btnSprite($btn-start-normal-dt)
+          &:hover
+            @include btnSprite($btn-start-hover-dt)
+          &:active
+            @include btnSprite($btn-star-active-dt)
+          span
+            position: absolute
+            margin: 20px 145px
+            font-family: $GothamBlack
+            font-size: 20px 
+  .header-footer
+    background-color: #000
+    bottom: 0
+    height: 80px
+    left: 0
+    opacity: .8
+    position: absolute
+    width: 100%
+    .holder-footer
+      display: flex
+      margin: auto
+      width: 800px
+      flex-flow: row wrap
+      justify-content: space-around
+      align-items: center
+      height: 80px
+      .header-footer__org
+        color: $whiteTxt
+        
+      .header-footer__logo
+        @include iconSprite($logo-on-grey-retangle)
+        
+      .header-footer__agency
+        color: $whiteTxt
+.wrapper
+  .main
+    .advantage
+      width: 100%
+      height: 476px
+       
+      .holder
+        width: 100%
+        margin: 0px auto
+        max-width: 1170px
+        
+        .advantage_wrap
+          display: flex
+          flex-flow: row nowrap
+          justify-content: space-around
+          align-items: center
+          height: 476px
+          padding: 0 0 0 100px
+          
+          .advantage_block
+            width: 350px
+            height: 300px
+            align-items: center
+            //background-color: #000
+            .advatage_text
+              position: relative
+              margin-top: 36px 
+              padding: 20px 0px 0px 0px
+              &::before
+                @extend .before
+                @include iconSprite($icon_brick)
+
+          .advantage_speakers
+            .advantage_icon
+              @include iconSprite($icon1) 
+              
+                
+
+          .advantage_stream
+            .advantage_icon
+              @include iconSprite($icon2)
+          .advantage_reporter
+            .advantage_icon
+              @include iconSprite($icon3)
+    .video-block
+      max-width: 100%
+      height: 450px
+      position: relative
+      margin: 0
+      .video-block_wrap
+        max-width: 1920px
+        width: 100%
+        height: 100%
+        margin: 0 auto
+        position: relative
+        &::before
+          @extend .before
+          background-image: url("../img/bg/scnd_page_bg_blue_retangle.png")
+          background-repeat: no-repeat
+          background-position: 50% 0%
+          height: 448px
+          z-index: -1
+          
+        &::after
+          @extend .after
+          background-image: url("../img/bg/scnd_page_bg_grey_retangle.png")
+          background-repeat: no-repeat
+          background-position: 50% 0%
+          height: 448px
+          z-index: -1
+        .holder
+          width: 1170px
+          margin: 0 auto
+          height: 100%
+          display: flex
+          //flex-flow: row wrap
+          justify-content: space-between
+          align-items: center
+          .video
+            background-color: #000
+            margin: 0px
+            box-shadow: 4px 4px 20px #3b3b3b
+
+          .descript
+            width: 560px
+    .time-block
+      height: 500px
+      margin-top: 180px
+      .when
+        margin-bottom: 54px
+        text-align: center
+        text-transform: uppercase
+      .time-block__wrap
+        background-image: url("../img/bg/timer.png")
+        background-position: 50% 100%
+        background-repeat: no-repeat
+        height: 108px
+        width: 100%
+        margin: 0 auto
+        .holder
+          width: 1170px
+          margin: 0 auto
+          height: 100%
+          .time-block__row
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-between
+            align-items: center
+            height: 108px
+            width: 900px
+
+            margin: 0px auto 86px auto
+            .seconds__wrap
+              display: flex
+              flex-flow: row nowrap
+              justify-content: space-between
+              alignt-items: center
+              .seconds__wrap-line
+                height: 10px
+                width: 1px
+                background-color: $blueTxt
+                margin: 5px 5px
+                align-items: center
+                &:first-child
+                  height: 15px
+                  margin-top: 0px
+                &:last-child
+                  height: 15px
+                  margin-top: 0px
+          .global-timer
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-between
+            height: 200px
+            width: 750px
+            margin: 0 auto
+            .month
+              .month__value 
+                font-family: $GothamRegular
+                font-size: 100px
+                color: $blueTxt
+                margin: 0 0
+              .month__descript
+                font-family: $GothamRegular
+                font-size: 18px
+                color: #000
+                text-align: center
+                text-transform: lowercase
+            .line
+              width: 2px
+              height: 70px
+              background-color: #000
+              transform: skew(-45deg)
+              margin-top: 20px
+
+            .days
+              .days__value 
+                font-family: $GothamRegular
+                font-size: 100px
+                color: $blueTxt
+                margin: 0 0
+              .days__descript
+                font-family: $GothamRegular
+                font-size: 18px
+                color: #000
+                text-align: center
+                text-transform: lowercase
+            .line
+            .hours
+              .hours__value 
+                font-family: $GothamRegular
+                font-size: 100px
+                color: $blueTxt
+                margin: 0 0
+              .hours__descript
+                font-family: $GothamRegular
+                font-size: 18px
+                color: #000
+                text-align: center
+                text-transform: lowercase
+            .line
+            .minutes
+              .minutes__value
+                font-family: $GothamRegular
+                font-size: 100px
+                color: $blueTxt
+                margin: 0 0 
+              .minutes__descript
+                font-family: $GothamRegular
+                font-size: 18px
+                color: #000
+                text-align: center
+                text-transform: lowercase
+    .where-block
+      position: relative
+      height: 500px
+      width: 100%
+      
+      &::before
+        @extend .before
+        background-image: url("../img/bg/where_blue_bg.png")
+        background-repeat: no-repeat
+        background-position: 50% 50%
+        height: 112px
+        width: 100%
+        top: 250px
+      .btn-block
+        position: relative
+        top: 275px
+        width: 355px
+        height: 110px
+        margin: 0px auto 0px auto
+        a
+          position: relative
+          color: $whiteTxt
+          display: block
+          font-family: $GothamBlack
+          height: 100%
+          outline: none
+          position: absolute          
+          text-decoration: none
+          width: 100%
+          @include btnSprite($btn-start-normal-dt)
+          &:hover
+            @include btnSprite($btn-start-hover-dt)
+          &:active
+            @include btnSprite($btn-star-active-dt)
+          span
+            position: absolute
+            margin: 20px 145px
+            font-family: $GothamBlack
+            font-size: 20px 
+      .holder
+        width: 1170px
+        margin: 0 auto
+        .where
+          margin-bottom: 54px
+          text-align: center
+          text-transform: uppercase
+        .where-title
+          color: $yelowTxt
+          font-family: $GothamBold
+          font-size: 20px
+          text-align: center
+          position: relative
+
+          &::before
+            @extend .before
+            @include iconSprite($mark_page2)
+            margin-left: 406px
+          span
+            color: $blueTxt
+    .tabs-block
+      height: 600px
+      width: 100%
+      position: relative
+      .holder
+        width: 1170px
+        margin: 0 auto
+        height: 100%
+        .tabs-block__wrap
+          display: flex
+          flex-flow: row nowrap
+          justify-content: space-between
+          .knowledge
+            position: relative
+            display: block
+            .knowledge_wrap
+              .icon-wrap
+                .icon1-normal
+                .icon1-hover
+              .text-wrap
+                .h3
+                  color: $greyTxt
+                  text-transform: uppercase
+                .p1
+                  color: $greyTxt
+          .case
+            position: relative
+            display: block
+            .case_wrap
+              .icon-wrap
+                .icon2-normal
+                .icon2-hover
+              .text-wrap
+                .h3
+                  color: $greyTxt
+                  text-transform: uppercase
+                .p1
+                  color: $greyTxt
+          .networking
+            position: relative
+            display: block
+            .networking_wrap
+              .icon-wrap
+                .icon3-normal
+                .icon3-hover
+              .text-wrap
+                .h3
+                  color: $greyTxt
+                  text-transform: uppercase
+                .p1
+                  color: $greyTxt
+    .speakers
+      width: 100%
+      margin: 0
+      .holder
+        .who
+          text-align: center
+          text-transform: uppercase
+        .speakers__wrap
+          display: flex
+          .speakers-block1
+            position: relative
+            .speakers-inner-block1
+              .icon
+                background-image: url("../img/bg/Arthur-C-Clarke.png")
+                background-repeat: no-repeat
+              .text-wrap
+                text-align: center
+          .speakers-block2
+            position: relative
+            .speakers-inner-block2
+              width: 270px
+              height: 460px
+              margin: 30px auto 0 auto
+              .icon
+                background-image: url("../img/bg/Linus-Torvalds.png")
+                background-repeat: no-repeat
+                width: 270px
+                height: 282px
+                display: block
+              .text-wrap
+                width: 270px
+                text-align: center
+          .speakers-block3
+            position: relative
+            .speakers-inner-block3
+              width: 270px
+              height: 460px
+              margin: 30px auto 0 auto
+              .icon
+                background-image: url("../img/bg/RICHARD-STALLMAN.png")
+                background-repeat: no-repeat
+                width: 270px
+                height: 282px
+                display: block
+              .text-wrap
+                width: 270px
+                text-align: center
+          .speakers-block4
+            position: relative
+            .speakers-inner-block4
+              width: 270px
+              height: 460px
+              margin: 30px auto 0 auto
+              .icon
+                background-image: url("../img/bg/tim-berners-lee.png")
+                background-repeat: no-repeat
+                width: 270px
+                height: 282px
+                display: block
+              .text-wrap
+                width: 270px
+                text-align: center
+        .others-wrap
+          .others-block0
+            width: 170px
+            height: 260px
+            .others-icon0
+              width: 170px
+              height: 168px
+              display: block
+              background: url("../img/bg/others.png")
+            .others-txt-block
+              text-align: center
+              .p2
+                font-size: 14px
+          .others-block1
+            width: 170px
+            height: 260px
+            .others-icon1
+              width: 170px
+              height: 168px
+              display: block
+              background: url("../img/bg/others.png")
+            .others-txt-block
+              text-align: center
+              .p2
+                font-size: 14px
+          
+          .others-block2
+            width: 170px
+            height: 260px
+            .others-icon2
+              width: 170px
+              height: 168px
+              display: block
+              background: url("../img/bg/others.png")
+            .others-txt-block
+              text-align: center
+              .p2
+                font-size: 14px
+          
+          .others-block3
+            width: 170px
+            height: 260px
+            .others-icon3
+              width: 170px
+              height: 168px
+              display: block
+              background: url("../img/bg/others.png")
+            .others-txt-block
+              text-align: center
+              .p2
+                font-size: 14px
+          
+          .others-block4
+            width: 170px
+            height: 260px
+            .others-icon4
+              width: 170px
+              height: 168px
+              display: block
+              background: url("../img/bg/others.png")
+            .others-txt-block
+              text-align: center
+              .p2
+                font-size: 14px
+          
+          .others-block5
+            width: 170px
+            height: 260px
+            .others-icon5
+              width: 170px
+              height: 168px
+              display: block
+              background: url("../img/bg/others.png")
+            .others-txt-block
+              text-align: center
+              .p2
+                font-size: 14px
+    .cost
+      width: 100%
+      .holder
+        .price
+          margin: 0 auto 65px auto
+          text-align: center
+          text-transform: uppercase
+        .cost-wrap
+
+          .current-block
+            .current-title
+              text-transform: uppercase
+              font-family: $GothamBlack
+              color: $whiteTxt
+              margin-bottom: 0px
+              display: block
+            .current-cost
+              text-transform: uppercase
+              font-family: $GothamBlack
+              color: $whiteTxt
+              span
+                color: $whiteTxt
+
+            .bynow-btn
+              &:hover
+              &:active
+              a
+                span
+                  color: $whiteTxt
+                  font-family: $GothamBlack
+          .anotherday-block
+            text-align: center
+            .another-title
+              text-transform: uppercase
+              font-family: $GothamBlack
+              color: $greyTxt
+              margin-bottom: 0px
+              span
+                color: $redTxt
+            .another-cost
+              text-transform: uppercase
+              font-family: $GothamBlack
+              color: $greyTxt
+              span
+                color: $greyTxt
+            .byanotherday-btn
+              a
+                display: block
+                text-decoration: none
+                span
+                  color: $greyTxt
+                  font-family: $GothamBlack
+    .ten-cases
+      width: 100%
+      position: relative
+      .holder
+        margin: 0 auto
+        .text-wrapper
+          color: $whiteTxt
+          font-family: $GothamBlack
+          position: absolute
+        .main-text
+        .secondary-text
+        .btn-discover
+          a
+            position: relative
+            color: $whiteTxt
+            display: block
+            font-family: $GothamBlack
+            height: 100%
+            outline: none
+            position: absolute          
+            text-decoration: none
+            width: 100%
+            span
+              position: absolute
+              font-family: $GothamBlack
+    .schedule
+      width: 100%
+      .holder
+        height: 100%
+        margin: 0 auto
+        .stages-wrap
+          width: 100%
+          height: 100%
+          display: flex
+          .business-stage-wrap
+            height: 100%
+            .business-stage
+              box-shadow: 0px 14px 20px rgba(59,59,59,0.3)
+              border-radius: 14px
+              position: relative
+              .title
+                position: absolute
+                font-family: $GothamBlack
+                color: $whiteTxt
+                text-align: center
+                margin: 56px 0px 0px 109px
+                display: block
+                text-transform: uppercase
+              .descript
+                position: absolute
+                font-family: $GothamRegular
+                color: $whiteTxt
+                margin: 110px 0px 50px 42px
+            .schedule-item0
+              position: relative
+              .pipe
+                @include iconSprite($yellow-pipe)
+                display: inline-block
+            .schedule-item1
+              margin: 0 auto
+              display: block
+              .time
+                display: inline-block
+                position: relative
+                margin: 0 0
+                font-family: $GothamBlack
+                &::after
+                  @extend .after
+                  @include iconSprite($yellow-triangle-pipe)
+                  display: block
+                  margin-left: 54px
+              .speaker
+                display: inline
+                float: right
+                margin: 0 0
+            .schedule-item2
+              margin: 0 auto
+              position: relative
+              display: flex
+              flex-flow: row nowrap
+              justify-content: space-between
+              align-items: center
+              .pipe
+                @include iconSprite ($yellow-pipe)
+                display: inline-block
+              .descript
+                width: 338px
+                display: inline-block
+                margin: 0 0
+            .schedule-item3
+              width: 450px
+              margin: 0 auto
+              display: block
+              .time
+                display: inline-block
+                position: relative
+                margin: 0 0
+                font-family: $GothamBlack
+                font-size: 20px
+                &::after
+                  @extend .after
+                  @include iconSprite($yellow-triangle-pipe)
+                  display: block
+                  margin-left: 54px
+              .speaker
+                display: inline
+                float: right
+                margin: 0 0
+            .schedule-item4
+              margin: 0 auto
+              position: relative
+              .pipe
+                @include iconSprite ($yellow-pipe)
+                display: inline-block
+            .schedule-item5
+              margin: 0 auto
+              display: block
+              .time
+                display: inline-block
+                position: relative
+                margin: 0 0
+                font-family: $GothamBlack
+                &::after
+                  @extend .after
+                  @include iconSprite($yellow-triangle-pipe)
+                  display: block
+              .speaker
+                display: inline
+                margin: 0 0
+          .it-stage-wrap
+            height: 100%
+            .it-stage
+              box-shadow: 0px 14px 20px rgba(59,59,59,0.3)
+              border-radius: 14px
+              position: relative
+              .title
+                position: absolute
+                font-family: $GothamBlack
+                color: $whiteTxt
+                text-align: center
+                margin: 56px 0px 0px 182px
+                display: block
+                text-transform: uppercase
+              .descript
+                position: absolute
+                font-family: $GothamRegular
+                color: $whiteTxt
+                margin: 110px 0px 50px 42px
+            .schedule-item0
+              margin: 0 auto
+              position: relative
+              .pipe
+                @include iconSprite($yellow-pipe)
+                display: inline-block
+            .schedule-item1
+              margin: 0 auto
+              display: block
+              .time
+                display: inline-block
+                position: relative
+                margin: 0 0
+                font-family: $GothamBlack
+                &::after
+                  @extend .after
+                  @include iconSprite($yellow-triangle-pipe)
+                  display: block
+              .speaker
+                display: inline
+                margin: 0 0
+            .schedule-item2
+              margin: 0 auto
+              position: relative
+              display: flex
+              flex-flow: row nowrap
+              justify-content: space-between
+              align-items: center
+              .pipe
+                @include iconSprite ($yellow-pipe)
+                display: inline-block
+              .descript
+                display: inline-block
+                margin: 0 0
+            .schedule-item3
+              margin: 0 auto
+              display: block
+              .time
+                display: inline-block
+                position: relative
+                margin: 0 0
+                font-family: $GothamBlack
+                &::after
+                  @extend .after
+                  @include iconSprite($yellow-triangle-pipe)
+                  display: block
+              .speaker
+                display: inline
+                float: right
+                margin: 0 0
+            .schedule-item4
+              margin: 0 auto
+              position: relative
+              .pipe
+                @include iconSprite ($yellow-pipe)
+                display: inline-block
+            .schedule-item5
+              margin: 0 auto
+              display: block
+              .time
+                display: inline-block
+                position: relative
+                margin: 0 0
+                font-family: $GothamBlack
+                &::after
+                  @extend .after
+                  @include iconSprite($yellow-triangle-pipe)
+                  display: block
+              .speaker
+                display: inline
+                margin: 0 0
+    .sponsor
+      width: 100%
+      height: 200px
+      .holder
+        width: 1170px
+        margin: 0 auto
+        .sponsor_title
+          margin: 180px auto 80px auto
+          text-align: center
+          text-transform: uppercase
+        .sponsor_wrap
+          width: 100%
+          height: 100%
+          display: flex
+          flex-flow: row wrap
+          justify-content: space-between
+          align-items: center
+
+          .sponsor_item0
+            @include iconSprite($taventures-logo)
+          .sponsor_slash
+            width: 2px
+            height: 70px
+            background-color: #000
+            transform: skew(-45deg)
+            margin-top: 20px
+          .sponsor_item1
+            @include iconSprite($growthup-logo)
+          .sponsor_slash
+          .sponsor_item2
+            @include iconSprite($depositphotos)
+          .sponsor_slash
+          .sponsor_item3
+            @include iconSprite($taventures-logo)
+
+    .partners
+      width: 100%
+      height: 100%
+      .holder
+        width: 1170px
+        margin: 0 auto
+        .partners_title
+          margin: 80px auto 80px auto
+          text-align: center
+          text-transform: uppercase
+        .partners_wrap0
+          width: 100%
+          height: 100%
+          display: flex
+          flex-flow: row wrap
+          justify-content: space-between
+          align-items: center
+          margin-bottom: 20px
+          .partners_item0
+            @include iconSprite($taventures-logo)
+          .partners_slash
+            width: 2px
+            height: 70px
+            background-color: #000
+            transform: skew(-45deg)
+            margin-top: 20px
+          .partners_item1
+            @include iconSprite($growthup-logo)
+          .partners_slash
+          .partners_item2
+            @include iconSprite($depositphotos)
+          .partners_slash
+          .partners_item3
+            @include iconSprite($taventures-logo)
+        .partners_wrap1
+          width: 100%
+          height: 100%
+          display: flex
+          flex-flow: row wrap
+          justify-content: space-between
+          align-items: center
+          .partners_item4
+            @include iconSprite($taventures-logo)
+          .partners_slash
+            width: 2px
+            height: 70px
+            background-color: #000
+            transform: skew(-45deg)
+            margin-top: 20px
+          .partners_item5
+            @include iconSprite($growthup-logo)
+          .partners_slash
+          .partners_item6
+            @include iconSprite($depositphotos)
+          .partners_slash
+          .partners_item7
+            @include iconSprite($taventures-logo)
+    .form-block
+      width: 100%
+      height: 112px
+      margin-top: 174px
+      background: url('../img/bg/subscription_bg.png')
+      .holder
+        width: 1170px
+        margin: 0 auto
+        .form-block_wrap
+          display: flex
+          flex-flow: row nowrap
+          justify-content: space-between
+          align-items: center
+          .descript
+            width: 255px
+            color: $whiteTxt
+          .form
+            width: 472px
+            height: 60px
+            input[type=text]
+              width: 472px
+              background-color: transparent
+              border: 1px solid #ffffff
+              border-radius: 10px
+              padding: 22px 20px
+              font-family: $GothamRegular
+              font-size: 16px
+              color: $whiteTxt
+          .form-btn
+            width: 295px
+            height: 105px
+            
+            
+            a
+              position: relative
+              color: $whiteTxt
+              display: block
+              font-family: $GothamBlack
+              height: 100%
+              outline: none
+              position: absolute          
+              text-decoration: none
+              width: 100%
+              margin-top: 21px
+
+              @include btnSprite($btn-subscribe-normal-dt)
+              &:hover
+                @include btnSprite($btn-subscribe-hover-dt)
+              &:active
+                @include btnSprite($btn-subscribe-active-dt)
+              span
+                position: absolute
+                margin: 20px 80px
+                font-family: $GothamBlack
+                font-size: 20px 
+    .map
+      background: url("../img/bg/footer_map.png") no-repeat 50% 50%
+      width: 100%
+      height: 394px
+      position: relative
+      .holder
+        width: 1170px
+        margin: 0 auto
+        .mark
+          @include iconSprite($mark-map-footer)
+          position: absolute
+          margin: 85px 0px 0px 376px
+    .footer
+      width: 100%
+      height: 100%
+      .holder
+        width: 1170px
+        margin: 0 auto
+        .footer-wrap
+          background: url("../img/bg/footer_blueline_logo.png") no-repeat 50% 50%
+          width: 531px
+          height: 252px 
+          margin-left: -138px
+          float: left
+          .org-block
+            position: absolute
+            width: 220px
+            height: 100px
+            margin: 100px 0px 0px 140px
+
+            .descript
+              font-family: $GothamBlack
+              font-size: 22px
+              margin: 0
+              color: $whiteTxt
+            .agency
+              font-family: $GothamLight
+              font-size: 16px
+              margin-top: 10px
+              color: $whiteTxt
+              padding-left: 50px
+              &::before
+                @extend .before
+                @include iconSprite($logo-on-grey-retangle)
+                display: block
+                margin-top: 66px
+        .footer-pipe
+          width: 1px
+          height: 252px
+          transform: skew(-45deg)
+          background-color: $greyTxt
+          float: left
+          margin-left: 330px
+        .networks
+          width: 92px
+          height: 30px
+          float: right
+          display: flex
+          flex-flow: row nowrap
+          justify-content: space-between
+          align-items: flex-end
+          margin-top: 120px
+          .vk
+            @include iconSprite($vk)
+            
+          .fb
+            @include iconSprite($facebook)
+          .be
+            @include iconSprite($tumblr)
+        .copyright
+          float: right
+          margin: 200px -94px 0px 0px
+          font-family: $GothamLight
+          font-size: 16px
+          color: $greyTxt
+
+
+
+
+
+
+
+
+
