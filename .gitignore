@@ -1,4 +1,5 @@
 
 Будет удалено .gitignore
 Будет удалено .idea/vcs.xml
-Будет удалено node_modules
+Будет удалено ./node_modules
+
