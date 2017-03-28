@@ -1010,7 +1010,7 @@ $lg: 1200px;
     }
     .schedule {
       height: 800px;
-
+      margin-bottom: 100px;
       .holder {
         width: 900px;
         .stages-wrap {
@@ -1055,11 +1055,21 @@ $lg: 1200px;
           .schedule-item2 {
             width: 370px;
             height: 84px;
+            margin-bottom: 50px;
             .pipe {
               margin-left: 66px;
+
+              &::after {
+                @include after;
+                @include iconSprite($yellow-pipe);
+                margin-left: 66px;
+                margin-top: 50px;
+              }
             }
             .descript {
-              width: 338px;
+              width: 200px;
+              font-size: 14px;
+              margin-top: 80px;
             }
           }
           .schedule-item3 {
@@ -1141,11 +1151,20 @@ $lg: 1200px;
           .schedule-item2 {
             width: 370px;
             height: 84px;
+            margin-bottom: 50px;
             .pipe {
               margin-left: 66px;
+              &::after {
+                @include after;
+                @include iconSprite($yellow-pipe);
+                margin-left: 66px;
+                margin-top: 50px;
+              }
             }
             .descript {
-              width: 338px;
+              width: 200px;
+              font-size: 14px;
+              margin-top: 80px;
             }
           }
           .schedule-item3 {
@@ -1156,11 +1175,12 @@ $lg: 1200px;
                 @include after;
                 margin-left: 54px
               }
-            }
+
             .speaker {
               float: right;
               width: 200px;
               margin: 0;
+            }
             }
           }
           .schedule-item4 {
@@ -1694,6 +1714,7 @@ $lg: 1200px;
             }
           }
           .schedule-item2 {
+            margin: 0 auto;
             width: 450px;
             height: 84px;
             .pipe {
@@ -1701,6 +1722,7 @@ $lg: 1200px;
             }
             .descript {
               width: 338px;
+              margin: 0 0;
             }
           }
           .schedule-item3 {
@@ -1776,6 +1798,7 @@ $lg: 1200px;
             }
           }
           .schedule-item2 {
+            margin: 0 auto;
             width: 450px;
             height: 84px;
             .pipe {
@@ -1783,6 +1806,7 @@ $lg: 1200px;
             }
             .descript {
               width: 338px;
+              margin: 0 0;
             }
           }
           .schedule-item3 {
@@ -1796,6 +1820,7 @@ $lg: 1200px;
             }
             .speaker {
               margin: 0 0;
+              float: right;
             }
           }
           .schedule-item4 {
@@ -1818,6 +1843,24 @@ $lg: 1200px;
               float: right;
               margin: 0 0;
             }
+          }
+        }
+      }
+    }
+    .sponsor {
+      height: 200px;
+      .holder {
+        width: 1170px;
+        .sponsor_title {
+          margin: 180px auto 80px auto;
+        }
+        .sponsor_wrap {
+          flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: center;
+          .sponsor_slash {
+            height: 70px;
+            margin-top: 20px;
           }
         }
       }

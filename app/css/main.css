@@ -1063,7 +1063,8 @@
             margin: 20px 145px;
             font-size: 20px; }
   .schedule {
-    height: 800px; }
+    height: 800px;
+    margin-bottom: 100px; }
     .schedule .holder {
       width: 900px; }
       .schedule .holder .stages-wrap {
@@ -1108,11 +1109,27 @@
             width: 200px; }
         .schedule .holder .stages-wrap .schedule-item2 {
           width: 370px;
-          height: 84px; }
+          height: 84px;
+          margin-bottom: 50px; }
           .schedule .holder .stages-wrap .schedule-item2 .pipe {
             margin-left: 66px; }
+            .schedule .holder .stages-wrap .schedule-item2 .pipe::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px -1174px;
+              width: 3px;
+              height: 84px;
+              margin-left: 66px;
+              margin-top: 50px; }
           .schedule .holder .stages-wrap .schedule-item2 .descript {
-            width: 338px; }
+            width: 200px;
+            font-size: 14px;
+            margin-top: 80px; }
         .schedule .holder .stages-wrap .schedule-item3 {
           width: 370px; }
           .schedule .holder .stages-wrap .schedule-item3 .time {
@@ -1181,11 +1198,27 @@
             margin: 0; }
         .schedule .holder .it-stage-wrap .schedule-item2 {
           width: 370px;
-          height: 84px; }
+          height: 84px;
+          margin-bottom: 50px; }
           .schedule .holder .it-stage-wrap .schedule-item2 .pipe {
             margin-left: 66px; }
+            .schedule .holder .it-stage-wrap .schedule-item2 .pipe::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px -1174px;
+              width: 3px;
+              height: 84px;
+              margin-left: 66px;
+              margin-top: 50px; }
           .schedule .holder .it-stage-wrap .schedule-item2 .descript {
-            width: 338px; }
+            width: 200px;
+            font-size: 14px;
+            margin-top: 80px; }
         .schedule .holder .it-stage-wrap .schedule-item3 {
           width: 370px; }
           .schedule .holder .it-stage-wrap .schedule-item3 .time {
@@ -1198,10 +1231,10 @@
               left: 0;
               top: 0;
               margin-left: 54px; }
-          .schedule .holder .it-stage-wrap .schedule-item3 .speaker {
-            float: right;
-            width: 200px;
-            margin: 0; }
+            .schedule .holder .it-stage-wrap .schedule-item3 .time .speaker {
+              float: right;
+              width: 200px;
+              margin: 0; }
         .schedule .holder .it-stage-wrap .schedule-item4 {
           width: 370px;
           height: 84px; }
@@ -1767,12 +1800,14 @@
           .schedule .holder .stages-wrap .schedule-item1 .speaker {
             margin: 0 0; }
         .schedule .holder .stages-wrap .schedule-item2 {
+          margin: 0 auto;
           width: 450px;
           height: 84px; }
           .schedule .holder .stages-wrap .schedule-item2 .pipe {
             margin-left: 66px; }
           .schedule .holder .stages-wrap .schedule-item2 .descript {
-            width: 338px; }
+            width: 338px;
+            margin: 0 0; }
         .schedule .holder .stages-wrap .schedule-item3 {
           width: 450px; }
           .schedule .holder .stages-wrap .schedule-item3 .time {
@@ -1836,12 +1871,14 @@
             float: right;
             margin: 0 0; }
         .schedule .holder .it-stage-wrap .schedule-item2 {
+          margin: 0 auto;
           width: 450px;
           height: 84px; }
           .schedule .holder .it-stage-wrap .schedule-item2 .pipe {
             margin-left: 66px; }
           .schedule .holder .it-stage-wrap .schedule-item2 .descript {
-            width: 338px; }
+            width: 338px;
+            margin: 0 0; }
         .schedule .holder .it-stage-wrap .schedule-item3 {
           width: 450px; }
           .schedule .holder .it-stage-wrap .schedule-item3 .time {
@@ -1855,7 +1892,8 @@
               top: 0;
               margin-left: 54px; }
           .schedule .holder .it-stage-wrap .schedule-item3 .speaker {
-            margin: 0 0; }
+            margin: 0 0;
+            float: right; }
         .schedule .holder .it-stage-wrap .schedule-item4 {
           width: 450px;
           height: 84px; }
@@ -1875,7 +1913,34 @@
               margin-left: 54px; }
           .schedule .holder .it-stage-wrap .schedule-item5 .speaker {
             float: right;
-            margin: 0 0; } }
+            margin: 0 0; }
+  .sponsor {
+    height: 200px; }
+    .sponsor .holder {
+      width: 1170px; }
+      .sponsor .holder .sponsor_title {
+        margin: 180px auto 80px auto; }
+      .sponsor .holder .sponsor_wrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row wrap;
+           -moz-box-orient: horizontal;
+           -moz-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .sponsor .holder .sponsor_wrap .sponsor_slash {
+          height: 70px;
+          margin-top: 20px; } }
 
 .before, .wrapper .header .holder-wrap::before, .wrapper .header .holder .header-nav ul.clearfix li a:hover::before, .wrapper .header .holder .header-nav ul.clearfix li a:active::before, .wrapper .main .advantage .holder .advantage_wrap .advantage_block .advatage_text::before, .wrapper .main .video-block .video-block_wrap::before, .wrapper .main .where-block::before, .wrapper .main .where-block .holder .where-title::before, .wrapper .main .footer .holder .footer-wrap .org-block .agency::before {
   content: '';
@@ -2737,7 +2802,6 @@ body {
             float: right;
             height: 20px; }
         .wrapper .main .schedule .holder .stages-wrap .business-stage-wrap .schedule-item2 {
-          margin: 0 auto;
           position: relative;
           display: -webkit-box;
           display: -webkit-flex;
@@ -2768,11 +2832,8 @@ body {
             height: 84px;
             display: inline-block; }
           .wrapper .main .schedule .holder .stages-wrap .business-stage-wrap .schedule-item2 .descript {
-            width: 338px;
-            display: inline-block;
-            margin: 0 0; }
+            display: inline-block; }
         .wrapper .main .schedule .holder .stages-wrap .business-stage-wrap .schedule-item3 {
-          width: 450px;
           margin: 0 auto;
           display: block; }
           .wrapper .main .schedule .holder .stages-wrap .business-stage-wrap .schedule-item3 .time {
@@ -2867,7 +2928,6 @@ body {
             display: inline;
             height: 20px; }
         .wrapper .main .schedule .holder .stages-wrap .it-stage-wrap .schedule-item2 {
-          margin: 0 auto;
           position: relative;
           display: -webkit-box;
           display: -webkit-flex;
@@ -2898,8 +2958,7 @@ body {
             height: 84px;
             display: inline-block; }
           .wrapper .main .schedule .holder .stages-wrap .it-stage-wrap .schedule-item2 .descript {
-            display: inline-block;
-            margin: 0 0; }
+            display: inline-block; }
         .wrapper .main .schedule .holder .stages-wrap .it-stage-wrap .schedule-item3 {
           margin: 0 auto;
           display: block; }
@@ -2945,13 +3004,10 @@ body {
             height: 20px; }
 
 .wrapper .main .sponsor {
-  width: 100%;
-  height: 200px; }
+  width: 100%; }
   .wrapper .main .sponsor .holder {
-    width: 1170px;
     margin: 0 auto; }
     .wrapper .main .sponsor .holder .sponsor_title {
-      margin: 180px auto 80px auto;
       text-align: center;
       text-transform: uppercase; }
     .wrapper .main .sponsor .holder .sponsor_wrap {
@@ -2961,24 +3017,7 @@ body {
       display: -webkit-flex;
       display: -moz-box;
       display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-flow: row wrap;
-         -moz-box-orient: horizontal;
-         -moz-box-direction: normal;
-          -ms-flex-flow: row wrap;
-              flex-flow: row wrap;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-         -moz-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-         -moz-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
+      display: flex; }
       .wrapper .main .sponsor .holder .sponsor_wrap .sponsor_item0 {
         background-image: url(../img/icons.png);
         background-position: 0px -560px;
@@ -2986,14 +3025,12 @@ body {
         height: 60px; }
       .wrapper .main .sponsor .holder .sponsor_wrap .sponsor_slash {
         width: 2px;
-        height: 70px;
         background-color: #000;
         -webkit-transform: skew(-45deg);
            -moz-transform: skew(-45deg);
             -ms-transform: skew(-45deg);
              -o-transform: skew(-45deg);
-                transform: skew(-45deg);
-        margin-top: 20px; }
+                transform: skew(-45deg); }
       .wrapper .main .sponsor .holder .sponsor_wrap .sponsor_item1 {
         background-image: url(../img/icons.png);
         background-position: 0px -640px;

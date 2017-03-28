@@ -755,7 +755,6 @@ body
                 float: right
                 height: 20px
             .schedule-item2
-              margin: 0 auto
               position: relative
               display: flex
               flex-flow: row nowrap
@@ -765,11 +764,9 @@ body
                 @include iconSprite ($yellow-pipe)
                 display: inline-block
               .descript
-                width: 338px
                 display: inline-block
-                margin: 0 0
+
             .schedule-item3
-              width: 450px
               margin: 0 auto
               display: block
               .time
@@ -848,7 +845,6 @@ body
                 display: inline
                 height: 20px
             .schedule-item2
-              margin: 0 auto
               position: relative
               display: flex
               flex-flow: row nowrap
@@ -859,7 +855,7 @@ body
                 display: inline-block
               .descript
                 display: inline-block
-                margin: 0 0
+
             .schedule-item3
               margin: 0 auto
               display: block
@@ -898,30 +894,23 @@ body
                 height: 20px
     .sponsor
       width: 100%
-      height: 200px
       .holder
-        width: 1170px
         margin: 0 auto
         .sponsor_title
-          margin: 180px auto 80px auto
           text-align: center
           text-transform: uppercase
         .sponsor_wrap
           width: 100%
           height: 100%
           display: flex
-          flex-flow: row wrap
-          justify-content: space-between
-          align-items: center
-
           .sponsor_item0
             @include iconSprite($taventures-logo)
           .sponsor_slash
+
             width: 2px
-            height: 70px
             background-color: #000
             transform: skew(-45deg)
-            margin-top: 20px
+
           .sponsor_item1
             @include iconSprite($growthup-logo)
           .sponsor_slash

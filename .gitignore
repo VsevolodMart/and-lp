@@ -1,5 +1,8 @@
 
 Будет удалено .gitignore
-Будет удалено .idea/vcs.xml
-Будет удалено ./node_modules
-
+Будет удалено .idea/
+Будет удалено app/libs/
+Будет удалено node_modules/
+app/img/
+_.sass-lint.yml/
+_.scss-lint.yml/
