@@ -1208,6 +1208,80 @@ $lg: 1200px;
         }
       }
     }
+    .sponsor {
+      height: 200px;
+      .holder {
+        width: 900px;
+        .sponsor_title {
+          margin: 180px auto 80px auto;
+        }
+        .sponsor_wrap {
+          flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: center;
+          .sponsor_slash0 {
+            height: 70px;
+            margin-top: 20px;
+          }
+          .sponsor_slash1 {
+            height: 70px;
+            margin-top: 20px;
+          }
+          .sponsor_slash2 {
+            height: 70px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    .partners {
+      .holder {
+        width: 900px;
+        .partners_title {
+          margin: 80px auto 80px auto;
+        }
+        .partners_wrap0 {
+          margin-bottom: 20px;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: center;
+          .partners_slash0 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash1 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash2 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+        }
+        .partners_wrap1 {
+          flex-flow: row wrap;
+          justify-content: space-between;
+          .partners_slash4 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash5 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash6 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
   }
   @include respond-to(lg) {
     h1 {
@@ -1858,9 +1932,102 @@ $lg: 1200px;
           flex-flow: row wrap;
           justify-content: space-between;
           align-items: center;
-          .sponsor_slash {
+          .sponsor_slash0 {
             height: 70px;
             margin-top: 20px;
+          }
+          .sponsor_slash1 {
+            height: 70px;
+            margin-top: 20px;
+          }
+          .sponsor_slash2 {
+            height: 70px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    .partners {
+      .holder {
+        width: 1170px;
+        .partners_title {
+          margin: 80px auto 80px auto;
+        }
+        .partners_wrap0 {
+          margin-bottom: 20px;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: center;
+          .partners_slash0 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash1 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash2 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+        }
+        .partners_wrap1 {
+          flex-flow: row wrap;
+          justify-content: space-between;
+          .partners_slash4 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash5 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+          .partners_slash6 {
+            width: 2px;
+            height: 70px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    .form-block {
+      height: 112px;
+      margin-top: 174px;
+      .holder {
+        width: 1170px;
+        .form-block_wrap {
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          .descript {
+            width: 255px;
+          }
+          .form {
+            width: 472px;
+            input[type=text]{
+              width: 472px;
+            }
+          }
+          .form-btn {
+            width: 295px;
+            height: 105px;
+            a {
+              margin-top: 21px;
+              @include btnSprite($btn-subscribe-normal-dt);
+              &:hover {
+                @include btnSprite($btn-subscribe-hover-dt);
+              }
+              &:active {
+                @include btnSprite($btn-subscribe-active-dt);
+              }
+              span {
+                margin: 20px 80px
+              }
+            }
           }
         }
       }
