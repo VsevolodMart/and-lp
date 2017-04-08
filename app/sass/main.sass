@@ -232,11 +232,9 @@ body
               @include iconSprite($icon3)
     .video-block
       max-width: 100%
-      height: 450px
       position: relative
       margin: 0
       .video-block_wrap
-        max-width: 1920px
         width: 100%
         height: 100%
         margin: 0 auto
@@ -246,7 +244,6 @@ body
           background-image: url("../img/bg/scnd_page_bg_blue_retangle.png")
           background-repeat: no-repeat
           background-position: 50% 0%
-          height: 448px
           z-index: -1
           
         &::after
@@ -254,28 +251,19 @@ body
           background-image: url("../img/bg/scnd_page_bg_grey_retangle.png")
           background-repeat: no-repeat
           background-position: 50% 0%
-          height: 448px
           z-index: -1
         .holder
-          width: 1170px
           margin: 0 auto
           height: 100%
           display: flex
           //flex-flow: row wrap
-          justify-content: space-between
-          align-items: center
           .video
             background-color: #000
-            margin: 0px
-            box-shadow: 4px 4px 20px #3b3b3b
 
           .descript
-            width: 560px
+
     .time-block
-      height: 500px
-      margin-top: 180px
       .when
-        margin-bottom: 54px
         text-align: center
         text-transform: uppercase
       .time-block__wrap
@@ -286,8 +274,6 @@ body
         width: 100%
         margin: 0 auto
         .holder
-          width: 1170px
-          margin: 0 auto
           height: 100%
           .time-block__row
             display: flex
@@ -295,8 +281,6 @@ body
             justify-content: space-between
             align-items: center
             height: 108px
-            width: 900px
-
             margin: 0px auto 86px auto
             .seconds__wrap
               display: flex
@@ -320,36 +304,29 @@ body
             flex-flow: row nowrap
             justify-content: space-between
             height: 200px
-            width: 750px
             margin: 0 auto
             .month
               .month__value 
                 font-family: $GothamRegular
-                font-size: 100px
                 color: $blueTxt
                 margin: 0 0
               .month__descript
                 font-family: $GothamRegular
-                font-size: 18px
                 color: #000
                 text-align: center
                 text-transform: lowercase
             .line
-              width: 2px
-              height: 70px
               background-color: #000
               transform: skew(-45deg)
-              margin-top: 20px
-
             .days
               .days__value 
                 font-family: $GothamRegular
-                font-size: 100px
+
                 color: $blueTxt
                 margin: 0 0
               .days__descript
                 font-family: $GothamRegular
-                font-size: 18px
+
                 color: #000
                 text-align: center
                 text-transform: lowercase
@@ -357,12 +334,10 @@ body
             .hours
               .hours__value 
                 font-family: $GothamRegular
-                font-size: 100px
                 color: $blueTxt
                 margin: 0 0
               .hours__descript
                 font-family: $GothamRegular
-                font-size: 18px
                 color: #000
                 text-align: center
                 text-transform: lowercase
@@ -370,32 +345,25 @@ body
             .minutes
               .minutes__value
                 font-family: $GothamRegular
-                font-size: 100px
                 color: $blueTxt
                 margin: 0 0 
               .minutes__descript
                 font-family: $GothamRegular
-                font-size: 18px
                 color: #000
                 text-align: center
                 text-transform: lowercase
     .where-block
       position: relative
-      height: 500px
       width: 100%
-      
       &::before
         @extend .before
         background-image: url("../img/bg/where_blue_bg.png")
         background-repeat: no-repeat
-        background-position: 50% 50%
-        height: 112px
+        background-position: 0% 50%
+        height: 25px
         width: 100%
-        top: 250px
       .btn-block
         position: relative
-        top: 275px
-        width: 355px
         height: 110px
         margin: 0px auto 0px auto
         a
@@ -408,48 +376,35 @@ body
           position: absolute          
           text-decoration: none
           width: 100%
-          @include btnSprite($btn-start-normal-dt)
           &:hover
-            @include btnSprite($btn-start-hover-dt)
           &:active
-            @include btnSprite($btn-star-active-dt)
           span
             position: absolute
-            margin: 20px 145px
             font-family: $GothamBlack
             font-size: 20px 
       .holder
-        width: 1170px
         margin: 0 auto
         .where
-          margin-bottom: 54px
           text-align: center
           text-transform: uppercase
         .where-title
           color: $yelowTxt
           font-family: $GothamBold
-          font-size: 20px
           text-align: center
           position: relative
-
           &::before
             @extend .before
             @include iconSprite($mark_page2)
-            margin-left: 406px
           span
             color: $blueTxt
     .tabs-block
-      height: 600px
       width: 100%
       position: relative
       .holder
-        width: 1170px
         margin: 0 auto
         height: 100%
         .tabs-block__wrap
           display: flex
-          flex-flow: row nowrap
-          justify-content: space-between
           .knowledge
             position: relative
             display: block
@@ -459,10 +414,8 @@ body
                 .icon1-hover
               .text-wrap
                 .h3
-                  color: $greyTxt
                   text-transform: uppercase
                 .p1
-                  color: $greyTxt
           .case
             position: relative
             display: block
@@ -472,10 +425,8 @@ body
                 .icon2-hover
               .text-wrap
                 .h3
-                  color: $greyTxt
                   text-transform: uppercase
                 .p1
-                  color: $greyTxt
           .networking
             position: relative
             display: block
@@ -485,10 +436,8 @@ body
                 .icon3-hover
               .text-wrap
                 .h3
-                  color: $greyTxt
                   text-transform: uppercase
                 .p1
-                  color: $greyTxt
     .speakers
       width: 100%
       margin: 0
@@ -1023,77 +972,47 @@ body
     .map
       background: url("../img/bg/footer_map.png") no-repeat 50% 50%
       width: 100%
-      height: 394px
       position: relative
       .holder
-        width: 1170px
         margin: 0 auto
         .mark
           @include iconSprite($mark-map-footer)
           position: absolute
-          margin: 85px 0px 0px 376px
     .footer
       width: 100%
       height: 100%
       .holder
-        width: 1170px
+        height: 100%
         margin: 0 auto
         .footer-wrap
           background: url("../img/bg/footer_blueline_logo.png") no-repeat 50% 50%
-          width: 531px
-          height: 252px 
-          margin-left: -138px
-          float: left
+
           .org-block
             position: absolute
-            width: 220px
-            height: 100px
-            margin: 100px 0px 0px 140px
-
             .descript
               font-family: $GothamBlack
-              font-size: 22px
               margin: 0
               color: $whiteTxt
             .agency
               font-family: $GothamLight
-              font-size: 16px
-              margin-top: 10px
               color: $whiteTxt
-              padding-left: 50px
               &::before
                 @extend .before
                 @include iconSprite($logo-on-grey-retangle)
                 display: block
-                margin-top: 66px
         .footer-pipe
-          width: 1px
-          height: 252px
-          transform: skew(-45deg)
-          background-color: $greyTxt
-          float: left
-          margin-left: 330px
         .networks
-          width: 92px
-          height: 30px
+
           float: right
           display: flex
           flex-flow: row nowrap
-          justify-content: space-between
-          align-items: flex-end
-          margin-top: 120px
           .vk
-            @include iconSprite($vk)
-            
           .fb
-            @include iconSprite($facebook)
           .be
-            @include iconSprite($tumblr)
+
         .copyright
           float: right
-          margin: 200px -94px 0px 0px
           font-family: $GothamLight
-          font-size: 16px
           color: $greyTxt
 
 
