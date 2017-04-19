@@ -1,39 +1,37 @@
-var gulp = require('gulp'),
-  sass = require('gulp-sass'),
-  pug = require('gulp-pug'),
-  browserSync = require('browser-sync'),
-  concat = require('gulp-concat'),
-  uglify = require('gulp-uglifyjs'),
-  rename = require('gulp-rename'),
-  del = require('del'),
-  autoprefixer = require('gulp-autoprefixer'),
-  sprite = require('gulp.spritesmith'),
-  buffer = require('vinyl-buffer'),
-  imagemin = require('gulp-imagemin'),
-  csso = require('gulp-csso')
-  sassLint = require('gulp-sass-lint')
-  ;
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const pug = require('gulp-pug');
+const browserSync = require('browser-sync');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglifyjs');
+const rename = require('gulp-rename');
+const del = require('del');
+const autoprefixer = require('gulp-autoprefixer');
+const sprite = require('gulp.spritesmith');
+const buffer = require('vinyl-buffer');
+const imagemin = require('gulp-imagemin');
+const csso = require('gulp-csso');
+const sassLint = require('gulp-sass-lint');
 
-gulp.task('sass-lint', function () {
-  return gulp.src('sass/**/*.s+(a|c)ss')
-    .pipe(sassLint({
-      options: {
-        formatter: 'stylish',
-        'merge-default-rules': false
-      },
-      files: {
-        include: 'app/sass**/*+s(a|c)ss',
-        ignore: ''},
-      rules: {
-        'no-ids': 1,
-        'no-mergeable-selectors': 0
-      },
-      configFile: '.sass-lint.yml'
-    }))
-    .pipe(sassLint.format())
-    .pipe(sassLint.failOnError())
-
-});
+// gulp.task('sass-lint', function () {
+//   return gulp.src('sass/**/*.s+(a|c)ss')
+//     .pipe(sassLint({
+//       options: {
+//         formatter: 'stylish',
+//         'merge-default-rules': false
+//       },
+//       files: {
+//         include: 'app/sass**/*+s(a|c)ss',
+//         ignore: ''},
+//       rules: {
+//         'no-ids': 1,
+//         'no-mergeable-selectors': 0
+//       },
+//       configFile: '.sass-lint.yml'
+//     }))
+//     .pipe(sassLint.format())
+//     .pipe(sassLint.failOnError())
+//  });
 
 gulp.task('clean', function() {
   return del.sync('app/fonts/*/')
@@ -149,7 +147,7 @@ gulp.task('browserSync', function() {
 
 
 
-gulp.task('watch', ['sass', 'sass-libs', 'pug', 'scripts', 'browserSync', 'sass-lint'], function() {
+gulp.task('watch', ['sass', 'sass-libs', 'pug', 'scripts', 'browserSync'], function() {
   gulp.watch('app/libs/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss', ['sass-libs'], browserSync.reload);
   gulp.watch('app/sass/**/*.+(sass|scss)', ['sass', 'sass-libs'], browserSync.reload);
   gulp.watch('app/**/*.pug', ['pug']);
@@ -180,4 +178,4 @@ gulp.task('build', ['clean', 'sass', 'scripts'], function() {
 
   //var buildHtml = gulp.src('app/*.html')
   //                  .pipe(gulp.dest('dist'))
-})
+});

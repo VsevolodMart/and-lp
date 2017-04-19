@@ -458,125 +458,73 @@ body
           .speakers-block2
             position: relative
             .speakers-inner-block2
-              width: 270px
-              height: 460px
-              margin: 30px auto 0 auto
               .icon
                 background-image: url("../img/bg/Linus-Torvalds.png")
                 background-repeat: no-repeat
-                width: 270px
-                height: 282px
                 display: block
               .text-wrap
-                width: 270px
                 text-align: center
           .speakers-block3
             position: relative
             .speakers-inner-block3
-              width: 270px
-              height: 460px
-              margin: 30px auto 0 auto
               .icon
                 background-image: url("../img/bg/RICHARD-STALLMAN.png")
                 background-repeat: no-repeat
-                width: 270px
-                height: 282px
                 display: block
               .text-wrap
-                width: 270px
                 text-align: center
           .speakers-block4
             position: relative
             .speakers-inner-block4
-              width: 270px
-              height: 460px
-              margin: 30px auto 0 auto
               .icon
                 background-image: url("../img/bg/tim-berners-lee.png")
                 background-repeat: no-repeat
-                width: 270px
-                height: 282px
                 display: block
               .text-wrap
-                width: 270px
                 text-align: center
         .others-wrap
           .others-block0
-            width: 170px
-            height: 260px
             .others-icon0
-              width: 170px
-              height: 168px
               display: block
               background: url("../img/bg/others.png")
             .others-txt-block
               text-align: center
               .p2
-                font-size: 14px
           .others-block1
-            width: 170px
-            height: 260px
             .others-icon1
-              width: 170px
-              height: 168px
               display: block
               background: url("../img/bg/others.png")
             .others-txt-block
               text-align: center
               .p2
-                font-size: 14px
-          
           .others-block2
-            width: 170px
-            height: 260px
             .others-icon2
-              width: 170px
-              height: 168px
               display: block
               background: url("../img/bg/others.png")
             .others-txt-block
               text-align: center
               .p2
-                font-size: 14px
-          
           .others-block3
-            width: 170px
-            height: 260px
             .others-icon3
-              width: 170px
-              height: 168px
               display: block
               background: url("../img/bg/others.png")
             .others-txt-block
               text-align: center
               .p2
-                font-size: 14px
-          
           .others-block4
-            width: 170px
-            height: 260px
             .others-icon4
-              width: 170px
-              height: 168px
               display: block
               background: url("../img/bg/others.png")
             .others-txt-block
               text-align: center
               .p2
-                font-size: 14px
-          
           .others-block5
-            width: 170px
-            height: 260px
             .others-icon5
-              width: 170px
-              height: 168px
               display: block
               background: url("../img/bg/others.png")
             .others-txt-block
               text-align: center
               .p2
-                font-size: 14px
     .cost
       width: 100%
       .holder
@@ -776,7 +724,7 @@ body
               margin: 0 auto
               position: relative
               .pipe
-                @include iconSprite($yellow-pipe)
+                @include iconSprite($blue-pipe)
                 display: inline-block
             .schedule-item1
               margin: 0 auto
@@ -788,7 +736,7 @@ body
                 font-family: $GothamBlack
                 &::after
                   @extend .after
-                  @include iconSprite($yellow-triangle-pipe)
+                  @include iconSprite($blue-triangle-pipe)
                   display: block
               .speaker
                 display: inline
@@ -800,7 +748,7 @@ body
               justify-content: space-between
               align-items: center
               .pipe
-                @include iconSprite ($yellow-pipe)
+                @include iconSprite ($blue-pipe)
                 display: inline-block
               .descript
                 display: inline-block
@@ -815,7 +763,7 @@ body
                 font-family: $GothamBlack
                 &::after
                   @extend .after
-                  @include iconSprite($yellow-triangle-pipe)
+                  @include iconSprite($blue-triangle-pipe)
                   display: block
               .speaker
                 display: inline
@@ -824,7 +772,7 @@ body
               margin: 0 auto
               position: relative
               .pipe
-                @include iconSprite ($yellow-pipe)
+                @include iconSprite ($blue-pipe)
                 display: inline-block
             .schedule-item5
               margin: 0 auto
@@ -836,7 +784,7 @@ body
                 font-family: $GothamBlack
                 &::after
                   @extend .after
-                  @include iconSprite($yellow-triangle-pipe)
+                  @include iconSprite($blue-triangle-pipe)
                   display: block
               .speaker
                 display: inline
@@ -850,7 +798,7 @@ body
           text-transform: uppercase
         .sponsor_wrap
           width: 100%
-          height: 100%
+          //height: 100%
           display: flex
           .sponsor_item0
             @include iconSprite($taventures-logo)
@@ -885,7 +833,6 @@ body
           text-transform: uppercase
         .partners_wrap0
           width: 100%
-          height: 100%
           display: flex
           .partners_item0
             @include iconSprite($taventures-logo)
@@ -906,7 +853,6 @@ body
             @include iconSprite($taventures-logo)
         .partners_wrap1
           width: 100%
-          height: 100%
           display: flex
           align-items: center
           .partners_item4
@@ -928,7 +874,6 @@ body
             @include iconSprite($taventures-logo)
     .form-block
       width: 100%
-      background: url('../img/bg/subscription_bg.png')
       .holder
         margin: 0 auto
         .form-block_wrap
@@ -948,23 +893,18 @@ body
               font-size: 16px
               color: $whiteTxt
           .form-btn
-            width: 295px
             height: 105px
             a
               position: relative
               color: $whiteTxt
               display: block
               font-family: $GothamBlack
-              height: 100%
+              //height: 100%
               outline: none
               position: absolute          
               text-decoration: none
-              width: 100%
-              @include btnSprite($btn-subscribe-normal-dt)
               &:hover
-                @include btnSprite($btn-subscribe-hover-dt)
               &:active
-                @include btnSprite($btn-subscribe-active-dt)
               span
                 position: absolute
                 font-family: $GothamBlack
