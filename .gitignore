@@ -1,8 +1,6 @@
-
-Будет удалено .gitignore/
-Будет удалено .idea/
-Будет удалено app/libs/
-Будет удалено node_modules/
+.idea
+app/libs/*.*
+node_modules
 app/img/
-Будет удалено _.sass-lint.yml/
-Будет удалено _.scss-lint.yml/
+_.sass-lint.yml
+_.scss-lint.yml

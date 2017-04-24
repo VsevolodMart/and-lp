@@ -173,29 +173,69 @@ $lg: 1200px;
       }
     }
   }
-  .main .advantage {
-    height: 500px !important;
-  }
-  .wrapper .main .advantage .holder .advantage_wrap {
-    -webkit-flex-flow: column nowrap !important;
-    -ms-flex-flow: column nowrap !important;
-    flex-flow: column nowrap !important;
-    padding: 0 0 0 50px !important;
-    margin: 30px 0 0 !important;
-    .advantage_block .advantage_icon {
-      float: left;
-    }
-    .advantage_block .advatage_text {
-      float: left;
-      width: 120px;
-      margin-left: 20px;
+  .advantage {
+    height: 100%;
+    .holder {
+      width: 370px;
+      .advantage_wrap {
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 760px;
+        width: 370px;
+        padding: 50px 0px 50px 0px;
+        .advantage_block {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-start;
+          align-items: center;
+          width: 100%;
+          height: 200px;
+        }
+        .advantage_speakers {
+          .advantage_icon {
+            padding-left: 20px;
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+          }
+        }
+        .advantage_stream {
+          .advantage_icon {
+            padding-left: 20px;
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+
+          }
+        }
+        .advantage_reporter {
+          .advantage_icon {
+            padding-left: 20px;
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+          }
+        }
+      }
     }
   }
   .video-block {
     height: 580px;
     .video-block_wrap {
       &::after {
-        margin-top: 115px;
+        margin-top: 125px;
+        margin-left: -383px;
+        padding-right: 390px;
       }
       .holder {
         width: 320px;
@@ -217,24 +257,27 @@ $lg: 1200px;
     }
   }
   .time-block {
-    height: 310px;
-    margin-top: 180px;
+    height: 280px;
+    margin-top: 0px;
 
     .when {
-      margin-bottom: 54px;
+      margin-bottom: 24px;
     }
     .time-block__wrap {
       .holder {
-        width: 320px;
+        width: 370px;
         margin: 0 auto;
         .time-block__row {
           width: 320px;
+          height: 108px;
+          margin: 0px auto 24px auto;
           .seconds__wrap {
             display: none !important;
           }
         }
         .global-timer {
-          width: 320px;
+          width: 370px;
+          height: 76px;
           .month {
             .month__value {
               font-size: 35px;
@@ -306,7 +349,7 @@ $lg: 1200px;
       }
       .where-title {
         font-size: 20px;
-        margin-left: 10px;
+        text-align: center;
         &::before {
           margin-left: -5px;
         }
@@ -1171,6 +1214,45 @@ $lg: 1200px;
       }
     }
   }
+  .map {
+    height: 394px;
+    .holder {
+      width: 370px;
+      .mark {
+        margin: 85px 0px 0px 38px;
+      }
+    }
+  }
+  .footer {
+    .holder {
+      width: 370px;
+      .footer-wrap {
+        display: none;
+      }
+
+      .networks {
+        width: 92px;
+        height: 30px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto 0px auto;
+        .vk {
+          @include iconSprite($vk);
+        }
+        .fb {
+          @include iconSprite($facebook);
+        }
+        .be {
+          @include iconSprite($tumblr);
+        }
+
+      }
+      .copyright {
+        margin: 20px auto 0px auto;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 @include respond-to(sm) {
@@ -1289,6 +1371,64 @@ $lg: 1200px;
       }
     }
   }
+  .advantage {
+    height: 436px;
+    .holder {
+      width: 700px;
+      .advantage_wrap {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 436px;
+        width: 700px;
+        padding: 0px 0px 0px 0px;
+        .advantage_block {
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-between;
+          align-items: center;
+          width: 100% / 3;
+          height: 250px;
+        }
+        .advantage_speakers {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+            margin-left: 12%;
+          }
+        }
+        .advantage_stream {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+            margin-left: 27%;
+          }
+        }
+        .advantage_reporter {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+            margin-left: 0%;
+          }
+        }
+      }
+    }
+  }
   .video-block {
     height: 700px;
     .video-block_wrap {
@@ -1323,9 +1463,11 @@ $lg: 1200px;
         margin: 0 auto;
         .time-block__row {
           width: 700px;
+          margin: 0px auto 86px auto
         }
         .global-timer {
           width: 700px;
+          height: 200px;
           .month {
             .month__value {
               font-size: 70px;
@@ -1368,7 +1510,7 @@ $lg: 1200px;
     }
   }
   .where-block {
-    height: 500px;
+    height: 360px;
     &::before {
       @include before;
       margin-top: 180px;
@@ -1432,12 +1574,12 @@ $lg: 1200px;
               &::before {
                 @include before;
                 @include iconSprite($hover-triangle-left);
-                margin: 20px 0 0px -140px;
+                margin: 20px 0 0px -160px;
               }
               &::after {
                 @include after;
                 @include iconSprite($hover-triangle-top);
-                margin: -130px 0px 0px 155px;
+                margin: -110px 0px 0px 155px;
               }
               .icon1-normal {
                 margin: 0;
@@ -1447,7 +1589,7 @@ $lg: 1200px;
                 &::after {
                   @include after;
                   @include iconSprite($hover-triangle-right);
-                  margin: 100px 0px 0px 200px;
+                  margin: 100px 0px 0px 165px;
                 }
               }
             }
@@ -1500,12 +1642,12 @@ $lg: 1200px;
               &::before {
                 @include before;
                 @include iconSprite($-blue-triangle-left);
-                margin: 20px 0px 0px -140px
+                margin: 140px 0px 0px -150px;
               }
               &::after {
                 @include after;
                 @include iconSprite($-blue-triangle-top);
-                margin: -130px 0px 0px 155px
+                margin: -100px 0px 0px -65px;
               }
               .icon2-normal {
                 margin: 0;
@@ -1515,7 +1657,7 @@ $lg: 1200px;
                 &::after {
                   @include after;
                   @include iconSprite($-blue-triangle-right);
-                  margin: 100px 0px 0px 200px;
+                  margin: 150px 0px 0px 80px;
                 }
               }
             }
@@ -1568,12 +1710,12 @@ $lg: 1200px;
               &::before {
                 @include before;
                 @include iconSprite($hover-triangle-left);
-                margin: 20px 0px 0px -140px;
+                margin: 20px 0px 0px -160px;
               }
               &::after {
                 @include after;
                 @include iconSprite($hover-triangle-top);
-                margin: -130px 0px 0px 155px;
+                margin: -110px 0px 0px 155px;
               }
               .icon3-normal {
                 margin: 0;
@@ -1583,7 +1725,7 @@ $lg: 1200px;
                 &::after {
                   @include after;
                   @include iconSprite($hover-triangle-right);
-                  margin: 100px 0px 0px 200px;
+                  margin: 100px 0px 0px 165px;
                 }
               }
             }
@@ -2335,6 +2477,7 @@ $lg: 1200px;
         justify-content: space-between;
         align-items: flex-end;
         margin-top: 120px;
+        float: right;
         .vk {
           @include iconSprite($vk);
         }
@@ -2448,7 +2591,64 @@ $lg: 1200px;
       }
     }
   }
+  .advantage {
+    height: 436px;
+    .holder {
+      width: 900px;
+      .advantage_wrap {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 436px;
+        width: 900px;
+        padding: 0px 0px 0px 0px;
+        .advantage_block {
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-between;
+          align-items: center;
+          width: 100% / 3;
+          height: 250px;
+        }
+        .advantage_speakers {
+          .advantage_icon {
 
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+            margin-left: 12%;
+          }
+        }
+        .advantage_stream {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+            margin-left: 27%;
+          }
+        }
+        .advantage_reporter {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 16px;
+            margin-left: 0%;
+          }
+        }
+      }
+    }
+  }
   .video-block {
     height: 700px;
     .video-block_wrap {
@@ -2483,9 +2683,11 @@ $lg: 1200px;
         margin: 0 auto;
         .time-block__row {
           width: 900px;
+          margin: 0px auto 86px auto
         }
         .global-timer {
           width: 750px;
+          height: 200px;
           .month {
             .month__value {
               font-size: 100px;
@@ -2528,7 +2730,7 @@ $lg: 1200px;
     }
   }
   .where-block {
-    height: 500px;
+    height: 360px;
     &::before {
       @include before;
       margin-top: 180px;
@@ -3033,7 +3235,6 @@ $lg: 1200px;
       width: 100%;
       height: 560px;
       z-index: -1;
-
     }
     .holder {
       width: 900px;
@@ -3423,6 +3624,7 @@ $lg: 1200px;
         justify-content: space-between;
         align-items: flex-end;
         margin-top: 120px;
+        float: right;
         .vk {
           @include iconSprite($vk);
         }
@@ -3484,6 +3686,63 @@ $lg: 1200px;
     font-family: $GothamRegular;
     color: $greyTxt;
   }
+  .advantage {
+    height: 436px;
+    .holder {
+      max-width: 1170px;
+      .advantage_wrap {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 436px;
+        padding: 0px 0px 0px 0px;
+        .advantage_block {
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-between;
+          align-items: center;
+          width: 100% / 3;
+          height: 260px;
+        }
+        .advantage_speakers {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 18px;
+            margin-left: 12%;
+          }
+        }
+        .advantage_stream {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 18px;
+            margin-left: 27%;
+          }
+        }
+        .advantage_reporter {
+          .advantage_icon {
+
+          }
+          .advantage_text {
+            display: inline;
+            margin-top: 36px;
+            padding: 20px 0px 0px 0px;
+            font-size: 18px;
+            margin-left: 0%;
+          }
+        }
+      }
+    }
+  }
   .video-block {
     height: 450px;
     .video-block_wrap {
@@ -3523,9 +3782,11 @@ $lg: 1200px;
         margin: 0 auto;
         .time-block__row {
           width: 900px;
+          margin: 0px auto 86px auto
         }
         .global-timer {
           width: 750px;
+          height: 200px;
           .month {
             .month__value {
               font-size: 100px;
@@ -4462,6 +4723,7 @@ $lg: 1200px;
         justify-content: space-between;
         align-items: flex-end;
         margin-top: 120px;
+        float: right;
         .vk {
           @include iconSprite($vk);
         }

@@ -24,7 +24,7 @@ const sassLint = require('gulp-sass-lint');
 //         include: 'app/sass**/*+s(a|c)ss',
 //         ignore: ''},
 //       rules: {
-//         'no-ids': 1,
+//         'no-ids': 1,pamp
 //         'no-mergeable-selectors': 0
 //       },
 //       configFile: '.sass-lint.yml'
