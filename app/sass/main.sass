@@ -41,24 +41,17 @@ body
         max-width: 100%
         &::after
           @extend .after
-          background-image: url("../img/bg/first_page_bg_blueline1.png")
-          background-repeat: no-repeat
-          background-position: 50% 100%
+
         &::before
           @extend .before
-          background-image: url("../img/bg/first_page_bg_map.png")
-          background-position: 50% 100%
-          //width: 1675px
-          z-index: -1
+
         .holder
-          width: 1170px
           margin: 0px auto
           position: relative
-          z-index: 100
+          z-index: 1
           .logo
-            @include iconSprite($logo)
             position: absolute
-            margin: 20px 0px 0px 0px
+
           .header-nav
             position: absolute
             padding: 0px 0px 0px 0px
@@ -107,83 +100,57 @@ body
 
           .info-block
             float: right
-            margin-top: 400px
-            width: 200px
             .geotag
               @include iconSprite($mark-on-map2)
               position: absolute
-              margin-left: 130px
-
             .title
               position: absolute
-              margin-top: -30px
-              font-family: $GothamBlack
-              font-size: 36px
+              font-family: $GothamBold
               color: rgb(103, 103, 103)
-
             .date
               position: absolute
-              margin-top: 10px
-              font-size: 30px
               font-family: $GothamLight
+              color: rgb(103, 103, 103)
               span
                 color: rgb(38,158,216)
                 font-family: $GothamBlack
-                font-size: 36px
           .slogan
             position: absolute
-            margin: 290px 0px 0px 0px
-            width: 780px
             h1
               color: $whiteTxt
             .description
-              width: 580px
               color: $whiteTxt
           .start-btn
             position: absolute
-            margin: 700px 380px
             a
               position: relative
               color: $whiteTxt
               display: block
               font-family: $GothamBlack
-              height: 100%
               outline: none
               position: absolute
               text-decoration: none
-              width: 100%
-              @include btnSprite($btn-start-normal-dt)
-              &:hover
-                @include btnSprite($btn-start-hover-dt)
-              &:active
-                @include btnSprite($btn-star-active-dt)
+              //@include btnSprite($btn-start-normal-dt)
+              //&:hover
+              //  @include btnSprite($btn-start-hover-dt)
+              //&:active
+              //  @include btnSprite($btn-star-active-dt)
               span
                 position: absolute
-                margin: 20px 145px
                 font-family: $GothamBlack
                 font-size: 20px
     .header-footer
-      background-color: #000
       bottom: 0
-      height: 80px
       left: 0
-      opacity: .8
       position: absolute
       width: 100%
       .holder-footer
         display: flex
         margin: auto
-        width: 800px
-        flex-flow: row wrap
-        justify-content: space-around
-        align-items: center
-        height: 80px
         .header-footer__org
           color: $whiteTxt
-
         .header-footer__logo
           @include iconSprite($logo-on-grey-retangle)
-
         .header-footer__agency
           color: $whiteTxt
     .advantage
@@ -224,7 +191,6 @@ body
           background-repeat: no-repeat
           background-position: 50% 0%
           z-index: -1
-          
         &::after
           @extend .after
           background-image: url("../img/bg/scnd_page_bg_grey_retangle.png")
@@ -238,9 +204,7 @@ body
           //flex-flow: row wrap
           .video
             background-color: #000
-
           .descript
-
     .time-block
       .when
         text-align: center

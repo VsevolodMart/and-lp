@@ -103,73 +103,94 @@ $lg: 1200px;
   .small-txt {
     font-family: $GothamRegular;
   }
-  .info-block {
-    display: none;
+  .welcome-screen {
+    height: 588px;
+    .holder-wrap {
+      height: 588px;
+      &::after {
+        @include after;
+        background-image: url("../img/bg/first_page_bg_blueline-mob.png");
+        height: 588px;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        width: 673px;
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+      &::before {
+        @include before;
+        background-image: url("../img/bg/first_page_bg_map_mob.png");
+        background-position: 50% 100%;
+        z-index: -1;
+        margin-left: -200px;
+        padding-left: 200px;
+      }
+    }
+    .holder {
+      width: 370px;
+      .logo {
+        margin: 20px 0px 0px 10px;
+        @include iconSprite($logo-mob);
+
+      }
+      .info-block {
+        margin: 330px 0px 0px 0px;
+        width: 200px;
+        .geotag {
+          margin-left: 285px;
+        }
+        .title {
+          margin: 0px 0px 0px 265px;
+          font-size: 24px;
+        }
+        .date {
+          margin: 40px 0px 0px 265px;
+          font-size: 18px;
+          width: 100px;
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+      .slogan {
+        margin: 160px 0px 0px 10px;
+        width: 300px;
+        .description {
+          width: 240px;
+        }
+      }
+      .start-btn {
+        margin: 400px 0px 0px 40px;
+        a {
+          @include btnSprite($btn-start-normal-mobile);
+          &:active {
+            @include btnSprite($btn-start-activel-mobile);
+          }
+          span {
+            margin: 20px 0px 0px 120px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
-  .wrapper .header .holder .start-btn {
-    margin: 413px 20px;
-    @include btnSprite($btn-start-normal-mobile);
-    &:hover {
-      @include btnSprite($btn-start-activel-mobile);
-    }
-    &:active {
-      @include btnSprite($btn-start-activel-mobile);
-    }
-    a {
-      @include btnSprite($btn-start-normal-mobile);
-      &:hover {
-        @include btnSprite($btn-start-activel-mobile);
-      }
-      &:active {
-        @include btnSprite($btn-start-activel-mobile);
-      }
-      span {
-        margin: 20px 125px;
-        font-family: $GothamBlack;
-        font-size: 20px;
-      }
-    }
-  }
-  .header .header-footer {
-    background-color: #4c4c4c;
-    z-index: 100;
-    bottom: 0;
-    height: 112px;
-    left: 0;
-    opacity: 1;
-    /*position: absolute;*/
-    width: 100%;
+  .header-footer {
+    height: 110px;
+    background-color: #3b3b3b;
     .holder-footer {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      margin: auto;
-      width: 300px;
-      -webkit-flex-flow: column nowrap;
-      -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
+      width: 100%;
+      height: 110px;
+      flex-flow: column wrap;
+      justify-content: space-around;
       align-items: center;
-      height: 112px;
       .header-footer__org {
-        color: $whiteTxt;
-        font-size: 14px;
-        font-family: $GothamBold;
-        margin-bottom: 0;
+        margin: 10px 0px 0px 0px;
       }
       .header-footer__logo {
-        @include iconSprite($logo-on-grey-retangle);
+        margin: 5px 0px;
       }
       .header-footer__agency {
-        color: $whiteTxt;
-        margin-top: 0;
+        margin: 0px 0px 10px 0px;
       }
     }
   }
@@ -1296,79 +1317,87 @@ $lg: 1200px;
     font-family: $GothamRegular;
     color: $greyTxt;
   }
-  .wrapper .header .holder {
-    width: 750px;
-  }
-  .wrapper .header .holder-wrap::before {
-    background-image: url("../img/bg/first_page_bg_map_tab.png");
-    padding-left: -300px !important;
-  }
-  .wrapper .header .holder-wrap::after {
-    background-image: url("../img/bg/first_page_bg_blueline-tablet.png");
-    /*background-size: 1600px 924px;*/
-    padding-left: 370px;
-  }
-  .header .holder-wrap .holder .header-nav {
-    margin: 80px 0 0 400px;
-    height: auto;
-    width: 300px;
-    #collapse {
-      display: block;
-      position: relative;
-      width: 100%;
+
+
+  .welcome-screen {
+    height: 924px;
+    .holder-wrap {
+      height: 924px;
+      &::after {
+        @include after;
+        background-image: url("../img/bg/first_page_bg_blueline-tablet.png");
+        height: 924px;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        width: 673px;
+        margin-left: -0px;
+        padding-left: 0px;
+      }
+      &::before {
+        @include before;
+        background-image: url("../img/bg/first_page_bg_map_tab.png");
+        background-position: 50% 100%;
+        z-index: -1;
+        margin-left: -200px;
+        padding-left: 200px;
+      }
     }
-  }
-  .logo {
-    @include iconSprite($logo);
-    margin: 20px 0 0;
-  }
-  .wrapper .header .holder .info-block {
-    margin-top: 550px !important;
-    width: 200px;
-    .geotag {
-      @include iconSprite($mark-on-map2);
-      margin-left: 150px;
-    }
-    .title {
-      margin-top: -10px;
-      margin-left: 70px;
-      font-size: 26px;
-    }
-    .date {
-      margin-top: 20px;
-      margin-left: 70px;
-      font-size: 20px;
-      span {
-        font-size: 26px;
+    .holder {
+      width: 750px;
+      .logo {
+        margin: 20px 0px 0px 10px;
+        @include iconSprite($logo-mob);
+      }
+      .info-block {
+        margin: 540px 0px 0px 0px;
+        width: 200px;
+        .geotag {
+          margin-left: 85px;
+        }
+        .title {
+          margin: 0px 0px 0px 65px;
+          font-size: 24px;
+        }
+        .date {
+          margin: 40px 0px 0px 65px;
+          font-size: 20px;
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+      .slogan {
+        margin: 290px 0px 0px 10px;
+        width: 690px;
+        .description {
+          width: 580px;
+        }
+      }
+      .start-btn {
+        margin: 700px 0px 0px 230px;
+        a {
+          @include btnSprite($btn-start-normal-tablet);
+          &:active {
+            @include btnSprite($btn-start-active-tablet);
+          }
+          span {
+            margin: 20px 145px;
+            font-size: 20px;
+          }
+        }
       }
     }
   }
-  .slogan {
-    margin: 290px 0 0;
-    width: 780px;
-    h1 {
-      color: $whiteTxt;
-    }
-    .description {
-      width: 580px;
-      color: $whiteTxt;
-    }
-  }
-  .start-btn {
-    margin: 670px 280px !important;
-    a {
-      @include btnSprite($btn-start-normal-dt);
-      &:hover {
-        @include btnSprite($btn-start-hover-dt);
-      }
-      &:active {
-        @include btnSprite($btn-star-active-dt);
-      }
-      span {
-        margin: 20px 145px;
-        font-family: $GothamBlack;
-        font-size: 20px;
-      }
+  .header-footer {
+    height: 80px;
+    opacity: .8;
+    background-color: #000;
+    .holder-footer {
+      width: 800px;
+      height: 80px;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
     }
   }
   .advantage {
@@ -2538,57 +2567,85 @@ $lg: 1200px;
     font-family: $GothamRegular;
     color: $greyTxt;
   }
-  .wrapper .header {
-  }
-  .wrapper .header .holder-wrap::after {
-    background-position: 50% 100% !important;
-    /*background-size: 1600px 924px;*/
-    padding-left: 235px;
-  }
-  .wrapper .header .holder-wrap::before {
-    background-image: url("../img/bg/first_page_bg_map_tab.png");
-    background-position: 50% 100%;
-    max-width: 100%;
-    z-index: -1;
-    padding-right: 100px !important;
-  }
-  .wrapper .header .holder {
-    width: 900px;
-  }
-  .header .holder-wrap .holder .header-nav {
-    margin: 80px 0 0 400px;
-  }
-  .wrapper .header .holder .info-block {
-    float: right;
-    margin-top: 550px !important;
-    width: 200px;
-  }
-  .wrapper .header .holder .info-block .geotag {
-    margin-left: 160px;
-  }
-  .wrapper .header .holder .info-block .title {
-    margin-left: 50px;
-  }
-  .wrapper .header .holder .info-block .date {
-    margin-left: 50px;
-  }
-  .wrapper .header .holder .start-btn {
-    position: absolute;
-    margin: 640px 430px;
-    a {
-      @include btnSprite($btn-start-normal-tablet);
-      span {
-        position: absolute;
-        margin: 20px 145px;
-        font-family: $GothamBlack;
-        font-size: 20px;
+
+  .welcome-screen {
+    height: 924px;
+    .holder-wrap {
+      height: 924px;
+      &::after {
+        @include after;
+        background-image: url("../img/bg/first_page_bg_blueline.png");
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        margin-left: -0px;
+        padding-left: 0px;
       }
-      &:hover {
-        @include btnSprite($btn-start-normal-tablet);
+      &::before {
+        @include before;
+        background-image: url("../img/bg/first_page_bg_map_tab.png");
+        background-position: 50% 100%;
+        z-index: -1
       }
-      &:active {
-        @include btnSprite($btn-start-active-tablet);
+    }
+    .holder {
+      width: 900px;
+      .logo {
+        margin: 20px 0px 0px 20px;
+        @include iconSprite($logo-mob);
       }
+      .info-block {
+        margin: 540px 0px 0px 0px;
+        width: 200px;
+        .geotag {
+          margin-left: 110px;
+        }
+        .title {
+          margin: 0px 0px 0px 90px;
+          font-size: 24px;
+        }
+        .date {
+          margin: 40px 0px 0px 90px;
+          font-size: 20px;
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+      .slogan {
+        margin: 290px 0px 0px 20px;
+        width: 690px;
+        .description {
+          width: 580px;
+        }
+      }
+      .start-btn {
+        margin: 700px 0px 0px 410px;;
+        a {
+          @include btnSprite($btn-start-normal-dt);
+          &:hover {
+            @include btnSprite($btn-start-hover-dt)
+          }
+          &:active {
+            @include btnSprite($btn-star-active-dt)
+          }
+          span {
+            margin: 20px 145px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .header-footer {
+    height: 80px;
+    opacity: .8;
+    background-color: #000;
+    .holder-footer {
+      width: 800px;
+      height: 80px;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
     }
   }
   .advantage {
@@ -3690,6 +3747,80 @@ $lg: 1200px;
     height: 924px;
     .holder-wrap {
       height: 924px;
+      &::after {
+        @include after;
+        background-image: url("../img/bg/first_page_bg_blueline.png");
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        margin-left: -247px;
+        padding-left: 247px;
+      }
+      &::before {
+        @include before;
+        background-image: url("../img/bg/first_page_bg_map.png");
+        background-position: 50% 100%;
+        z-index: -1
+        }
+      }
+      .holder {
+        width: 1170px;
+        .logo {
+          margin: 20px 0px 0px 20px;
+          @include iconSprite($logo);
+        }
+        .info-block {
+          margin-top: 400px;
+          width: 200px;
+          .geotag {
+            margin-left: 130px;
+          }
+          .title {
+            margin: 0px 0px 0px 20px;
+            font-size: 36px
+          }
+          .date {
+            margin: 40px 0px 0px 20px;
+            font-size: 30px;
+            span {
+              font-size: 36px;
+            }
+          }
+        }
+        .slogan {
+          margin: 290px 0px 0px 20px;
+          width: 780px;
+          .description {
+            width: 580px;
+          }
+        }
+        .start-btn {
+          margin: 700px 0px 0px 410px;
+          a {
+            @include btnSprite($btn-start-normal-dt);
+            &:hover {
+              @include btnSprite($btn-start-hover-dt);
+            }
+            &:active {
+              @include btnSprite($btn-star-active-dt);
+            }
+            span {
+              margin: 20px 145px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  .header-footer {
+    height: 80px;
+    opacity: .8;
+    background-color: #000;
+    .holder-footer {
+      width: 800px;
+      height: 80px;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
     }
   }
   .advantage {
