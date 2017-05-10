@@ -49,6 +49,93 @@
     color: #676767; }
   .small-txt {
     font-family: "GothamPro_Regular"; }
+  .header .header-nav {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0 0 50%; }
+    .header .header-nav .open-menu {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/buttons.png);
+      background-position: 0px -75px;
+      width: 55px;
+      height: 55px;
+      position: absolute;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+         -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+      margin: 20px 0px 0px 120px;
+      cursor: pointer;
+      display: block; }
+    .header .header-nav .close-menu {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/buttons.png);
+      background-position: 0px 0px;
+      width: 55px;
+      height: 55px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+         -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+      margin: 20px 0px 0px 120px;
+      cursor: pointer;
+      display: none; }
+    .header .header-nav ul.clearfix {
+      visibility: hidden;
+      width: 200px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column wrap;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 188px 0 0 -140px; }
+      .header .header-nav ul.clearfix::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url("../img/bg/menu-background.png") no-repeat 50% 50%;
+        width: 370px;
+        height: 364px;
+        margin: 114px 0 0 -185px;
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15); }
+      .header .header-nav ul.clearfix li {
+        height: 100px; }
+        .header .header-nav ul.clearfix li a {
+          font-size: 16px;
+          padding: 0 20px;
+          height: 100px; }
+          .header .header-nav ul.clearfix li a:active::before {
+            z-index: -1 !important; }
   .welcome-screen {
     height: 588px; }
     .welcome-screen .holder-wrap {
@@ -65,8 +152,8 @@
         background-repeat: no-repeat;
         background-position: 50% 100%;
         width: 673px;
-        margin-left: 0px;
-        padding-left: 0px; }
+        margin-left: 0;
+        padding-left: 0; }
       .welcome-screen .holder-wrap::before {
         content: '';
         width: 100%;
@@ -82,18 +169,18 @@
     .welcome-screen .holder {
       width: 370px; }
       .welcome-screen .holder .logo {
-        margin: 20px 0px 0px 10px;
+        margin: 20px 0 0 10px;
         background-image: url(../img/icons.png);
         background-position: 0px -402px;
         width: 70px;
         height: 53px; }
       .welcome-screen .holder .info-block {
-        margin: 330px 0px 0px 0px;
+        margin: 330px 0 0 0;
         width: 200px; }
         .welcome-screen .holder .info-block .geotag {
           margin-left: 285px; }
         .welcome-screen .holder .info-block .title {
-          margin: 0px 0px 0px 265px;
+          margin: 0px 0px 0 265px;
           font-size: 24px; }
         .welcome-screen .holder .info-block .date {
           margin: 40px 0px 0px 265px;
@@ -366,7 +453,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2017px;
+                background-position: 0px -2306px;
                 width: 125px;
                 height: 124px;
                 margin: 110px 0 0px -142px; }
@@ -378,7 +465,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2766px;
+                background-position: 0px -3055px;
                 width: 137px;
                 height: 141px;
                 margin: -40px 0px 0px 174px; }
@@ -386,7 +473,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1638px;
+                background-position: 0px -1927px;
                 width: 107px;
                 height: 102px;
                 margin: 29px 0px 0px 34px; }
@@ -398,7 +485,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1400px;
+                  background-position: 0px -1808px;
                   width: 97px;
                   height: 99px;
                   margin: 184px 0px 0px 200px; }
@@ -466,7 +553,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1884px;
+                background-position: 0px -2173px;
                 width: 109px;
                 height: 113px;
                 margin: 140px 0 0px -129px; }
@@ -478,7 +565,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2927px;
+                background-position: 0px -3216px;
                 width: 141px;
                 height: 147px;
                 margin: -40px 0px 0px -98px; }
@@ -486,7 +573,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1289px;
+                background-position: 0px -1578px;
                 width: 89px;
                 height: 91px;
                 margin: 29px 0px 0px 34px; }
@@ -498,7 +585,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1760px;
+                  background-position: 0px -2049px;
                   width: 105px;
                   height: 104px;
                   margin: 90px 0px 0px 190px; }
@@ -566,7 +653,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2017px;
+                background-position: 0px -2306px;
                 width: 125px;
                 height: 124px;
                 margin: 110px 0 0px -142px; }
@@ -578,7 +665,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2766px;
+                background-position: 0px -3055px;
                 width: 137px;
                 height: 141px;
                 margin: -40px 0px 0px 174px; }
@@ -586,7 +673,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1519px;
+                background-position: 0px -1689px;
                 width: 96px;
                 height: 99px;
                 margin: 29px 0px 0px 34px; }
@@ -598,7 +685,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1400px;
+                  background-position: 0px -1808px;
                   width: 97px;
                   height: 99px;
                   margin: 184px 0px 0px 200px; }
@@ -832,9 +919,9 @@
         width: 342px;
         height: 136px;
         background: url("../img/bg/cost_bg_days_mob.png") no-repeat 50% 50%;
-        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
         -webkit-border-radius: 9px;
            -moz-border-radius: 9px;
                 border-radius: 9px;
@@ -1028,7 +1115,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1081px;
+              background-position: 0px -1266px;
               width: 3px;
               height: 84px;
               margin-left: 91px;
@@ -1117,7 +1204,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1185px;
+              background-position: 0px -1474px;
               width: 3px;
               height: 84px;
               margin-left: 91px;
@@ -1323,12 +1410,12 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -126px;
+        background-position: 0px -168px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
@@ -1368,6 +1455,93 @@
     font-size: 15px;
     font-family: "GothamPro_Regular";
     color: #676767; }
+  .header .header-nav {
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0 0 50%; }
+    .header .header-nav .open-menu {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/buttons.png);
+      background-position: 0px -75px;
+      width: 55px;
+      height: 55px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+         -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+      margin: 0px 0px 0px 300px;
+      cursor: pointer;
+      display: block; }
+    .header .header-nav .close-menu {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/buttons.png);
+      background-position: 0px 0px;
+      width: 55px;
+      height: 55px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+         -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+      margin: 0px 0px 0px 300px;
+      cursor: pointer;
+      display: none; }
+    .header .header-nav ul.clearfix {
+      visibility: hidden;
+      width: 200px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column wrap;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 160px 0px 0px 50px;
+      opacity: 1; }
+      .header .header-nav ul.clearfix::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url("../img/bg/menu-background.png") no-repeat 50% 50%;
+        width: 370px;
+        height: 364px;
+        margin: 90px 0px 0px 0px;
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15); }
+      .header .header-nav ul.clearfix li {
+        height: 100px; }
+        .header .header-nav ul.clearfix li a {
+          font-size: 16px;
+          padding: 0px 20px;
+          height: 100px; }
+          .header .header-nav ul.clearfix li a:active::before {
+            z-index: -1 !important; }
   .welcome-screen {
     height: 924px; }
     .welcome-screen .holder-wrap {
@@ -1656,9 +1830,9 @@
           -webkit-border-radius: 10px;
              -moz-border-radius: 10px;
                   border-radius: 10px;
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           border-radius: 10px; }
           .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap {
             width: 750px;
@@ -1678,7 +1852,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2017px;
+                background-position: 0px -2306px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0 0px -160px; }
@@ -1690,7 +1864,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2766px;
+                background-position: 0px -3055px;
                 width: 137px;
                 height: 141px;
                 margin: -110px 0px 0px 155px; }
@@ -1698,7 +1872,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3616px;
+                background-position: 0px -3383px;
                 width: 153px;
                 height: 154px;
                 margin: 0px 0px 0px -18px; }
@@ -1710,7 +1884,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1400px;
+                  background-position: 0px -1808px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 165px; }
@@ -1759,9 +1933,9 @@
           -webkit-border-radius: 10px;
              -moz-border-radius: 10px;
                   border-radius: 10px;
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           border-radius: 10px; }
           .tabs-block .holder .tabs-block__wrap .case .case_wrap {
             width: 750px;
@@ -1781,7 +1955,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1884px;
+                background-position: 0px -2173px;
                 width: 109px;
                 height: 113px;
                 margin: 140px 0px 0px -150px; }
@@ -1793,7 +1967,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2927px;
+                background-position: 0px -3216px;
                 width: 141px;
                 height: 147px;
                 margin: -100px 0px 0px -65px; }
@@ -1801,7 +1975,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3790px;
+                background-position: 0px -4254px;
                 width: 151px;
                 height: 155px;
                 margin: 0px 0px 0px -18px; }
@@ -1813,7 +1987,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1760px;
+                  background-position: 0px -2049px;
                   width: 105px;
                   height: 104px;
                   margin: 150px 0px 0px 80px; }
@@ -1862,9 +2036,9 @@
           -webkit-border-radius: 10px;
              -moz-border-radius: 10px;
                   border-radius: 10px;
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           border-radius: 10px; }
           .tabs-block .holder .tabs-block__wrap .networking .networking_wrap {
             width: 750px;
@@ -1884,7 +2058,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2017px;
+                background-position: 0px -2306px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0px 0px -160px; }
@@ -1896,7 +2070,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2766px;
+                background-position: 0px -3055px;
                 width: 137px;
                 height: 141px;
                 margin: -110px 0px 0px 155px; }
@@ -1904,7 +2078,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3094px;
+                background-position: 0px -3905px;
                 width: 150px;
                 height: 154px;
                 margin: 0px 0px 0px -18px; }
@@ -1916,7 +2090,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1400px;
+                  background-position: 0px -1808px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 165px; }
@@ -2118,9 +2292,9 @@
         width: 740px;
         height: 301px;
         background: url("../img/bg/cost_bg_days_tab.png") no-repeat 50% 50%;
-        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
         -webkit-border-radius: 9px;
            -moz-border-radius: 9px;
                 border-radius: 9px;
@@ -2318,7 +2492,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1081px;
+              background-position: 0px -1266px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -2407,7 +2581,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1185px;
+              background-position: 0px -1474px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -2726,12 +2900,12 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -126px;
+        background-position: 0px -168px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
@@ -2771,6 +2945,92 @@
     font-size: 15px;
     font-family: "GothamPro_Regular";
     color: #676767; }
+  .header .header-nav {
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0 0 50%; }
+    .header .header-nav .open-menu {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/buttons.png);
+      background-position: 0px -75px;
+      width: 55px;
+      height: 55px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+         -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+      margin: 0px 0px 0px 380px;
+      cursor: pointer;
+      display: block; }
+    .header .header-nav .close-menu {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/buttons.png);
+      background-position: 0px 0px;
+      width: 55px;
+      height: 55px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+         -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+      margin: 0px 0px 0px 380px;
+      cursor: pointer;
+      display: none; }
+    .header .header-nav ul.clearfix {
+      visibility: hidden;
+      width: 200px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column wrap;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 160px 0px 0px 150px; }
+      .header .header-nav ul.clearfix::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url("../img/bg/menu-background.png") no-repeat 50% 50%;
+        width: 370px;
+        height: 364px;
+        margin: 90px 0px 0px 100px;
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15); }
+      .header .header-nav ul.clearfix li {
+        height: 100px; }
+        .header .header-nav ul.clearfix li a {
+          font-size: 16px;
+          padding: 0px 20px;
+          height: 100px; }
+          .header .header-nav ul.clearfix li a:active::before {
+            z-index: -1 !important; }
   .welcome-screen {
     height: 924px; }
     .welcome-screen .holder-wrap {
@@ -2802,9 +3062,9 @@
       .welcome-screen .holder .logo {
         margin: 20px 0px 0px 20px;
         background-image: url(../img/icons.png);
-        background-position: 0px -402px;
-        width: 70px;
-        height: 53px; }
+        background-position: 0px -2903px;
+        width: 172px;
+        height: 132px; }
       .welcome-screen .holder .info-block {
         margin: 540px 0px 0px 0px;
         width: 200px; }
@@ -3057,9 +3317,9 @@
           height: 309px;
           background: url("../img/bg/hover_bg_icons_tab_yellow.png") 100% 100% no-repeat;
           margin: 0 auto 50px auto;
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           -webkit-border-radius: 10px;
              -moz-border-radius: 10px;
                   border-radius: 10px; }
@@ -3081,7 +3341,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2017px;
+                background-position: 0px -2306px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0 0px -140px; }
@@ -3093,7 +3353,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2766px;
+                background-position: 0px -3055px;
                 width: 137px;
                 height: 141px;
                 margin: -130px 0px 0px 155px; }
@@ -3101,7 +3361,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3616px;
+                background-position: 0px -3383px;
                 width: 153px;
                 height: 154px; }
                 .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap .icon-wrap .icon1-normal::after {
@@ -3112,7 +3372,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1400px;
+                  background-position: 0px -1808px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 200px; }
@@ -3158,9 +3418,9 @@
           height: 309px;
           background: url("../img/bg/hover_bg_icons_tab_blue.png") 100% 100% no-repeat;
           margin: 0 auto 50px auto;
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           -webkit-border-radius: 10px;
              -moz-border-radius: 10px;
                   border-radius: 10px; }
@@ -3182,7 +3442,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1884px;
+                background-position: 0px -2173px;
                 width: 109px;
                 height: 113px;
                 margin: 20px 0px 0px -140px; }
@@ -3194,7 +3454,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2927px;
+                background-position: 0px -3216px;
                 width: 141px;
                 height: 147px;
                 margin: -130px 0px 0px 155px; }
@@ -3202,7 +3462,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3790px;
+                background-position: 0px -4254px;
                 width: 151px;
                 height: 155px; }
                 .tabs-block .holder .tabs-block__wrap .case .case_wrap .icon-wrap .icon2-normal::after {
@@ -3213,7 +3473,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1760px;
+                  background-position: 0px -2049px;
                   width: 105px;
                   height: 104px;
                   margin: 100px 0px 0px 200px; }
@@ -3259,9 +3519,9 @@
           height: 309px;
           background: url("../img/bg/hover_bg_icons_tab_yellow.png") 100% 100% no-repeat;
           margin: 0px auto 50px auto;
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           -webkit-border-radius: 10px;
              -moz-border-radius: 10px;
                   border-radius: 10px; }
@@ -3283,7 +3543,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2017px;
+                background-position: 0px -2306px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0px 0px -140px; }
@@ -3295,7 +3555,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2766px;
+                background-position: 0px -3055px;
                 width: 137px;
                 height: 141px;
                 margin: -130px 0px 0px 155px; }
@@ -3303,7 +3563,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3094px;
+                background-position: 0px -3905px;
                 width: 150px;
                 height: 154px; }
                 .tabs-block .holder .tabs-block__wrap .networking .networking_wrap .icon-wrap .icon3-normal::after {
@@ -3314,7 +3574,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1400px;
+                  background-position: 0px -1808px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 200px; }
@@ -3497,9 +3757,9 @@
         width: 770px;
         height: 301px;
         background: url("../img/bg/cost_bg_days_tab.png") no-repeat 50% 50%;
-        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
         -webkit-border-radius: 9px;
            -moz-border-radius: 9px;
                 border-radius: 9px;
@@ -3695,7 +3955,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1081px;
+              background-position: 0px -1266px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -3784,7 +4044,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1185px;
+              background-position: 0px -1474px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -4023,12 +4283,12 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -126px;
+        background-position: 0px -168px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
@@ -4068,6 +4328,33 @@
     font-size: 15px;
     font-family: "GothamPro_Regular";
     color: #676767; }
+  .header .header-nav {
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0 0 50%;
+    width: 600px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header .header-nav ul.clearfix {
+      width: 500px; }
+      .header .header-nav ul.clearfix li a {
+        font-size: 16px;
+        padding: 0px 20px;
+        height: 100px; }
   .welcome-screen {
     height: 924px; }
     .welcome-screen .holder-wrap {
@@ -4099,7 +4386,7 @@
       .welcome-screen .holder .logo {
         margin: 20px 0px 0px 20px;
         background-image: url(../img/icons.png);
-        background-position: 0px -2614px;
+        background-position: 0px -2903px;
         width: 172px;
         height: 132px; }
       .welcome-screen .holder .info-block {
@@ -4262,9 +4549,9 @@
             -ms-flex-align: center;
                 align-items: center; }
         .video-block .video-block_wrap .holder .video {
-          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+          -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+             -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
           margin: 0px auto;
           width: 560px; }
         .video-block .video-block_wrap .holder .descript {
@@ -4365,14 +4652,14 @@
           .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap .icon-wrap .icon1-normal {
             display: block;
             background-image: url(../img/icons.png);
-            background-position: 0px -3442px;
+            background-position: 0px -3731px;
             width: 153px;
             height: 154px;
             margin: 0 auto; }
           .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap .icon-wrap .icon1-hover {
             display: none;
             background-image: url(../img/icons.png);
-            background-position: 0px -3616px;
+            background-position: 0px -3383px;
             width: 153px;
             height: 154px;
             margin: 0 auto; }
@@ -4391,14 +4678,14 @@
           .tabs-block .holder .tabs-block__wrap .case .case_wrap .icon-wrap .icon2-normal {
             display: block;
             background-image: url(../img/icons.png);
-            background-position: 0px -3965px;
+            background-position: 0px -4079px;
             width: 151px;
             height: 155px;
             margin: 0 auto; }
           .tabs-block .holder .tabs-block__wrap .case .case_wrap .icon-wrap .icon-hover {
             display: none;
             background-image: url(../img/icons.png);
-            background-position: 0px -3965px;
+            background-position: 0px -4079px;
             width: 151px;
             height: 155px;
             margin: 0 auto; }
@@ -4418,14 +4705,14 @@
           .tabs-block .holder .tabs-block__wrap .networking .networking_wrap .icon-wrap .icon3-normal {
             display: block;
             background-image: url(../img/icons.png);
-            background-position: 0px -3268px;
+            background-position: 0px -3557px;
             width: 150px;
             height: 154px;
             margin: 0 auto; }
           .tabs-block .holder .tabs-block__wrap .networking .networking_wrap .icon-wrap .icon3-hover {
             display: none;
             background-image: url(../img/icons.png);
-            background-position: 0px -3268px;
+            background-position: 0px -3557px;
             width: 150px;
             height: 154px;
             margin: 0 auto; }
@@ -4743,9 +5030,9 @@
         width: 100%;
         height: 301px;
         background: url("../img/bg/cost_bg_days.png") no-repeat 50% 50%;
-        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
-                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.42);
+        -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+           -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
         -webkit-border-radius: 9px;
            -moz-border-radius: 9px;
                 border-radius: 9px;
@@ -5251,12 +5538,12 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -126px;
+        background-position: 0px -168px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {

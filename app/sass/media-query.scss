@@ -9,6 +9,10 @@ $lg: 1200px;
 
 /* extends*/
 
+@mixin pseudo-sprite($srpite-ins) {
+
+}
+
 @mixin before() {
   content: '';
   width: 100%;
@@ -103,6 +107,60 @@ $lg: 1200px;
   .small-txt {
     font-family: $GothamRegular;
   }
+  .header {
+    .header-nav {
+      padding: 0px 0px 0px 0px;
+      margin: 0px 0 0 50%;
+      .open-menu {
+        @include before;
+        @include iconSprite($collapse-menu-open);
+        position: absolute;
+        border-radius: 50%;
+        box-shadow: $shadow;
+        margin: 20px 0px 0px 120px;
+        cursor: pointer;
+        display: block;
+      }
+      .close-menu {
+        @include before;
+        @include iconSprite($collapse-menu-close);
+        border-radius: 50%;
+        box-shadow: $shadow;
+        margin: 20px 0px 0px 120px;
+        cursor: pointer;
+        display: none;
+
+      }
+      ul.clearfix{
+        visibility: hidden;
+        width: 200px;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 188px 0 0 -140px;
+        &::before {
+          @include before;
+          background: url('../img/bg/menu-background.png') no-repeat 50% 50%;
+          width: 370px;
+          height: 364px;
+          margin: 114px 0 0 -185px;
+          box-shadow: $shadow;
+        }
+        li {
+          height: 100px;
+          a {
+            font-size: 16px;
+            padding: 0 20px;
+            height: 100px;
+            &:active::before{
+              z-index: -1 !important;
+            }
+
+          }
+        }
+      }
+    }
+  }
   .welcome-screen {
     height: 588px;
     .holder-wrap {
@@ -114,8 +172,8 @@ $lg: 1200px;
         background-repeat: no-repeat;
         background-position: 50% 100%;
         width: 673px;
-        margin-left: 0px;
-        padding-left: 0px;
+        margin-left: 0;
+        padding-left: 0;
       }
       &::before {
         @include before;
@@ -129,18 +187,18 @@ $lg: 1200px;
     .holder {
       width: 370px;
       .logo {
-        margin: 20px 0px 0px 10px;
+        margin: 20px 0 0 10px;
         @include iconSprite($logo-mob);
 
       }
       .info-block {
-        margin: 330px 0px 0px 0px;
+        margin: 330px 0 0 0;
         width: 200px;
         .geotag {
           margin-left: 285px;
         }
         .title {
-          margin: 0px 0px 0px 265px;
+          margin: 0px 0px 0 265px;
           font-size: 24px;
         }
         .date {
@@ -1317,7 +1375,59 @@ $lg: 1200px;
     font-family: $GothamRegular;
     color: $greyTxt;
   }
+  .header {
+    .header-nav {
+      padding: 0px 0px 0px 0px;
+      margin: 80px 0 0 50%;
+      .open-menu {
+        @include before;
+        @include iconSprite($collapse-menu-open);
+        border-radius: 50%;
+        box-shadow: $shadow;
+        margin: 0px 0px 0px 300px;
+        cursor: pointer;
+        display: block;
+      }
+      .close-menu {
+        @include after;
+        @include iconSprite($collapse-menu-close);
+        border-radius: 50%;
+        box-shadow: $shadow;
+        margin: 0px 0px 0px 300px;
+        cursor: pointer;
+        display: none;
+      }
+      ul.clearfix {
+        visibility: hidden;
+        width: 200px;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 160px 0px 0px 50px;
+        opacity: 1;
+        &::before {
+          @include before;
+          background: url('../img/bg/menu-background.png') no-repeat 50% 50%;
+          width: 370px;
+          height: 364px;
+          margin: 90px 0px 0px 0px;
+          box-shadow: $shadow;
+        }
+        li {
+          height: 100px;
+          a {
+            font-size: 16px;
+            padding: 0px 20px;
+            height: 100px;
+            &:active::before{
+              z-index: -1 !important;
+            }
 
+          }
+        }
+      }
+    }
+  }
 
   .welcome-screen {
     height: 924px;
@@ -2567,7 +2677,58 @@ $lg: 1200px;
     font-family: $GothamRegular;
     color: $greyTxt;
   }
+  .header {
+    .header-nav {
+      padding: 0px 0px 0px 0px;
+      margin: 80px 0 0 50%;
+      .open-menu {
+        @include before;
+        @include iconSprite($collapse-menu-open);
+        border-radius: 50%;
+        box-shadow: $shadow;
+        margin: 0px 0px 0px 380px;
+        cursor: pointer;
+        display: block;
+      }
+      .close-menu {
+        @include after;
+        @include iconSprite($collapse-menu-close);
+        border-radius: 50%;
+        box-shadow: $shadow;
+        margin: 0px 0px 0px 380px;
+        cursor: pointer;
+        display: none;
+      }
+      ul.clearfix {
+        visibility: hidden;
+        width: 200px;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 160px 0px 0px 150px;
+        &::before {
+          @include before;
+          background: url('../img/bg/menu-background.png') no-repeat 50% 50%;
+          width: 370px;
+          height: 364px;
+          margin: 90px 0px 0px 100px;
+          box-shadow: $shadow;
+        }
+        li {
+          height: 100px;
+          a {
+            font-size: 16px;
+            padding: 0px 20px;
+            height: 100px;
+            &:active::before{
+              z-index: -1 !important;
+            }
 
+          }
+        }
+      }
+    }
+  }
   .welcome-screen {
     height: 924px;
     .holder-wrap {
@@ -2591,7 +2752,7 @@ $lg: 1200px;
       width: 900px;
       .logo {
         margin: 20px 0px 0px 20px;
-        @include iconSprite($logo-mob);
+        @include iconSprite($logo);
       }
       .info-block {
         margin: 540px 0px 0px 0px;
@@ -3742,6 +3903,26 @@ $lg: 1200px;
     font-size: 15px;
     font-family: $GothamRegular;
     color: $greyTxt;
+  }
+  .header {
+    .header-nav {
+      padding: 0px 0px 0px 0px;
+      margin: 80px 0 0 50%;
+      width: 600px;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      ul.clearfix {
+        width: 500px;
+        li {
+          a {
+            font-size: 16px;
+            padding: 0px 20px;
+            height: 100px;
+          }
+        }
+      }
+    }
   }
   .welcome-screen {
     height: 924px;

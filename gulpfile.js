@@ -139,8 +139,8 @@ gulp.task('browserSync', function() {
   browserSync({
     server: {
       baseDir: 'app',
-      scrollProportionally: false
-      
+      scrollProportionally: false,
+      notify: false
     }
   })
 });
