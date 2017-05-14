@@ -1332,6 +1332,238 @@ $lg: 1200px;
       }
     }
   }
+  // Inner pager
+  .wrapper {
+    .innerpage__welcome-screen {
+      height: 560px;
+      margin: 0 auto;
+      .holder {
+        width: 370px;
+        .logo {
+          margin: 20px 0 0 0
+        }
+        .text-block {
+          width: 360px;
+          margin: 140px 0 0 0;
+          &::before{
+            margin: 375px 0 0 85px
+          }
+          h1{
+            font-size: 40px;
+          }
+          .submain-text{
+            font-size: 30px;
+            margin-top: -30px;
+          }
+          h2{
+            font-size: 30px;
+            margin-top: -30px;
+          }
+          h3{
+            font-size: 20px
+          }
+        }
+      }
+    }
+    .e-form{
+      height: 530px;
+      .holder {
+        width: 370px
+      }
+      .second-screen__title {
+        margin: 140px auto 0 auto;
+        font-size: 20px;
+        width: 200px;
+        text-align: center;
+      }
+      .second-screen__subtitle {
+        margin: 0 auto 60px auto;
+        font-size: 20px;
+        width: 300px;
+        text-align: center;
+        &::after {
+          margin: -35px 0 0 240px;
+          padding: 0 0 0 50px;
+        }
+      }
+      .case-form {
+        width: 370px;
+        height: 350px;
+        margin: 20px 0 0 0px;
+        background: url('../img/bg/innerpage-greenbackground-mob.png') no-repeat 50% 50%;
+        .little-triangle {
+          margin: 0 0 0 -112px;
+          height: 30px;
+          &::before {
+            margin: -10px 50%;
+          }
+        }
+
+        .text {
+          font-size: 18px;
+          margin: 20px auto;
+          width: 300px;
+        }
+        .inner-form {
+          height: 60px;
+          width: 205px;
+          margin: 20px auto 0 auto;
+          input[type='text'] {
+            padding: 22px 20px;
+            font-size: 16px;
+            width: 200px;
+          }
+          input[type='submit'] {
+            margin: 60px 0 0 -36px ;
+            font-size: 24px;
+            padding: 0 0 40px 0;
+            @include btnSprite($btn-by-now-normal-mobile);
+            &:active {
+              @include btnSprite($btn-by-now-active-mobile);
+            }
+          }
+        }
+      }
+    }
+    .cases {
+      height: 100%;
+      .holder {
+        width: 370px;
+        .title {
+          font-size: 30px;
+          margin: 100px 0 80px 0;
+        }
+        .cases-wrapper {
+          justify-content: center;
+          align-items: center;
+          flex-flow: column wrap;
+          .case1-wrap {
+            width: 341px;
+            height: 447px;
+            margin: 0 0 0 0px;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-case-knowladge-mob.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                margin: 212px 0 0 155px;
+                @include before;
+                @include iconSprite($white-brick-tab);
+              }
+              &::after {
+                margin: 268px 0 0 155px;
+                @include after;
+                @include iconSprite($white-brick-tab);
+              }
+            }
+            .case1 {
+              width: 314px;
+              height: 400px;
+              margin: 40px 0 0 0;
+              padding: 0 0;
+              .case-img {
+                width: 314px;
+                height: 146px;
+              }
+              .case-title {
+                margin: 30px 0 30px 0;
+              }
+              .case-text {
+                width: 340px;
+              }
+            }
+          }
+          .case2-wrap {
+            width: 341px;
+            height: 447px;
+            margin: 0 0 0 0;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-case-knowladge-mob.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                margin: 212px 0 0 155px;
+                @include before;
+                @include iconSprite($white-brick-tab);
+              }
+              &::after {
+                margin: 268px 0 0 155px;
+                @include after;
+                @include iconSprite($white-brick-tab);
+              }
+            }
+            .case2 {
+              width: 314px;
+              height: 400px;
+              margin: 40px 0 0 0px;
+              padding: 0 0;
+              .case-img {
+                width: 314px;
+                height: 146px;
+              }
+              .case-title {
+                margin: 30px 0 30px 0;
+              }
+              .case-text {
+                width: 314px;
+              }
+            }
+          }
+          .case3-wrap {
+            width: 341px;
+            height: 447px;
+            margin: 0 0 0 0;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-case-knowladge-mob.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                margin: 212px 0 0 155px;
+                @include before;
+                @include iconSprite($white-brick-tab);
+              }
+              &::after {
+                margin: 268px 0 0 155px;
+                @include after;
+                @include iconSprite($white-brick-tab);
+              }
+            }
+            .case3 {
+              width: 314px;
+              height: 400px;
+              margin: 40px 0 0 0px;
+              padding: 0 0;
+            }
+            .case-img {
+              width: 314px;
+              height: 146px;
+            }
+            .case-title {
+              text-align: center;
+              margin: 30px 0 30px 0;
+            }
+            .case-text {
+              width: 314px;
+            }
+          }
+        }
+      }
+    }
+    .get-cases-btn {
+      margin: 120px auto;
+      padding: 20px 40px;
+      span {
+        font-size: 12px;
+      }
+    }
+
+  }
 }
 
 @include respond-to(sm) {
@@ -2634,6 +2866,242 @@ $lg: 1200px;
       }
     }
   }
+  // Inner pager
+  .wrapper {
+    .innerpage__welcome-screen {
+      height: 560px;
+      margin: 0 auto;
+      .holder {
+        width: 750px;
+        .logo {
+          margin: 20px 0 0 20px
+        }
+        .text-block {
+          width: 730px;
+          margin: 90px 0 0 0;
+          &::before{
+            margin: 410px 0 0 285px
+          }
+          h1{
+            font-size: 40px;
+          }
+          .submain-text{
+            font-size: 30px;
+            margin-top: -30px;
+          }
+          h2{
+            font-size: 30px;
+            margin-top: -30px;
+          }
+          h3{
+            font-size: 20px
+          }
+        }
+      }
+    }
+    .e-form{
+      height: 530px;
+      .holder {
+        width: 750px
+      }
+      .second-screen__title {
+        margin: 140px auto 0 auto;
+        font-size: 22px;
+        width: 490px;
+        text-align: center;
+      }
+      .second-screen__subtitle {
+        margin: 0 auto 60px auto;
+        font-size: 22px;
+        width: 700px;
+        text-align: center;
+        &::after {
+          margin: -45px 0 0 550px;
+          padding: 0 0 0 50px;
+        }
+      }
+      .case-form {
+        width: 812px;
+        height: 350px;
+        margin: 20px 0 0 -25px;
+        background: url('../img/bg/innerpage-greenbackground-tab.png') no-repeat 50% 50%;
+        .little-triangle {
+          margin: 0 0 0 -112px;
+          height: 30px;
+          &::before {
+            margin: -10px 50%;
+          }
+        }
+
+        .text {
+          font-size: 18px;
+          margin: 20px auto;
+          width: 700px;
+        }
+        .inner-form {
+          height: 60px;
+          width: 650px;
+          margin: 80px auto 0 auto;
+          input[type='text'] {
+            padding: 22px 20px;
+            font-size: 16px;
+            width: 550px;
+          }
+          input[type='submit'] {
+            margin: 30px 0 0 0;
+            font-size: 24px;
+            padding: 0 0 40px 0;
+            @include btnSprite($btn-by-now-normal-tablet);
+            &:hover {
+              @include btnSprite($btn-by-now-active-tablet);
+            }
+            &:active {
+              @include btnSprite($btn-by-now-active-tablet);
+            }
+          }
+        }
+      }
+    }
+    .cases {
+      height: 650px;
+      height: 100%;
+      .holder {
+        width: 750px;
+        .title {
+          font-size: 30px;
+          margin: 100px 0 80px 0;
+        }
+        .cases-wrapper {
+          justify-content: center;
+          align-items: center;
+          flex-flow: column wrap;
+          .case1-wrap {
+            width: 397px;
+            height: 532px;
+            margin: 0 0 0 0px;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-hover-bg.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                margin: 335px 0 0 180px;
+                @include before;
+                @include iconSprite($white-brick-tab);
+              }
+              &::after {
+                margin: 265px 0 0 180px;
+                @include after;
+                @include iconSprite($white-brick-tab);
+              }
+            }
+            .case1 {
+              width: 370px;
+              height: 400px;
+              margin: 40px 0 0 0;
+              padding: 0 0;
+              .case-img {
+                width: 370px;
+                height: 196px;
+              }
+              .case-title {
+                margin: 30px 0 30px 0;
+              }
+              .case-text {
+                width: 370px;
+              }
+            }
+          }
+          .case2-wrap {
+            width: 397px;
+            height: 532px;
+            margin: 0 0 0 0;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-hover-bg.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                @include before;
+                @include iconSprite($white-brick-tab);
+                margin: 335px 0 0 180px;
+              }
+              &::after {
+                @include after;
+                @include iconSprite($white-brick-tab);
+                margin: 265px 0 0 180px;
+              }
+            }
+            .case2 {
+              width: 370px;
+              height: 400px;
+              margin: 40px 0 0 0px;
+              padding: 0 0;
+              .case-img {
+                width: 370px;
+                height: 196px;
+              }
+              .case-title {
+                margin: 30px 0 30px 0;
+              }
+              .case-text {
+                width: 370px;
+              }
+            }
+          }
+          .case3-wrap {
+            width: 397px;
+            height: 532px;
+            margin: 0 0 0 0;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-hover-bg.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                @include before;
+                @include iconSprite($white-brick-tab);
+                margin: 335px 0 0 180px;
+              }
+              &::after {
+                @include after;
+                @include iconSprite($white-brick-tab);
+                margin: 265px 0 0 180px;
+              }
+            }
+            .case3 {
+              width: 370px;
+              height: 400px;
+              margin: 40px 0 0 0px;
+              padding: 0 0;
+            }
+            .case-img {
+              width: 370px;
+              height: 196px;
+            }
+            .case-title {
+              text-align: center;
+              margin: 30px 0 30px 0;
+            }
+            .case-text {
+              width: 370px;
+            }
+          }
+        }
+      }
+    }
+    .get-cases-btn {
+      margin: 120px auto;
+      padding: 20px 40px;
+      span {
+        font-size: 16px;
+      }
+    }
+
+  }
 }
 
 @include respond-to(md) {
@@ -3861,8 +4329,283 @@ $lg: 1200px;
     }
   }
 
-}
 
+//Inner page
+.wrapper {
+  .innerpage__welcome-screen {
+    height: 560px;
+    margin: 0 auto;
+    .holder {
+      width: 900px;
+      .logo {
+        margin: 20px 0 0 20px
+      }
+      .text-block {
+        width: 750px;
+        margin: 90px 0 0 90px;
+        &::before{
+          margin: 410px 0 0 285px
+        }
+        h1{
+          font-size: 50px;
+        }
+        .submain-text{
+          font-size: 40px;
+          margin-top: -30px;
+        }
+        h2{
+          font-size: 40px;
+          margin-top: -30px;
+        }
+        h3{
+          font-size: 24px
+        }
+      }
+    }
+  }
+  .e-form{
+    height: 530px;
+    .holder {
+      width: 900px
+    }
+    .second-screen__title {
+      margin: 140px auto 0 auto;
+      font-size: 24px;
+      width: 490px;
+      text-align: center;
+    }
+    .second-screen__subtitle {
+      margin: 0 auto 60px auto;
+      font-size: 24px;
+      width: 900px;
+      text-align: center;
+      &::after {
+        margin: -45px 0 0 620px;
+        padding: 0 0 0 50px;
+      }
+    }
+    .case-form {
+      height: 350px;
+      margin: 20px 0 0 64px;
+      background: url('../img/bg/innerpage-greenbackground-tab.png') no-repeat 50% 50%;
+      width: 812px;
+
+      .little-triangle {
+        margin: 0 0 0 -112px;
+        height: 30px;
+        &::before {
+          margin: -10px 50%;
+        }
+      }
+
+      .text {
+        font-size: 20px;
+        margin: 20px auto;
+        width: 700px;
+      }
+      .inner-form {
+        height: 60px;
+        width: 650px;
+        margin: 80px auto 0 auto;
+        input[type='text'] {
+          padding: 22px 20px;
+          font-size: 16px;
+          width: 550px;
+        }
+        input[type='submit'] {
+          margin: 30px 0 0 0;
+          font-size: 24px;
+          padding: 0 0 40px 0;
+          @include btnSprite($btn-by-now-normal-tablet);
+          &:hover {
+            @include btnSprite($btn-by-now-active-tablet);
+          }
+          &:active {
+            @include btnSprite($btn-by-now-active-tablet);
+          }
+        }
+      }
+    }
+  }
+  .cases {
+    height: 100%;
+
+    .holder {
+      width: 900px;
+      .title {
+        font-size: 40px;
+        margin: 100px 0 80px 0;
+      }
+      .cases-wrapper {
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        .case1-wrap {
+          width: 818px;
+          height: 356px;
+          margin: 0 0 0 0px;
+          padding: 0 0 0 0;
+          background: url("../img/bg/innerpage-yellow-case-knowladge-tab.png") no-repeat 50% 50%;
+          &::before {
+            @include before;
+            @include iconSprite($white-brick-tab);
+            margin: 335px 0 0 180px;
+          }
+          &::after {
+            @include after;
+            @include iconSprite($white-brick-tab);
+            margin: 265px 0 0 180px;
+          }
+          .case1 {
+            width: 818px;
+            height: 356px;
+            margin: 40px 0 0 0;
+            padding: 0 0;
+            position: relative;
+            .case-img {
+              width: 300px;
+              height: 196px;
+              float: left;
+              margin: 18px 0 0 50px
+            }
+            .case-title {
+              margin: 25px 270px 0 0;
+              float: right;
+              color: $white;
+              &::before {
+                @include before;
+                @include iconSprite($white-brick-tab);
+                margin: 20px 0 0 400px;
+              }
+              &::after {
+                @include after;
+                @include iconSprite($white-brick-tab);
+                margin: 80px 0 0 400px;
+              }
+            }
+            .case-text {
+              margin: 0 50px 0 0;
+              width: 370px;
+              float: right;
+              color: $white;
+            }
+          }
+        }
+        .case2-wrap {
+          width: 818px;
+          height: 356px;
+          margin: 0 0 0 0px;
+          padding: 0 0 0 0 ;
+          background: url("../img/bg/innerpage-blue-case-knowladge-tab.png") no-repeat 50% 50%;
+          &::before {
+            @include before;
+            @include iconSprite($white-brick-tab);
+            margin: 335px 0 0 180px;
+          }
+          &::after {
+            @include after;
+            @include iconSprite($white-brick-tab);
+            margin: 265px 0 0 180px;
+          }
+        }
+      .case2 {
+        width: 818px;
+        height: 356px;
+        margin: 40px 0 0 0;
+        padding: 0 0;
+        position: relative;
+        .case-img {
+          width: 300px;
+          height: 196px;
+          float: left;
+          margin: 18px 0 0 50px
+        }
+        .case-title {
+          margin: 25px 270px 0 0;
+          float: right;
+          color: $white;
+          &::before {
+            @include before;
+            @include iconSprite($white-brick-tab);
+            margin: 20px 0 0 400px;
+          }
+          &::after {
+            @include after;
+            @include iconSprite($white-brick-tab);
+            margin: 80px 0 0 400px;
+          }
+        }
+        .case-text {
+          margin: 0 50px 0 0;
+          width: 370px;
+          float: right;
+          color: $white;
+        }
+      }
+
+        }
+        .case3-wrap {
+          width: 818px;
+          height: 356px;
+          margin: 0 0 0 0px;
+          padding: 0 0 0 0;
+          background: url("../img/bg/innerpage-yellow-case-knowladge-tab.png") no-repeat 50% 50%;
+          &::before {
+            @include before;
+            @include iconSprite($white-brick-tab);
+            margin: 335px 0 0 180px;
+          }
+          &::after {
+            @include after;
+            @include iconSprite($white-brick-tab);
+            margin: 265px 0 0 180px;
+          }
+        }
+      .case3 {
+        width: 818px;
+        height: 356px;
+        margin: 40px 0 0 0;
+        padding: 0 0;
+        position: relative;
+        .case-img {
+          width: 300px;
+          height: 196px;
+          float: left;
+          margin: 18px 0 0 50px
+        }
+        .case-title {
+          margin: 25px 270px 0 0;
+          float: right;
+          color: $white;
+          &::before {
+            @include before;
+            @include iconSprite($white-brick-tab);
+            margin: 20px 0 0 400px;
+          }
+          &::after {
+            @include after;
+            @include iconSprite($white-brick-tab);
+            margin: 80px 0 0 400px;
+          }
+        }
+        .case-text {
+          margin: 0 50px 0 0;
+          width: 370px;
+          float: right;
+          color: $white;
+        }
+      }
+      }
+    }
+  }
+  .get-cases-btn {
+    margin: 120px auto;
+    padding: 20px 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+}
 @include respond-to(lg) {
   h1 {
     font-size: 50px;
@@ -3941,57 +4684,57 @@ $lg: 1200px;
         background-image: url("../img/bg/first_page_bg_map.png");
         background-position: 50% 100%;
         z-index: -1
+      }
+    }
+    .holder {
+      width: 1170px;
+      .logo {
+        margin: 20px 0px 0px 20px;
+        @include iconSprite($logo);
+      }
+      .info-block {
+        margin-top: 400px;
+        width: 200px;
+        .geotag {
+          margin-left: 130px;
+        }
+        .title {
+          margin: 0px 0px 0px 20px;
+          font-size: 36px
+        }
+        .date {
+          margin: 40px 0px 0px 20px;
+          font-size: 30px;
+          span {
+            font-size: 36px;
+          }
         }
       }
-      .holder {
-        width: 1170px;
-        .logo {
-          margin: 20px 0px 0px 20px;
-          @include iconSprite($logo);
+      .slogan {
+        margin: 290px 0px 0px 20px;
+        width: 780px;
+        .description {
+          width: 580px;
         }
-        .info-block {
-          margin-top: 400px;
-          width: 200px;
-          .geotag {
-            margin-left: 130px;
+      }
+      .start-btn {
+        margin: 700px 0px 0px 410px;
+        a {
+          @include btnSprite($btn-start-normal-dt);
+          &:hover {
+            @include btnSprite($btn-start-hover-dt);
           }
-          .title {
-            margin: 0px 0px 0px 20px;
-            font-size: 36px
+          &:active {
+            @include btnSprite($btn-star-active-dt);
           }
-          .date {
-            margin: 40px 0px 0px 20px;
-            font-size: 30px;
-            span {
-              font-size: 36px;
-            }
-          }
-        }
-        .slogan {
-          margin: 290px 0px 0px 20px;
-          width: 780px;
-          .description {
-            width: 580px;
-          }
-        }
-        .start-btn {
-          margin: 700px 0px 0px 410px;
-          a {
-            @include btnSprite($btn-start-normal-dt);
-            &:hover {
-              @include btnSprite($btn-start-hover-dt);
-            }
-            &:active {
-              @include btnSprite($btn-star-active-dt);
-            }
-            span {
-              margin: 20px 145px;
-              font-size: 20px;
-            }
+          span {
+            margin: 20px 145px;
+            font-size: 20px;
           }
         }
       }
     }
+  }
   .header-footer {
     height: 80px;
     opacity: .8;
@@ -4481,7 +5224,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px;
             }
@@ -4494,7 +5237,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px
             }
@@ -4507,7 +5250,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px
             }
@@ -4520,7 +5263,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px
             }
@@ -4533,7 +5276,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px
             }
@@ -4546,7 +5289,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px
             }
@@ -4559,7 +5302,7 @@ $lg: 1200px;
             width: 170px;
             height: 168px;
           }
-          .others-txt-block{
+          .others-txt-block {
             .p2 {
               font-size: 14px
             }
@@ -5059,6 +5802,290 @@ $lg: 1200px;
       }
     }
   }
-}
+  // Inner pager
+  .wrapper {
+    .innerpage__welcome-screen {
+      height: 560px;
+      margin: 0 auto;
+      .holder {
+        width: 1170px;
+        .logo {
+          margin: 20px 0 0 20px
+        }
+        .text-block {
+          width: 750px;
+          margin: 90px 0 0 210px;
+          &::before{
+            margin: 410px 0 0 285px
+          }
+          h1{
+            font-size: 50px;
+          }
+          .submain-text{
+            font-size: 40px;
+            margin-top: -30px;
+          }
+          h2{
+            font-size: 40px;
+            margin-top: -30px;
+          }
+          h3{
+            font-size: 24px
+          }
+        }
+      }
+    }
+    .e-form{
+      height: 530px;
+      .holder {
+        width: 1170px
+      }
+      .second-screen__title {
+        margin: 140px auto 0 auto;
+        font-size: 28px;
+        width: 490px;
+      }
+      .second-screen__subtitle {
+        margin: 0 auto 60px auto;
+        font-size: 28px;
+        width: 940px;
+        &::after {
+          margin: -45px 0 0 710px;
+          padding: 0 0 0 50px;
+        }
+      }
+      .case-form {
+        width: 1241px;
+        height: 350px;
+        margin: 20px 0 0 -30px;
+        background: url('../img/bg/innerpage-greenbackground.png') no-repeat 50% 50%;
+        .little-triangle {
+          margin: 0 0 0 -112px;
+          height: 30px;
+          &::before {
+            margin: -10px 50%;
+          }
+        }
 
+        .text {
+          font-size: 20px;
+          margin: 20px auto;
+          width: 700px;
+        }
+        .inner-form {
+          height: 60px;
+          width: 650px;
+          margin: 80px auto 0 auto;
+          input[type='text'] {
+            padding: 22px 20px;
+            font-size: 16px;
+            width: 550px;
+          }
+          input[type='submit'] {
+            margin: 30px 0 0 0;
+            font-size: 24px;
+            padding: 0 0 40px 0;
+            @include btnSprite($btn-by-now-normal-dt);
+            &:hover {
+              @include btnSprite($btn-by-now-hover-dt);
+            }
+            &:active {
+              @include btnSprite($btn-by-now-hover-dt);
+            }
+          }
+        }
+      }
+    }
+    .cases {
+      height: 650px;
+      .holder {
+        width: 1170px;
+        .title {
+          font-size: 40px;
+          margin: 100px 0 80px 0;
+        }
+        .cases-wrapper {
+          justify-content: center;
+          align-items: center;
+          .case1-wrap {
+            width: 397px;
+            height: 532px;
+            margin: 0 0 0 0px;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-hover-bg.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                margin: 335px 0 0 180px;
+                @include before;
+                @include iconSprite($white-brick-tab);
+              }
+              &::after {
+                margin: 265px 0 0 180px;
+                @include after;
+                @include iconSprite($white-brick-tab);
+              }
+            }
+            .case1 {
+              width: 370px;
+              height: 400px;
+              margin: 40px 0 0 0;
+              padding: 0 0;
+              .case-img {
+                width: 370px;
+                height: 196px;
+              }
+              .case-title {
+                margin: 30px 0 30px 0;
+              }
+              .case-text {
+                width: 370px;
+              }
+            }
+          }
+          .case2-wrap {
+            width: 397px;
+            height: 532px;
+            margin: 0 0 0 0;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-hover-bg.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                @include before;
+                @include iconSprite($white-brick-tab);
+                margin: 335px 0 0 180px;
+              }
+              &::after {
+                @include after;
+                @include iconSprite($white-brick-tab);
+                margin: 265px 0 0 180px;
+              }
+            }
+            .case2 {
+              width: 370px;
+              height: 400px;
+              margin: 40px 0 0 0px;
+              padding: 0 0;
+              .case-img {
+                width: 370px;
+                height: 196px;
+              }
+              .case-title {
+                margin: 30px 0 30px 0;
+              }
+              .case-text {
+                width: 370px;
+              }
+            }
+          }
+          .case3-wrap {
+            width: 397px;
+            height: 532px;
+            margin: 0 0 0 0;
+            padding: 0 27px 0 13px;
+            &:hover {
+              background: url("../img/bg/innerpage-yellow-hover-bg.png");
+              position: relative;
+              box-shadow: $shadow;
+              border-radius: $border-radius;
+              &::before {
+                @include before;
+                @include iconSprite($white-brick-tab);
+                margin: 335px 0 0 180px;
+              }
+              &::after {
+                @include after;
+                @include iconSprite($white-brick-tab);
+                margin: 265px 0 0 180px;
+              }
+            }
+            .case3 {
+              width: 370px;
+              height: 400px;
+              margin: 40px 0 0 0px;
+              padding: 0 0;
+            }
+            .case-img {
+              width: 370px;
+              height: 196px;
+            }
+            .case-title {
+              text-align: center;
+              margin: 30px 0 30px 0;
+            }
+            .case-text {
+              width: 370px;
+            }
+          }
+        }
+      }
+    }
+    .get-cases-btn {
+      margin: 120px auto;
+      padding: 20px 40px;
+      span {
+        font-size: 16px;
+      }
+
+    }
+
+  }
+
+  .case1-wrap:hover {
+    .case-img::before {
+      @include before;
+      @include iconSprite($hover-triangle-left);
+      margin: 130px 0 0 -48px;
+    }
+    .case-img::after {
+      @include after;
+      @include iconSprite($hover-triangle-top);
+      margin: -31px 0 0 275px;
+    }
+    .case-title::before {
+      @include after;
+      @include iconSprite($hover-triangle-right);
+      margin: 210px 0 0 290px;
+    }
+  }
+  .case2-wrap:hover {
+    .case-img::before {
+      @include before;
+      @include iconSprite($hover-triangle-left);
+      margin: 130px 0 0 -48px;
+    }
+    .case-img::after {
+      @include after;
+      @include iconSprite($hover-triangle-top);
+      margin: -31px 0 0 275px;
+    }
+    .case-title::before {
+      @include after;
+      @include iconSprite($hover-triangle-right);
+      margin: 210px 0 0 290px;
+    }
+  }
+  .case3-wrap:hover {
+    .case-img::before {
+      @include before;
+      @include iconSprite($hover-triangle-left);
+      margin: 130px 0 0 -48px;
+    }
+    .case-img::after {
+      @include after;
+      @include iconSprite($hover-triangle-top);
+      margin: -31px 0 0 275px;
+    }
+    .case-title::before {
+      @include after;
+      @include iconSprite($hover-triangle-right);
+      margin: 210px 0 0 290px;
+    }
+  }
+}
 // }

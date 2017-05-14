@@ -171,7 +171,7 @@
       .welcome-screen .holder .logo {
         margin: 20px 0 0 10px;
         background-image: url(../img/icons.png);
-        background-position: 0px -402px;
+        background-position: 0px -444px;
         width: 70px;
         height: 53px; }
       .welcome-screen .holder .info-block {
@@ -197,12 +197,12 @@
         margin: 400px 0px 0px 40px; }
         .welcome-screen .holder .start-btn a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1427px;
+          background-position: 0px -2271px;
           width: 298px;
           height: 108px; }
           .welcome-screen .holder .start-btn a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2195px;
+            background-position: 0px -1503px;
             width: 298px;
             height: 108px; }
           .welcome-screen .holder .start-btn a span {
@@ -389,12 +389,12 @@
       height: 108px; }
       .where-block .btn-block a {
         background-image: url(../img/buttons.png);
-        background-position: 0px -1427px;
+        background-position: 0px -2271px;
         width: 298px;
         height: 108px; }
         .where-block .btn-block a:active {
           background-image: url(../img/buttons.png);
-          background-position: 0px -2195px;
+          background-position: 0px -1503px;
           width: 298px;
           height: 108px; }
         .where-block .btn-block a span {
@@ -453,7 +453,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2306px;
+                background-position: 0px -2466px;
                 width: 125px;
                 height: 124px;
                 margin: 110px 0 0px -142px; }
@@ -465,7 +465,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3055px;
+                background-position: 0px -3215px;
                 width: 137px;
                 height: 141px;
                 margin: -40px 0px 0px 174px; }
@@ -473,7 +473,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1927px;
+                background-position: 0px -2087px;
                 width: 107px;
                 height: 102px;
                 margin: 29px 0px 0px 34px; }
@@ -485,7 +485,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1808px;
+                  background-position: 0px -1849px;
                   width: 97px;
                   height: 99px;
                   margin: 184px 0px 0px 200px; }
@@ -508,7 +508,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin: -10px 0px 0px 146px; }
@@ -520,7 +520,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin: 60px 0px 0px 146px; }
@@ -553,7 +553,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2173px;
+                background-position: 0px -2333px;
                 width: 109px;
                 height: 113px;
                 margin: 140px 0 0px -129px; }
@@ -565,7 +565,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3216px;
+                background-position: 0px -3376px;
                 width: 141px;
                 height: 147px;
                 margin: -40px 0px 0px -98px; }
@@ -573,7 +573,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1578px;
+                background-position: 0px -1620px;
                 width: 89px;
                 height: 91px;
                 margin: 29px 0px 0px 34px; }
@@ -585,7 +585,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -2049px;
+                  background-position: 0px -2209px;
                   width: 105px;
                   height: 104px;
                   margin: 90px 0px 0px 190px; }
@@ -608,7 +608,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin: -10px 0px 0px 146px; }
@@ -620,7 +620,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin: 60px 0px 0px 146px; }
@@ -653,7 +653,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2306px;
+                background-position: 0px -2466px;
                 width: 125px;
                 height: 124px;
                 margin: 110px 0 0px -142px; }
@@ -665,7 +665,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3055px;
+                background-position: 0px -3215px;
                 width: 137px;
                 height: 141px;
                 margin: -40px 0px 0px 174px; }
@@ -673,7 +673,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -1689px;
+                background-position: 0px -1968px;
                 width: 96px;
                 height: 99px;
                 margin: 29px 0px 0px 34px; }
@@ -685,7 +685,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1808px;
+                  background-position: 0px -1849px;
                   width: 97px;
                   height: 99px;
                   margin: 184px 0px 0px 200px; }
@@ -708,7 +708,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin: -10px 0px 0px 146px; }
@@ -720,7 +720,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin: 60px 0px 0px 146px; }
@@ -957,7 +957,7 @@
             margin: 0px auto 0px auto; }
           .cost .holder .cost-wrap .current-block .bynow-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -800px;
+            background-position: 0px -1001px;
             width: 278px;
             height: 105px;
             background-repeat: no-repeat;
@@ -965,7 +965,7 @@
             margin: 0px 0px 0px 18px; }
             .cost .holder .cost-wrap .current-block .bynow-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -675px;
+              background-position: 0px -876px;
               width: 278px;
               height: 105px; }
             .cost .holder .cost-wrap .current-block .bynow-btn a {
@@ -989,7 +989,7 @@
             margin: 20px auto 0px auto; }
           .cost .holder .cost-wrap .anotherday-block .byanotherday-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2479px;
+            background-position: 0px -2555px;
             width: 352px;
             height: 136px;
             background-repeat: no-repeat;
@@ -997,7 +997,7 @@
             margin: 0px auto; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -3727px;
+              background-position: 0px -3803px;
               width: 359px;
               height: 143px; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn a {
@@ -1045,12 +1045,12 @@
         height: 108px; }
         .ten-cases .holder .btn-discover a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1427px;
+          background-position: 0px -2271px;
           width: 298px;
           height: 108px; }
           .ten-cases .holder .btn-discover a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2195px;
+            background-position: 0px -1503px;
             width: 298px;
             height: 108px; }
           .ten-cases .holder .btn-discover a span {
@@ -1115,7 +1115,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1266px;
+              background-position: 0px -1308px;
               width: 3px;
               height: 84px;
               margin-left: 91px;
@@ -1204,7 +1204,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1474px;
+              background-position: 0px -1516px;
               width: 3px;
               height: 84px;
               margin-left: 91px;
@@ -1368,12 +1368,12 @@
           .form-block .holder .form-block_wrap .form-btn a {
             margin-top: 21px;
             background-image: url(../img/buttons.png);
-            background-position: 0px -426px;
+            background-position: 0px -502px;
             width: 370px;
             height: 104px; }
             .form-block .holder .form-block_wrap .form-btn a:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -302px;
+              background-position: 0px -378px;
               width: 370px;
               height: 104px; }
             .form-block .holder .form-block_wrap .form-btn a span {
@@ -1410,17 +1410,272 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -210px;
+        background-position: 0px -126px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
       margin: 20px auto 0px auto;
-      font-size: 16px; } }
+      font-size: 16px; }
+  .wrapper .innerpage__welcome-screen {
+    height: 560px;
+    margin: 0 auto; }
+    .wrapper .innerpage__welcome-screen .holder {
+      width: 370px; }
+      .wrapper .innerpage__welcome-screen .holder .logo {
+        margin: 20px 0 0 0; }
+      .wrapper .innerpage__welcome-screen .holder .text-block {
+        width: 360px;
+        margin: 140px 0 0 0; }
+        .wrapper .innerpage__welcome-screen .holder .text-block::before {
+          margin: 375px 0 0 85px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h1 {
+          font-size: 40px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block .submain-text {
+          font-size: 30px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h2 {
+          font-size: 30px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h3 {
+          font-size: 20px; }
+  .wrapper .e-form {
+    height: 530px; }
+    .wrapper .e-form .holder {
+      width: 370px; }
+    .wrapper .e-form .second-screen__title {
+      margin: 140px auto 0 auto;
+      font-size: 20px;
+      width: 200px;
+      text-align: center; }
+    .wrapper .e-form .second-screen__subtitle {
+      margin: 0 auto 60px auto;
+      font-size: 20px;
+      width: 300px;
+      text-align: center; }
+      .wrapper .e-form .second-screen__subtitle::after {
+        margin: -35px 0 0 240px;
+        padding: 0 0 0 50px; }
+    .wrapper .e-form .case-form {
+      width: 370px;
+      height: 350px;
+      margin: 20px 0 0 0px;
+      background: url("../img/bg/innerpage-greenbackground-mob.png") no-repeat 50% 50%; }
+      .wrapper .e-form .case-form .little-triangle {
+        margin: 0 0 0 -112px;
+        height: 30px; }
+        .wrapper .e-form .case-form .little-triangle::before {
+          margin: -10px 50%; }
+      .wrapper .e-form .case-form .text {
+        font-size: 18px;
+        margin: 20px auto;
+        width: 300px; }
+      .wrapper .e-form .case-form .inner-form {
+        height: 60px;
+        width: 205px;
+        margin: 20px auto 0 auto; }
+        .wrapper .e-form .case-form .inner-form input[type='text'] {
+          padding: 22px 20px;
+          font-size: 16px;
+          width: 200px; }
+        .wrapper .e-form .case-form .inner-form input[type='submit'] {
+          margin: 60px 0 0 -36px;
+          font-size: 24px;
+          padding: 0 0 40px 0;
+          background-image: url(../img/buttons.png);
+          background-position: 0px -1001px;
+          width: 278px;
+          height: 105px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:active {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -876px;
+            width: 278px;
+            height: 105px; }
+  .wrapper .cases {
+    height: 100%; }
+    .wrapper .cases .holder {
+      width: 370px; }
+      .wrapper .cases .holder .title {
+        font-size: 30px;
+        margin: 100px 0 80px 0; }
+      .wrapper .cases .holder .cases-wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column wrap;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap; }
+        .wrapper .cases .holder .cases-wrapper .case1-wrap {
+          width: 341px;
+          height: 447px;
+          margin: 0 0 0 0px;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-case-knowladge-mob.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap:hover::before {
+              margin: 212px 0 0 155px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap:hover::after {
+              margin: 268px 0 0 155px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 {
+            width: 314px;
+            height: 400px;
+            margin: 40px 0 0 0;
+            padding: 0 0; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-img {
+              width: 314px;
+              height: 146px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-title {
+              margin: 30px 0 30px 0; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-text {
+              width: 340px; }
+        .wrapper .cases .holder .cases-wrapper .case2-wrap {
+          width: 341px;
+          height: 447px;
+          margin: 0 0 0 0;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-case-knowladge-mob.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap:hover::before {
+              margin: 212px 0 0 155px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap:hover::after {
+              margin: 268px 0 0 155px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 {
+            width: 314px;
+            height: 400px;
+            margin: 40px 0 0 0px;
+            padding: 0 0; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-img {
+              width: 314px;
+              height: 146px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-title {
+              margin: 30px 0 30px 0; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-text {
+              width: 314px; }
+        .wrapper .cases .holder .cases-wrapper .case3-wrap {
+          width: 341px;
+          height: 447px;
+          margin: 0 0 0 0;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-case-knowladge-mob.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case3-wrap:hover::before {
+              margin: 212px 0 0 155px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+            .wrapper .cases .holder .cases-wrapper .case3-wrap:hover::after {
+              margin: 268px 0 0 155px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case3 {
+            width: 314px;
+            height: 400px;
+            margin: 40px 0 0 0px;
+            padding: 0 0; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-img {
+            width: 314px;
+            height: 146px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-title {
+            text-align: center;
+            margin: 30px 0 30px 0; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-text {
+            width: 314px; }
+  .wrapper .get-cases-btn {
+    margin: 120px auto;
+    padding: 20px 40px; }
+    .wrapper .get-cases-btn span {
+      font-size: 12px; } }
 
 @media only screen and (min-width: 750px) and (max-width: 959px) {
   h1 {
@@ -1577,7 +1832,7 @@
       .welcome-screen .holder .logo {
         margin: 20px 0px 0px 10px;
         background-image: url(../img/icons.png);
-        background-position: 0px -402px;
+        background-position: 0px -444px;
         width: 70px;
         height: 53px; }
       .welcome-screen .holder .info-block {
@@ -1602,12 +1857,12 @@
         margin: 700px 0px 0px 230px; }
         .welcome-screen .holder .start-btn a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1939px;
+          background-position: 0px -1887px;
           width: 342px;
           height: 108px; }
           .welcome-screen .holder .start-btn a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1811px;
+            background-position: 0px -1759px;
             width: 342px;
             height: 108px; }
           .welcome-screen .holder .start-btn a span {
@@ -1777,17 +2032,17 @@
       height: 110px; }
       .where-block .btn-block a {
         background-image: url(../img/buttons.png);
-        background-position: 0px -2067px;
+        background-position: 0px -2015px;
         width: 342px;
         height: 108px; }
         .where-block .btn-block a:hover {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1683px;
+          background-position: 0px -2143px;
           width: 352px;
           height: 108px; }
         .where-block .btn-block a:active {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1555px;
+          background-position: 0px -1631px;
           width: 352px;
           height: 108px; }
         .where-block .btn-block a span {
@@ -1852,7 +2107,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2306px;
+                background-position: 0px -2466px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0 0px -160px; }
@@ -1864,7 +2119,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3055px;
+                background-position: 0px -3215px;
                 width: 137px;
                 height: 141px;
                 margin: -110px 0px 0px 155px; }
@@ -1872,7 +2127,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3383px;
+                background-position: 0px -4065px;
                 width: 153px;
                 height: 154px;
                 margin: 0px 0px 0px -18px; }
@@ -1884,7 +2139,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1808px;
+                  background-position: 0px -1849px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 165px; }
@@ -1906,7 +2161,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: -16px; }
@@ -1918,7 +2173,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: 40px; }
@@ -1955,7 +2210,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2173px;
+                background-position: 0px -2333px;
                 width: 109px;
                 height: 113px;
                 margin: 140px 0px 0px -150px; }
@@ -1967,7 +2222,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3216px;
+                background-position: 0px -3376px;
                 width: 141px;
                 height: 147px;
                 margin: -100px 0px 0px -65px; }
@@ -1975,7 +2230,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -4254px;
+                background-position: 0px -4414px;
                 width: 151px;
                 height: 155px;
                 margin: 0px 0px 0px -18px; }
@@ -1987,7 +2242,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -2049px;
+                  background-position: 0px -2209px;
                   width: 105px;
                   height: 104px;
                   margin: 150px 0px 0px 80px; }
@@ -2009,7 +2264,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: -16px; }
@@ -2021,7 +2276,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: 40px; }
@@ -2058,7 +2313,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2306px;
+                background-position: 0px -2466px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0px 0px -160px; }
@@ -2070,7 +2325,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3055px;
+                background-position: 0px -3215px;
                 width: 137px;
                 height: 141px;
                 margin: -110px 0px 0px 155px; }
@@ -2078,7 +2333,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3905px;
+                background-position: 0px -3543px;
                 width: 150px;
                 height: 154px;
                 margin: 0px 0px 0px -18px; }
@@ -2090,7 +2345,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1808px;
+                  background-position: 0px -1849px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 165px; }
@@ -2112,7 +2367,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: -16px; }
@@ -2124,7 +2379,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: 40px; }
@@ -2330,7 +2585,7 @@
             margin: 0px auto 40px auto; }
           .cost .holder .cost-wrap .current-block .bynow-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2791px;
+            background-position: 0px -2867px;
             width: 353px;
             height: 136px;
             background-repeat: no-repeat;
@@ -2338,7 +2593,7 @@
             margin: 0 auto; }
             .cost .holder .cost-wrap .current-block .bynow-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -2635px;
+              background-position: 0px -2711px;
               width: 353px;
               height: 136px; }
             .cost .holder .cost-wrap .current-block .bynow-btn a {
@@ -2362,7 +2617,7 @@
             margin: 0px auto 40px auto; }
           .cost .holder .cost-wrap .anotherday-block .byanotherday-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2479px;
+            background-position: 0px -2555px;
             width: 352px;
             height: 136px;
             background-repeat: no-repeat;
@@ -2370,7 +2625,7 @@
             margin: 0px auto; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -3727px;
+              background-position: 0px -3803px;
               width: 359px;
               height: 143px; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn a {
@@ -2417,17 +2672,17 @@
         height: 108px; }
         .ten-cases .holder .btn-discover a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -2067px;
+          background-position: 0px -2015px;
           width: 342px;
           height: 108px; }
           .ten-cases .holder .btn-discover a:hover {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1683px;
+            background-position: 0px -2143px;
             width: 352px;
             height: 108px; }
           .ten-cases .holder .btn-discover a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1555px;
+            background-position: 0px -1631px;
             width: 352px;
             height: 108px; }
           .ten-cases .holder .btn-discover a span {
@@ -2492,7 +2747,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1266px;
+              background-position: 0px -1308px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -2581,7 +2836,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1474px;
+              background-position: 0px -1516px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -2836,12 +3091,12 @@
           .form-block .holder .form-block_wrap .form-btn a {
             margin-top: 21px;
             background-image: url(../img/buttons.png);
-            background-position: 0px -925px;
+            background-position: 0px -1251px;
             width: 247px;
             height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -1300px;
+              background-position: 0px -1376px;
               width: 249px;
               height: 107px; }
             .form-block .holder .form-block_wrap .form-btn a span {
@@ -2900,16 +3155,277 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -210px;
+        background-position: 0px -126px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
       margin: 200px -94px 0px 0px;
+      font-size: 16px; }
+  .wrapper .innerpage__welcome-screen {
+    height: 560px;
+    margin: 0 auto; }
+    .wrapper .innerpage__welcome-screen .holder {
+      width: 750px; }
+      .wrapper .innerpage__welcome-screen .holder .logo {
+        margin: 20px 0 0 20px; }
+      .wrapper .innerpage__welcome-screen .holder .text-block {
+        width: 730px;
+        margin: 90px 0 0 0; }
+        .wrapper .innerpage__welcome-screen .holder .text-block::before {
+          margin: 410px 0 0 285px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h1 {
+          font-size: 40px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block .submain-text {
+          font-size: 30px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h2 {
+          font-size: 30px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h3 {
+          font-size: 20px; }
+  .wrapper .e-form {
+    height: 530px; }
+    .wrapper .e-form .holder {
+      width: 750px; }
+    .wrapper .e-form .second-screen__title {
+      margin: 140px auto 0 auto;
+      font-size: 22px;
+      width: 490px;
+      text-align: center; }
+    .wrapper .e-form .second-screen__subtitle {
+      margin: 0 auto 60px auto;
+      font-size: 22px;
+      width: 700px;
+      text-align: center; }
+      .wrapper .e-form .second-screen__subtitle::after {
+        margin: -45px 0 0 550px;
+        padding: 0 0 0 50px; }
+    .wrapper .e-form .case-form {
+      width: 812px;
+      height: 350px;
+      margin: 20px 0 0 -25px;
+      background: url("../img/bg/innerpage-greenbackground-tab.png") no-repeat 50% 50%; }
+      .wrapper .e-form .case-form .little-triangle {
+        margin: 0 0 0 -112px;
+        height: 30px; }
+        .wrapper .e-form .case-form .little-triangle::before {
+          margin: -10px 50%; }
+      .wrapper .e-form .case-form .text {
+        font-size: 18px;
+        margin: 20px auto;
+        width: 700px; }
+      .wrapper .e-form .case-form .inner-form {
+        height: 60px;
+        width: 650px;
+        margin: 80px auto 0 auto; }
+        .wrapper .e-form .case-form .inner-form input[type='text'] {
+          padding: 22px 20px;
+          font-size: 16px;
+          width: 550px; }
+        .wrapper .e-form .case-form .inner-form input[type='submit'] {
+          margin: 30px 0 0 0;
+          font-size: 24px;
+          padding: 0 0 40px 0;
+          background-image: url(../img/buttons.png);
+          background-position: 0px -2867px;
+          width: 353px;
+          height: 136px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:hover {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -2711px;
+            width: 353px;
+            height: 136px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:active {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -2711px;
+            width: 353px;
+            height: 136px; }
+  .wrapper .cases {
+    height: 650px;
+    height: 100%; }
+    .wrapper .cases .holder {
+      width: 750px; }
+      .wrapper .cases .holder .title {
+        font-size: 30px;
+        margin: 100px 0 80px 0; }
+      .wrapper .cases .holder .cases-wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column wrap;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap; }
+        .wrapper .cases .holder .cases-wrapper .case1-wrap {
+          width: 397px;
+          height: 532px;
+          margin: 0 0 0 0px;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-hover-bg.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap:hover::before {
+              margin: 335px 0 0 180px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap:hover::after {
+              margin: 265px 0 0 180px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 {
+            width: 370px;
+            height: 400px;
+            margin: 40px 0 0 0;
+            padding: 0 0; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-img {
+              width: 370px;
+              height: 196px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-title {
+              margin: 30px 0 30px 0; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-text {
+              width: 370px; }
+        .wrapper .cases .holder .cases-wrapper .case2-wrap {
+          width: 397px;
+          height: 532px;
+          margin: 0 0 0 0;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-hover-bg.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap:hover::before {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 335px 0 0 180px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap:hover::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 265px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 {
+            width: 370px;
+            height: 400px;
+            margin: 40px 0 0 0px;
+            padding: 0 0; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-img {
+              width: 370px;
+              height: 196px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-title {
+              margin: 30px 0 30px 0; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-text {
+              width: 370px; }
+        .wrapper .cases .holder .cases-wrapper .case3-wrap {
+          width: 397px;
+          height: 532px;
+          margin: 0 0 0 0;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-hover-bg.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case3-wrap:hover::before {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 335px 0 0 180px; }
+            .wrapper .cases .holder .cases-wrapper .case3-wrap:hover::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 265px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case3 {
+            width: 370px;
+            height: 400px;
+            margin: 40px 0 0 0px;
+            padding: 0 0; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-img {
+            width: 370px;
+            height: 196px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-title {
+            text-align: center;
+            margin: 30px 0 30px 0; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-text {
+            width: 370px; }
+  .wrapper .get-cases-btn {
+    margin: 120px auto;
+    padding: 20px 40px; }
+    .wrapper .get-cases-btn span {
       font-size: 16px; } }
 
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
@@ -3062,7 +3578,7 @@
       .welcome-screen .holder .logo {
         margin: 20px 0px 0px 20px;
         background-image: url(../img/icons.png);
-        background-position: 0px -2903px;
+        background-position: 0px -3063px;
         width: 172px;
         height: 132px; }
       .welcome-screen .holder .info-block {
@@ -3087,17 +3603,17 @@
         margin: 700px 0px 0px 410px; }
         .welcome-screen .holder .start-btn a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -2067px;
+          background-position: 0px -2015px;
           width: 342px;
           height: 108px; }
           .welcome-screen .holder .start-btn a:hover {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1683px;
+            background-position: 0px -2143px;
             width: 352px;
             height: 108px; }
           .welcome-screen .holder .start-btn a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1555px;
+            background-position: 0px -1631px;
             width: 352px;
             height: 108px; }
           .welcome-screen .holder .start-btn a span {
@@ -3267,17 +3783,17 @@
       height: 110px; }
       .where-block .btn-block a {
         background-image: url(../img/buttons.png);
-        background-position: 0px -2067px;
+        background-position: 0px -2015px;
         width: 342px;
         height: 108px; }
         .where-block .btn-block a:hover {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1683px;
+          background-position: 0px -2143px;
           width: 352px;
           height: 108px; }
         .where-block .btn-block a:active {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1555px;
+          background-position: 0px -1631px;
           width: 352px;
           height: 108px; }
         .where-block .btn-block a span {
@@ -3341,7 +3857,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2306px;
+                background-position: 0px -2466px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0 0px -140px; }
@@ -3353,7 +3869,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3055px;
+                background-position: 0px -3215px;
                 width: 137px;
                 height: 141px;
                 margin: -130px 0px 0px 155px; }
@@ -3361,7 +3877,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3383px;
+                background-position: 0px -4065px;
                 width: 153px;
                 height: 154px; }
                 .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap .icon-wrap .icon1-normal::after {
@@ -3372,7 +3888,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1808px;
+                  background-position: 0px -1849px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 200px; }
@@ -3394,7 +3910,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: -16px; }
@@ -3406,7 +3922,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: 40px; }
@@ -3442,7 +3958,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2173px;
+                background-position: 0px -2333px;
                 width: 109px;
                 height: 113px;
                 margin: 20px 0px 0px -140px; }
@@ -3454,7 +3970,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3216px;
+                background-position: 0px -3376px;
                 width: 141px;
                 height: 147px;
                 margin: -130px 0px 0px 155px; }
@@ -3462,7 +3978,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -4254px;
+                background-position: 0px -4414px;
                 width: 151px;
                 height: 155px; }
                 .tabs-block .holder .tabs-block__wrap .case .case_wrap .icon-wrap .icon2-normal::after {
@@ -3473,7 +3989,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -2049px;
+                  background-position: 0px -2209px;
                   width: 105px;
                   height: 104px;
                   margin: 100px 0px 0px 200px; }
@@ -3495,7 +4011,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: -16px; }
@@ -3507,7 +4023,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: 40px; }
@@ -3543,7 +4059,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -2306px;
+                background-position: 0px -2466px;
                 width: 125px;
                 height: 124px;
                 margin: 20px 0px 0px -140px; }
@@ -3555,7 +4071,7 @@
                 left: 0;
                 top: 0;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3055px;
+                background-position: 0px -3215px;
                 width: 137px;
                 height: 141px;
                 margin: -130px 0px 0px 155px; }
@@ -3563,7 +4079,7 @@
                 margin: 0;
                 display: block;
                 background-image: url(../img/icons.png);
-                background-position: 0px -3905px;
+                background-position: 0px -3543px;
                 width: 150px;
                 height: 154px; }
                 .tabs-block .holder .tabs-block__wrap .networking .networking_wrap .icon-wrap .icon3-normal::after {
@@ -3574,7 +4090,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -1808px;
+                  background-position: 0px -1849px;
                   width: 97px;
                   height: 99px;
                   margin: 100px 0px 0px 200px; }
@@ -3596,7 +4112,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: -16px; }
@@ -3608,7 +4124,7 @@
                   left: 0;
                   top: 0;
                   background-image: url(../img/icons.png);
-                  background-position: 0px -25px;
+                  background-position: 0px 0px;
                   width: 30px;
                   height: 5px;
                   margin-top: 40px; }
@@ -3795,7 +4311,7 @@
             margin: 0px auto 40px auto; }
           .cost .holder .cost-wrap .current-block .bynow-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2791px;
+            background-position: 0px -2867px;
             width: 353px;
             height: 136px;
             background-repeat: no-repeat;
@@ -3803,7 +4319,7 @@
             margin: 0 auto; }
             .cost .holder .cost-wrap .current-block .bynow-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -2635px;
+              background-position: 0px -2711px;
               width: 353px;
               height: 136px; }
             .cost .holder .cost-wrap .current-block .bynow-btn a {
@@ -3827,7 +4343,7 @@
             margin: 0px auto 40px auto; }
           .cost .holder .cost-wrap .anotherday-block .byanotherday-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -2479px;
+            background-position: 0px -2555px;
             width: 352px;
             height: 136px;
             background-repeat: no-repeat;
@@ -3835,7 +4351,7 @@
             margin: 0px auto; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -3727px;
+              background-position: 0px -3803px;
               width: 359px;
               height: 143px; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn a {
@@ -3880,17 +4396,17 @@
         height: 108px; }
         .ten-cases .holder .btn-discover a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -2067px;
+          background-position: 0px -2015px;
           width: 342px;
           height: 108px; }
           .ten-cases .holder .btn-discover a:hover {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1683px;
+            background-position: 0px -2143px;
             width: 352px;
             height: 108px; }
           .ten-cases .holder .btn-discover a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1555px;
+            background-position: 0px -1631px;
             width: 352px;
             height: 108px; }
           .ten-cases .holder .btn-discover a span {
@@ -3955,7 +4471,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1266px;
+              background-position: 0px -1308px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -4044,7 +4560,7 @@
               left: 0;
               top: 0;
               background-image: url(../img/icons.png);
-              background-position: 0px -1474px;
+              background-position: 0px -1516px;
               width: 3px;
               height: 84px;
               margin-left: 66px;
@@ -4215,17 +4731,17 @@
           .form-block .holder .form-block_wrap .form-btn a {
             margin-top: 21px;
             background-image: url(../img/buttons.png);
-            background-position: 0px -550px;
+            background-position: 0px -751px;
             width: 295px;
             height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a:hover {
               background-image: url(../img/buttons.png);
-              background-position: 0px -1175px;
+              background-position: 0px -626px;
               width: 295px;
               height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -1050px;
+              background-position: 0px -1126px;
               width: 295px;
               height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a span {
@@ -4283,16 +4799,347 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -210px;
+        background-position: 0px -126px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
       margin: 200px -94px 0px 0px;
+      font-size: 16px; }
+  .wrapper .innerpage__welcome-screen {
+    height: 560px;
+    margin: 0 auto; }
+    .wrapper .innerpage__welcome-screen .holder {
+      width: 900px; }
+      .wrapper .innerpage__welcome-screen .holder .logo {
+        margin: 20px 0 0 20px; }
+      .wrapper .innerpage__welcome-screen .holder .text-block {
+        width: 750px;
+        margin: 90px 0 0 90px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block::before {
+          margin: 410px 0 0 285px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h1 {
+          font-size: 50px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block .submain-text {
+          font-size: 40px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h2 {
+          font-size: 40px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h3 {
+          font-size: 24px; }
+  .wrapper .e-form {
+    height: 530px; }
+    .wrapper .e-form .holder {
+      width: 900px; }
+    .wrapper .e-form .second-screen__title {
+      margin: 140px auto 0 auto;
+      font-size: 24px;
+      width: 490px;
+      text-align: center; }
+    .wrapper .e-form .second-screen__subtitle {
+      margin: 0 auto 60px auto;
+      font-size: 24px;
+      width: 900px;
+      text-align: center; }
+      .wrapper .e-form .second-screen__subtitle::after {
+        margin: -45px 0 0 620px;
+        padding: 0 0 0 50px; }
+    .wrapper .e-form .case-form {
+      height: 350px;
+      margin: 20px 0 0 64px;
+      background: url("../img/bg/innerpage-greenbackground-tab.png") no-repeat 50% 50%;
+      width: 812px; }
+      .wrapper .e-form .case-form .little-triangle {
+        margin: 0 0 0 -112px;
+        height: 30px; }
+        .wrapper .e-form .case-form .little-triangle::before {
+          margin: -10px 50%; }
+      .wrapper .e-form .case-form .text {
+        font-size: 20px;
+        margin: 20px auto;
+        width: 700px; }
+      .wrapper .e-form .case-form .inner-form {
+        height: 60px;
+        width: 650px;
+        margin: 80px auto 0 auto; }
+        .wrapper .e-form .case-form .inner-form input[type='text'] {
+          padding: 22px 20px;
+          font-size: 16px;
+          width: 550px; }
+        .wrapper .e-form .case-form .inner-form input[type='submit'] {
+          margin: 30px 0 0 0;
+          font-size: 24px;
+          padding: 0 0 40px 0;
+          background-image: url(../img/buttons.png);
+          background-position: 0px -2867px;
+          width: 353px;
+          height: 136px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:hover {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -2711px;
+            width: 353px;
+            height: 136px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:active {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -2711px;
+            width: 353px;
+            height: 136px; }
+  .wrapper .cases {
+    height: 100%; }
+    .wrapper .cases .holder {
+      width: 900px; }
+      .wrapper .cases .holder .title {
+        font-size: 40px;
+        margin: 100px 0 80px 0; }
+      .wrapper .cases .holder .cases-wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column wrap;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap; }
+        .wrapper .cases .holder .cases-wrapper .case1-wrap {
+          width: 818px;
+          height: 356px;
+          margin: 0 0 0 0px;
+          padding: 0 0 0 0;
+          background: url("../img/bg/innerpage-yellow-case-knowladge-tab.png") no-repeat 50% 50%; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/icons.png);
+            background-position: 0px 0px;
+            width: 30px;
+            height: 5px;
+            margin: 335px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/icons.png);
+            background-position: 0px 0px;
+            width: 30px;
+            height: 5px;
+            margin: 265px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 {
+            width: 818px;
+            height: 356px;
+            margin: 40px 0 0 0;
+            padding: 0 0;
+            position: relative; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-img {
+              width: 300px;
+              height: 196px;
+              float: left;
+              margin: 18px 0 0 50px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-title {
+              margin: 25px 270px 0 0;
+              float: right;
+              color: #fff; }
+              .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-title::before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-image: url(../img/icons.png);
+                background-position: 0px 0px;
+                width: 30px;
+                height: 5px;
+                margin: 20px 0 0 400px; }
+              .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-title::after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-image: url(../img/icons.png);
+                background-position: 0px 0px;
+                width: 30px;
+                height: 5px;
+                margin: 80px 0 0 400px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-text {
+              margin: 0 50px 0 0;
+              width: 370px;
+              float: right;
+              color: #fff; }
+        .wrapper .cases .holder .cases-wrapper .case2-wrap {
+          width: 818px;
+          height: 356px;
+          margin: 0 0 0 0px;
+          padding: 0 0 0 0;
+          background: url("../img/bg/innerpage-blue-case-knowladge-tab.png") no-repeat 50% 50%; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/icons.png);
+            background-position: 0px 0px;
+            width: 30px;
+            height: 5px;
+            margin: 335px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/icons.png);
+            background-position: 0px 0px;
+            width: 30px;
+            height: 5px;
+            margin: 265px 0 0 180px; }
+        .wrapper .cases .holder .cases-wrapper .case2 {
+          width: 818px;
+          height: 356px;
+          margin: 40px 0 0 0;
+          padding: 0 0;
+          position: relative; }
+          .wrapper .cases .holder .cases-wrapper .case2 .case-img {
+            width: 300px;
+            height: 196px;
+            float: left;
+            margin: 18px 0 0 50px; }
+          .wrapper .cases .holder .cases-wrapper .case2 .case-title {
+            margin: 25px 270px 0 0;
+            float: right;
+            color: #fff; }
+            .wrapper .cases .holder .cases-wrapper .case2 .case-title::before {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 20px 0 0 400px; }
+            .wrapper .cases .holder .cases-wrapper .case2 .case-title::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 80px 0 0 400px; }
+          .wrapper .cases .holder .cases-wrapper .case2 .case-text {
+            margin: 0 50px 0 0;
+            width: 370px;
+            float: right;
+            color: #fff; }
+      .wrapper .cases .holder .case3-wrap {
+        width: 818px;
+        height: 356px;
+        margin: 0 0 0 0px;
+        padding: 0 0 0 0;
+        background: url("../img/bg/innerpage-yellow-case-knowladge-tab.png") no-repeat 50% 50%; }
+        .wrapper .cases .holder .case3-wrap::before {
+          content: '';
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-image: url(../img/icons.png);
+          background-position: 0px 0px;
+          width: 30px;
+          height: 5px;
+          margin: 335px 0 0 180px; }
+        .wrapper .cases .holder .case3-wrap::after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-image: url(../img/icons.png);
+          background-position: 0px 0px;
+          width: 30px;
+          height: 5px;
+          margin: 265px 0 0 180px; }
+      .wrapper .cases .holder .case3 {
+        width: 818px;
+        height: 356px;
+        margin: 40px 0 0 0;
+        padding: 0 0;
+        position: relative; }
+        .wrapper .cases .holder .case3 .case-img {
+          width: 300px;
+          height: 196px;
+          float: left;
+          margin: 18px 0 0 50px; }
+        .wrapper .cases .holder .case3 .case-title {
+          margin: 25px 270px 0 0;
+          float: right;
+          color: #fff; }
+          .wrapper .cases .holder .case3 .case-title::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/icons.png);
+            background-position: 0px 0px;
+            width: 30px;
+            height: 5px;
+            margin: 20px 0 0 400px; }
+          .wrapper .cases .holder .case3 .case-title::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/icons.png);
+            background-position: 0px 0px;
+            width: 30px;
+            height: 5px;
+            margin: 80px 0 0 400px; }
+        .wrapper .cases .holder .case3 .case-text {
+          margin: 0 50px 0 0;
+          width: 370px;
+          float: right;
+          color: #fff; }
+  .get-cases-btn {
+    margin: 120px auto;
+    padding: 20px 40px; }
+    .get-cases-btn span {
       font-size: 16px; } }
 
 @media only screen and (min-width: 1200px) {
@@ -4386,7 +5233,7 @@
       .welcome-screen .holder .logo {
         margin: 20px 0px 0px 20px;
         background-image: url(../img/icons.png);
-        background-position: 0px -2903px;
+        background-position: 0px -3063px;
         width: 172px;
         height: 132px; }
       .welcome-screen .holder .info-block {
@@ -4411,17 +5258,17 @@
         margin: 700px 0px 0px 410px; }
         .welcome-screen .holder .start-btn a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -2067px;
+          background-position: 0px -2015px;
           width: 342px;
           height: 108px; }
           .welcome-screen .holder .start-btn a:hover {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1683px;
+            background-position: 0px -2143px;
             width: 352px;
             height: 108px; }
           .welcome-screen .holder .start-btn a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1555px;
+            background-position: 0px -1631px;
             width: 352px;
             height: 108px; }
           .welcome-screen .holder .start-btn a span {
@@ -4606,17 +5453,17 @@
       height: 110px; }
       .where-block .btn-block a {
         background-image: url(../img/buttons.png);
-        background-position: 0px -2067px;
+        background-position: 0px -2015px;
         width: 342px;
         height: 108px; }
         .where-block .btn-block a:hover {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1683px;
+          background-position: 0px -2143px;
           width: 352px;
           height: 108px; }
         .where-block .btn-block a:active {
           background-image: url(../img/buttons.png);
-          background-position: 0px -1555px;
+          background-position: 0px -1631px;
           width: 352px;
           height: 108px; }
         .where-block .btn-block a span {
@@ -4652,14 +5499,14 @@
           .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap .icon-wrap .icon1-normal {
             display: block;
             background-image: url(../img/icons.png);
-            background-position: 0px -3731px;
+            background-position: 0px -3717px;
             width: 153px;
             height: 154px;
             margin: 0 auto; }
           .tabs-block .holder .tabs-block__wrap .knowledge .knowledge_wrap .icon-wrap .icon1-hover {
             display: none;
             background-image: url(../img/icons.png);
-            background-position: 0px -3383px;
+            background-position: 0px -4065px;
             width: 153px;
             height: 154px;
             margin: 0 auto; }
@@ -4678,14 +5525,14 @@
           .tabs-block .holder .tabs-block__wrap .case .case_wrap .icon-wrap .icon2-normal {
             display: block;
             background-image: url(../img/icons.png);
-            background-position: 0px -4079px;
+            background-position: 0px -4239px;
             width: 151px;
             height: 155px;
             margin: 0 auto; }
           .tabs-block .holder .tabs-block__wrap .case .case_wrap .icon-wrap .icon-hover {
             display: none;
             background-image: url(../img/icons.png);
-            background-position: 0px -4079px;
+            background-position: 0px -4239px;
             width: 151px;
             height: 155px;
             margin: 0 auto; }
@@ -4705,14 +5552,14 @@
           .tabs-block .holder .tabs-block__wrap .networking .networking_wrap .icon-wrap .icon3-normal {
             display: block;
             background-image: url(../img/icons.png);
-            background-position: 0px -3557px;
+            background-position: 0px -3891px;
             width: 150px;
             height: 154px;
             margin: 0 auto; }
           .tabs-block .holder .tabs-block__wrap .networking .networking_wrap .icon-wrap .icon3-hover {
             display: none;
             background-image: url(../img/icons.png);
-            background-position: 0px -3557px;
+            background-position: 0px -3891px;
             width: 150px;
             height: 154px;
             margin: 0 auto; }
@@ -5068,7 +5915,7 @@
             margin: 0px auto 40px auto; }
           .cost .holder .cost-wrap .current-block .bynow-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -3103px;
+            background-position: 0px -2399px;
             width: 422px;
             height: 136px;
             background-repeat: no-repeat;
@@ -5076,12 +5923,12 @@
             margin: 0 auto; }
             .cost .holder .cost-wrap .current-block .bynow-btn:hover {
               background-image: url(../img/buttons.png);
-              background-position: 0px -2323px;
+              background-position: 0px -3647px;
               width: 422px;
               height: 136px; }
             .cost .holder .cost-wrap .current-block .bynow-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -3571px;
+              background-position: 0px -3491px;
               width: 422px;
               height: 136px; }
             .cost .holder .cost-wrap .current-block .bynow-btn a {
@@ -5105,7 +5952,7 @@
             margin: 0px auto 40px auto; }
           .cost .holder .cost-wrap .anotherday-block .byanotherday-btn {
             background-image: url(../img/buttons.png);
-            background-position: 0px -3415px;
+            background-position: 0px -3335px;
             width: 422px;
             height: 136px;
             background-repeat: no-repeat;
@@ -5113,12 +5960,12 @@
             margin: 0px auto; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn:hover {
               background-image: url(../img/buttons.png);
-              background-position: 0px -2947px;
+              background-position: 0px -3023px;
               width: 422px;
               height: 136px; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -3259px;
+              background-position: 0px -3179px;
               width: 422px;
               height: 136px; }
             .cost .holder .cost-wrap .anotherday-block .byanotherday-btn a {
@@ -5162,17 +6009,17 @@
         height: 108px; }
         .ten-cases .holder .btn-discover a {
           background-image: url(../img/buttons.png);
-          background-position: 0px -2067px;
+          background-position: 0px -2015px;
           width: 342px;
           height: 108px; }
           .ten-cases .holder .btn-discover a:hover {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1683px;
+            background-position: 0px -2143px;
             width: 352px;
             height: 108px; }
           .ten-cases .holder .btn-discover a:active {
             background-image: url(../img/buttons.png);
-            background-position: 0px -1555px;
+            background-position: 0px -1631px;
             width: 352px;
             height: 108px; }
           .ten-cases .holder .btn-discover a span {
@@ -5459,17 +6306,17 @@
           .form-block .holder .form-block_wrap .form-btn a {
             margin-top: 21px;
             background-image: url(../img/buttons.png);
-            background-position: 0px -550px;
+            background-position: 0px -751px;
             width: 295px;
             height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a:hover {
               background-image: url(../img/buttons.png);
-              background-position: 0px -1175px;
+              background-position: 0px -626px;
               width: 295px;
               height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a:active {
               background-image: url(../img/buttons.png);
-              background-position: 0px -1050px;
+              background-position: 0px -1126px;
               width: 295px;
               height: 105px; }
             .form-block .holder .form-block_wrap .form-btn a span {
@@ -5538,14 +6385,373 @@
         height: 14px; }
       .footer .holder .networks .fb {
         background-image: url(../img/icons.png);
-        background-position: 0px -168px;
+        background-position: 0px -210px;
         width: 11px;
         height: 22px; }
       .footer .holder .networks .be {
         background-image: url(../img/icons.png);
-        background-position: 0px -210px;
+        background-position: 0px -126px;
         width: 13px;
         height: 22px; }
     .footer .holder .copyright {
       margin: 200px -94px 0px 0px;
-      font-size: 16px; } }
+      font-size: 16px; }
+  .wrapper .innerpage__welcome-screen {
+    height: 560px;
+    margin: 0 auto; }
+    .wrapper .innerpage__welcome-screen .holder {
+      width: 1170px; }
+      .wrapper .innerpage__welcome-screen .holder .logo {
+        margin: 20px 0 0 20px; }
+      .wrapper .innerpage__welcome-screen .holder .text-block {
+        width: 750px;
+        margin: 90px 0 0 210px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block::before {
+          margin: 410px 0 0 285px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h1 {
+          font-size: 50px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block .submain-text {
+          font-size: 40px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h2 {
+          font-size: 40px;
+          margin-top: -30px; }
+        .wrapper .innerpage__welcome-screen .holder .text-block h3 {
+          font-size: 24px; }
+  .wrapper .e-form {
+    height: 530px; }
+    .wrapper .e-form .holder {
+      width: 1170px; }
+    .wrapper .e-form .second-screen__title {
+      margin: 140px auto 0 auto;
+      font-size: 28px;
+      width: 490px; }
+    .wrapper .e-form .second-screen__subtitle {
+      margin: 0 auto 60px auto;
+      font-size: 28px;
+      width: 940px; }
+      .wrapper .e-form .second-screen__subtitle::after {
+        margin: -45px 0 0 710px;
+        padding: 0 0 0 50px; }
+    .wrapper .e-form .case-form {
+      width: 1241px;
+      height: 350px;
+      margin: 20px 0 0 -30px;
+      background: url("../img/bg/innerpage-greenbackground.png") no-repeat 50% 50%; }
+      .wrapper .e-form .case-form .little-triangle {
+        margin: 0 0 0 -112px;
+        height: 30px; }
+        .wrapper .e-form .case-form .little-triangle::before {
+          margin: -10px 50%; }
+      .wrapper .e-form .case-form .text {
+        font-size: 20px;
+        margin: 20px auto;
+        width: 700px; }
+      .wrapper .e-form .case-form .inner-form {
+        height: 60px;
+        width: 650px;
+        margin: 80px auto 0 auto; }
+        .wrapper .e-form .case-form .inner-form input[type='text'] {
+          padding: 22px 20px;
+          font-size: 16px;
+          width: 550px; }
+        .wrapper .e-form .case-form .inner-form input[type='submit'] {
+          margin: 30px 0 0 0;
+          font-size: 24px;
+          padding: 0 0 40px 0;
+          background-image: url(../img/buttons.png);
+          background-position: 0px -2399px;
+          width: 422px;
+          height: 136px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:hover {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -3647px;
+            width: 422px;
+            height: 136px; }
+          .wrapper .e-form .case-form .inner-form input[type='submit']:active {
+            background-image: url(../img/buttons.png);
+            background-position: 0px -3647px;
+            width: 422px;
+            height: 136px; }
+  .wrapper .cases {
+    height: 650px; }
+    .wrapper .cases .holder {
+      width: 1170px; }
+      .wrapper .cases .holder .title {
+        font-size: 40px;
+        margin: 100px 0 80px 0; }
+      .wrapper .cases .holder .cases-wrapper {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .wrapper .cases .holder .cases-wrapper .case1-wrap {
+          width: 397px;
+          height: 532px;
+          margin: 0 0 0 0px;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-hover-bg.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap:hover::before {
+              margin: 335px 0 0 180px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap:hover::after {
+              margin: 265px 0 0 180px;
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px; }
+          .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 {
+            width: 370px;
+            height: 400px;
+            margin: 40px 0 0 0;
+            padding: 0 0; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-img {
+              width: 370px;
+              height: 196px; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-title {
+              margin: 30px 0 30px 0; }
+            .wrapper .cases .holder .cases-wrapper .case1-wrap .case1 .case-text {
+              width: 370px; }
+        .wrapper .cases .holder .cases-wrapper .case2-wrap {
+          width: 397px;
+          height: 532px;
+          margin: 0 0 0 0;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-hover-bg.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap:hover::before {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 335px 0 0 180px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap:hover::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 265px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 {
+            width: 370px;
+            height: 400px;
+            margin: 40px 0 0 0px;
+            padding: 0 0; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-img {
+              width: 370px;
+              height: 196px; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-title {
+              margin: 30px 0 30px 0; }
+            .wrapper .cases .holder .cases-wrapper .case2-wrap .case2 .case-text {
+              width: 370px; }
+        .wrapper .cases .holder .cases-wrapper .case3-wrap {
+          width: 397px;
+          height: 532px;
+          margin: 0 0 0 0;
+          padding: 0 27px 0 13px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap:hover {
+            background: url("../img/bg/innerpage-yellow-hover-bg.png");
+            position: relative;
+            -webkit-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+               -moz-box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.15);
+            -webkit-border-radius: 14px;
+               -moz-border-radius: 14px;
+                    border-radius: 14px; }
+            .wrapper .cases .holder .cases-wrapper .case3-wrap:hover::before {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 335px 0 0 180px; }
+            .wrapper .cases .holder .cases-wrapper .case3-wrap:hover::after {
+              content: '';
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../img/icons.png);
+              background-position: 0px 0px;
+              width: 30px;
+              height: 5px;
+              margin: 265px 0 0 180px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case3 {
+            width: 370px;
+            height: 400px;
+            margin: 40px 0 0 0px;
+            padding: 0 0; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-img {
+            width: 370px;
+            height: 196px; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-title {
+            text-align: center;
+            margin: 30px 0 30px 0; }
+          .wrapper .cases .holder .cases-wrapper .case3-wrap .case-text {
+            width: 370px; }
+  .wrapper .get-cases-btn {
+    margin: 120px auto;
+    padding: 20px 40px; }
+    .wrapper .get-cases-btn span {
+      font-size: 16px; }
+  .case1-wrap:hover .case-img::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -2466px;
+    width: 125px;
+    height: 124px;
+    margin: 130px 0 0 -48px; }
+  .case1-wrap:hover .case-img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -3215px;
+    width: 137px;
+    height: 141px;
+    margin: -31px 0 0 275px; }
+  .case1-wrap:hover .case-title::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -1849px;
+    width: 97px;
+    height: 99px;
+    margin: 210px 0 0 290px; }
+  .case2-wrap:hover .case-img::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -2466px;
+    width: 125px;
+    height: 124px;
+    margin: 130px 0 0 -48px; }
+  .case2-wrap:hover .case-img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -3215px;
+    width: 137px;
+    height: 141px;
+    margin: -31px 0 0 275px; }
+  .case2-wrap:hover .case-title::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -1849px;
+    width: 97px;
+    height: 99px;
+    margin: 210px 0 0 290px; }
+  .case3-wrap:hover .case-img::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -2466px;
+    width: 125px;
+    height: 124px;
+    margin: 130px 0 0 -48px; }
+  .case3-wrap:hover .case-img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -3215px;
+    width: 137px;
+    height: 141px;
+    margin: -31px 0 0 275px; }
+  .case3-wrap:hover .case-title::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/icons.png);
+    background-position: 0px -1849px;
+    width: 97px;
+    height: 99px;
+    margin: 210px 0 0 290px; } }

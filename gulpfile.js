@@ -126,7 +126,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('pug', function() {
-  return gulp.src(['!app/views/**/_*.pug', 'app/views/**/index.pug'])
+  return gulp.src(['!app/views/**/_*.pug', 'app/views/**/index.pug', 'app/views/**/index_inner.pug'])
     .pipe(pug({
       pretty: true
     }))
