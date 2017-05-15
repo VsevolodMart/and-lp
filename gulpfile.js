@@ -116,7 +116,7 @@ gulp.task('sass-libs', function() {
 
 
 gulp.task('scripts', function() {
-  return gulp.src(['app/libs/jquery/dist/jquery.min.js',
+  return gulp.src(['app/libs/jquery/dist/jquery.slim.js',
       'app/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js/'
     ])
     .pipe(concat('libs.min.js'))

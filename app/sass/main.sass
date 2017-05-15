@@ -16,8 +16,6 @@ a, button
 *
   box-sizing: border-box
 
-
-
 .clearfix:before, .clearfix:after
   content: ""
   display: table
@@ -46,11 +44,11 @@ body
   margin-right: auto
   max-width: 1920px
   .header
-    #menu-slide
-      .header-nav
-        position: fixed
-        display: block
-        visibility: visible
+    //#menu-slide
+    //  .header-nav
+    //    position: fixed
+    //    display: block
+    //    visibility: visible
     .header-nav
       position: absolute
       text-decoration: none
@@ -58,15 +56,11 @@ body
       z-index: 2
       .open-menu
       .close-menu
-
         display: none
       ul.clearfix.collapsePanel
         display: flex
-
         li
-          //display: inline
           position: relative
-          //float: left
           a
             text-transform: uppercase
             font-family: $GothamBlack
@@ -832,7 +826,7 @@ body
           .partners_item7
             @include iconSprite($taventures-logo)
     .form-block
-      width: 100%
+      //width: 100%
       .holder
         margin: 0 auto
         .form-block_wrap
@@ -842,32 +836,21 @@ body
             color: $whiteTxt
           .form
             height: 60px
-            input[type=text]
-
+            input[type='text']
               background-color: transparent
               border: 1px solid #ffffff
-              border-radius: 10px
-              padding: 22px 20px
+              border-radius: $border-radius
               font-family: $GothamRegular
               font-size: 16px
               color: $whiteTxt
-          .form-btn
-            height: 105px
-            a
-              position: relative
+            button.subscribe-btn[type='submit']
+              //position: relative
               color: $whiteTxt
               display: block
               font-family: $GothamBlack
-              //height: 100%
               outline: none
-              position: absolute          
               text-decoration: none
-              &:hover
-              &:active
-              span
-                position: absolute
-                font-family: $GothamBlack
-                font-size: 20px
+              border: none
     .map
       background: url("../img/bg/footer_map.png") no-repeat 50% 50%
       width: 100%

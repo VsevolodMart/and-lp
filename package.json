@@ -33,5 +33,6 @@
     "sass-lint": "^1.10.2",
     "serve-favicon": "~2.3.0",
     "vinyl-buffer": "^1.0.0"
-  }
+  },
+  "dependencies": {}
 }
