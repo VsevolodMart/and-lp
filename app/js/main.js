@@ -284,8 +284,109 @@ $( document ).ready(function() {
 
 });
 
+function loop() {
+  var blocks =[];
+  var icons = [];
+  var count = 5;
+  for (var i = 0; i <= count; i++){
+    var othersBlock = document.querySelector('.others-block' + i)
+    var othersIcon = document.querySelector('.others-icon' + i);
+    blocks.push(othersBlock);
+    icons.push(othersIcon);
+  }
+  console.log(blocks);
+  console.log(icons);
 
 
+
+  var iconOverlay = document.createElement('div');
+
+    blocks[0].onmouseover = function() {
+    blocks[0].insertBefore(iconOverlay, blocks[0].firstChild);
+    iconOverlay.appendChild(icons[0]);
+    iconOverlay.style.backgroundColor = '#ffb103';
+    iconOverlay.style.display = 'block';
+    icons[0].style.opacity = .7;
+  }
+
+    blocks[0].onmouseout = function () {
+    blocks[0].removeChild(iconOverlay);
+    blocks[0].insertBefore(icons[0], blocks[0].firstChild);
+    icons[0].style.opacity = 1;
+  }
+
+    blocks[1].onmouseover = function() {
+    blocks[1].insertBefore(iconOverlay, blocks[1].firstChild);
+    iconOverlay.appendChild(icons[1]);
+    iconOverlay.style.backgroundColor = '#ffb103';
+    iconOverlay.style.display = 'block';
+    icons[1].style.opacity = .7;
+  }
+
+    blocks[1].onmouseout = function () {
+    blocks[1].removeChild(iconOverlay);
+    blocks[1].insertBefore(icons[1], blocks[1].firstChild);
+    icons[1].style.opacity = 1;
+  }
+
+  blocks[2].onmouseover = function() {
+    blocks[2].insertBefore(iconOverlay, blocks[2].firstChild);
+    iconOverlay.appendChild(icons[2]);
+    iconOverlay.style.backgroundColor = '#ffb103';
+    iconOverlay.style.display = 'block';
+    icons[2].style.opacity = .7;
+  }
+
+  blocks[2].onmouseout = function () {
+    blocks[2].removeChild(iconOverlay);
+    blocks[2].insertBefore(icons[2], blocks[2].firstChild);
+    icons[2].style.opacity = 1;
+  }
+
+  blocks[3].onmouseover = function() {
+    blocks[3].insertBefore(iconOverlay, blocks[3].firstChild);
+    iconOverlay.appendChild(icons[3]);
+    iconOverlay.style.backgroundColor = '#ffb103';
+    iconOverlay.style.display = 'block';
+    icons[3].style.opacity = .7;
+  }
+
+  blocks[3].onmouseout = function () {
+    blocks[3].removeChild(iconOverlay);
+    blocks[3].insertBefore(icons[3], blocks[3].firstChild);
+    icons[3].style.opacity = 1;
+  }
+
+  blocks[4].onmouseover = function() {
+    blocks[4].insertBefore(iconOverlay, blocks[4].firstChild);
+    iconOverlay.appendChild(icons[4]);
+    iconOverlay.style.backgroundColor = '#ffb103';
+    iconOverlay.style.display = 'block';
+    icons[4].style.opacity = .7;
+  }
+
+  blocks[4].onmouseout = function () {
+    blocks[4].removeChild(iconOverlay);
+    blocks[4].insertBefore(icons[4], blocks[4].firstChild);
+    icons[4].style.opacity = 1;
+  }
+
+  blocks[5].onmouseover = function() {
+    blocks[5].insertBefore(iconOverlay, blocks[5].firstChild);
+    iconOverlay.appendChild(icons[5]);
+    iconOverlay.style.backgroundColor = '#ffb103';
+    iconOverlay.style.display = 'block';
+    icons[5].style.opacity = .7;
+  }
+
+  blocks[5].onmouseout = function () {
+    blocks[5].removeChild(iconOverlay);
+    blocks[5].insertBefore(icons[5], blocks[5].firstChild);
+    icons[5].style.opacity = 1;
+  }
+
+}
+loop();
 
 
 
