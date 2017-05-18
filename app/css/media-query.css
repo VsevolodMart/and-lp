@@ -95,7 +95,7 @@
       display: none; }
     .header .header-nav ul.clearfix {
       visibility: hidden;
-      width: 200px;
+      width: 240px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-flow: column wrap;
@@ -310,7 +310,7 @@
     height: 580px; }
     .video-block .video-block_wrap::after {
       margin-top: 125px;
-      margin-left: -383px;
+      margin-left: -390px;
       padding-right: 390px; }
     .video-block .video-block_wrap .holder {
       width: 320px;
@@ -1005,7 +1005,8 @@
               .cost .holder .cost-wrap .anotherday-block .byanotherday-btn a span {
                 font-size: 30px; }
   .ten-cases {
-    height: 460px; }
+    height: 460px;
+    overflow: hidden; }
     .ten-cases::before {
       content: '';
       width: 100%;
@@ -1331,7 +1332,7 @@
     height: 252px;
     margin-top: 174px;
     background: url("../img/bg/subscription_bg_bob.png") no-repeat 50% 50%;
-    width: 750px; }
+    width: 100%; }
     .form-block .holder {
       width: 370px; }
       .form-block .holder .form-block_wrap {
@@ -1773,7 +1774,7 @@
       display: none; }
     .header .header-nav ul.clearfix {
       visibility: hidden;
-      width: 200px;
+      width: 240px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-flow: column wrap;
@@ -3608,7 +3609,7 @@
       display: none; }
     .header .header-nav ul.clearfix {
       visibility: hidden;
-      width: 200px;
+      width: 240px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-flow: column wrap;

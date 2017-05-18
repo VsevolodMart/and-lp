@@ -284,7 +284,7 @@ $( document ).ready(function() {
 
 });
 
-function loop() {
+function countOtherBlocks() {
   var blocks =[];
   var icons = [];
   var count = 5;
@@ -386,8 +386,7 @@ function loop() {
   }
 
 }
-loop();
-
+countOtherBlocks();
 
 
 
