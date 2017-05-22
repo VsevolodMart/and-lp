@@ -6,16 +6,6 @@ $( document ).ready(function() {
   var menuShield = document.querySelector('.collapsePanel');
 
 
-// function collapsePanel() {
-//   alert('d');
-//   if (btnClose.style.display == 'block') {
-//       alert('dd');
-//        // btnClose.style.display == 'none' && btnOpen.style.display == 'block'
-//   }
-//   else {
-//       alert('hui')
-//   }
-// }
   try {
 
     btnOpen.addEventListener('click', toggle, false);
